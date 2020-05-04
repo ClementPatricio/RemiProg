@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	322021059	LogAudio_Unlocked			\Default Work Unit\LogAudio_Unlocked	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3591343105	Play_Amb_Apartment			\Default Work Unit\Play_Amb_Apartment	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	267517120	Music_RTPC			\Default Work Unit\Music_RTPC	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	43440568	music_layer_04_noise	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\music_layer_04_noise_B0624A5D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Musical_Layers\music_layer_04_noise		507580
+	97148101	amb_vehicle_pass-by_02	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_vehicle_pass-by_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_pass-by\amb_vehicle_pass-by_02		2205064
+	207183486	amb_vehicle_pass-by_04	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_vehicle_pass-by_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_pass-by\amb_vehicle_pass-by_04		1940464
+	300574510	aftermusic_seq	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\aftermusic_seq_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Seq\aftermusic_seq		705664
+	431973196	amb_train_pass-by_02	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_train_pass-by_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_pass-by\amb_train_pass-by_02		5203864
+	483230475	aftermusic_seq_reverb	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\aftermusic_seq_reverb_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Seq\aftermusic_seq_reverb		705664
+	537478078	amb_sfx_02	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_sfx_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_sfx\amb_sfx_02		290564
+	622189270	music_layer_02	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\music_layer_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Musical_Layers\music_layer_02		5644864
+	648080981	amb_sfx_01	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_sfx_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_sfx\amb_sfx_01		458704
+	654114073	amb_vehicle_pass-by_01	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_vehicle_pass-by_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_pass-by\amb_vehicle_pass-by_01		1499464
+	677288347	music_layer_03	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\music_layer_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Musical_Layers\music_layer_03		5644864
+	716328081	music_layer_01	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\music_layer_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Musical_Layers\music_layer_01		5644864
+	857208602	amb_sfx_03	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_sfx_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_sfx\amb_sfx_03		1047856
+	860074005	amb_train_pass-by_01	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_train_pass-by_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_pass-by\amb_train_pass-by_01		5203864
+	876872288	amb_interior_01	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_interior_01_B21F127F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_interior_01		8468196
+	943239995	amb_sfx_04	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_sfx_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_sfx\amb_sfx_04		151524
+	984585590	amb_vehicle_pass-by_03	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Wwise\Reminiscence\.cache\Mac\SFX\amb_vehicle_pass-by_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb_Apartment\amb_pass-by\amb_vehicle_pass-by_03		1278016
+

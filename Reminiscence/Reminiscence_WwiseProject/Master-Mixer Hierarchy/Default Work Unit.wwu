@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{9515FF61-A63E-4DBC-825B-60FF72612108}" WorkUnitID="{1640972A-7307-40D6-B6EC-B29B3F94FD5D}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_Recorder_(Custom)" ID="{F25BD688-729A-43B5-9FA2-0033E040232D}" ShortID="206337134" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3"/>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

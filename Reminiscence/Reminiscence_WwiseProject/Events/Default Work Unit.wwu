@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Amb_Apartment" ID="{179FD5D3-668E-4259-A655-CE0A633DAAE1}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="18"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{FD5AA2D7-D870-49FE-AA51-5C007DCB355F}" ShortID="867427011">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{0CFAA4D6-39BB-47A3-9260-80F3DC3F58E5}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="22"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{4FCBC670-E418-4AF1-84F2-547BFEA32D9D}" ShortID="937266669">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musical_Layers" ID="{529D08D9-4344-48AA-9966-8B3783091B5A}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{02DC1587-68F8-4072-9A5A-BCDF17BEFE3A}" ShortID="536526152">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_RTPC" ID="{42F450AE-C104-4824-BEAD-D469B20638BC}" WorkUnitID="{D71938BD-4626-450B-9A3C-6570C388A01B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{46566AF4-AC3E-42A7-A7C4-E845A4ABE0F5}" ShortID="542635327">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LogAudio_Unlocked" ID="{6952E76C-7A25-4815-AC96-9BF8469781FE}">
+					<ChildrenList>
+						<Action Name="" ID="{EC238055-C796-4F88-A8DF-EBD6A10870F8}" ShortID="126343843">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musical_Layers" ID="{529D08D9-4344-48AA-9966-8B3783091B5A}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A7789541-AE61-4FC1-BF5C-C9DBB377F145}" ShortID="461891728">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Seq" ID="{C39A4897-4A1B-49C4-893E-F61864F10A3F}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A8765487-C41A-4178-A94C-BC0D95A2006E}" ShortID="188230717">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+								<Property Name="Delay" Type="Real64" Value="2.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Play_Amb_Apartment" ID="{179FD5D3-668E-4259-A655-CE0A633DAAE1}" WorkUnitID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

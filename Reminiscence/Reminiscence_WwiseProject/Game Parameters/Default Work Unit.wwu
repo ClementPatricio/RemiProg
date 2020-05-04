@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D71938BD-4626-450B-9A3C-6570C388A01B}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{D71938BD-4626-450B-9A3C-6570C388A01B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Music_RTPC" ID="{42F450AE-C104-4824-BEAD-D469B20638BC}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

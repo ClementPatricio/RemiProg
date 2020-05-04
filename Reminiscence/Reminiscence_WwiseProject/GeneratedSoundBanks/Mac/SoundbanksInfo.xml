@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1100754030" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\All\All</ObjectPath>
+			<ShortName>All</ShortName>
+			<Path>All.bnk</Path>
+			<IncludedEvents>
+				<Event Id="322021059" Name="LogAudio_Unlocked" ObjectPath="\Events\Default Work Unit\LogAudio_Unlocked" DurationType="OneShot" DurationMin="4.000000" DurationMax="4.000000">
+					<IncludedMemoryFiles>
+						<File Id="300574510" Language="SFX">
+							<ShortName>aftermusic_seq.wav</ShortName>
+							<Path>SFX\aftermusic_seq_10C4C929.wem</Path>
+						</File>
+						<File Id="483230475" Language="SFX">
+							<ShortName>aftermusic_seq_reverb.wav</ShortName>
+							<Path>SFX\aftermusic_seq_reverb_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3591343105" Name="Play_Amb_Apartment" ObjectPath="\Events\Default Work Unit\Play_Amb_Apartment" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="97148101" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_02_10C4C929.wem</Path>
+						</File>
+						<File Id="207183486" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_04_10C4C929.wem</Path>
+						</File>
+						<File Id="431973196" Language="SFX">
+							<ShortName>amb_train_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_02_10C4C929.wem</Path>
+						</File>
+						<File Id="537478078" Language="SFX">
+							<ShortName>amb_sfx_02.wav</ShortName>
+							<Path>SFX\amb_sfx_02_10C4C929.wem</Path>
+						</File>
+						<File Id="648080981" Language="SFX">
+							<ShortName>amb_sfx_01.wav</ShortName>
+							<Path>SFX\amb_sfx_01_10C4C929.wem</Path>
+						</File>
+						<File Id="654114073" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_01_10C4C929.wem</Path>
+						</File>
+						<File Id="857208602" Language="SFX">
+							<ShortName>amb_sfx_03.wav</ShortName>
+							<Path>SFX\amb_sfx_03_10C4C929.wem</Path>
+						</File>
+						<File Id="860074005" Language="SFX">
+							<ShortName>amb_train_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_01_10C4C929.wem</Path>
+						</File>
+						<File Id="876872288" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_B21F127F.wem</Path>
+						</File>
+						<File Id="943239995" Language="SFX">
+							<ShortName>amb_sfx_04.wav</ShortName>
+							<Path>SFX\amb_sfx_04_10C4C929.wem</Path>
+						</File>
+						<File Id="984585590" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_03.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="43440568" Language="SFX">
+							<ShortName>music_layer_04_noise.wav</ShortName>
+							<Path>SFX\music_layer_04_noise_B0624A5D.wem</Path>
+						</File>
+						<File Id="622189270" Language="SFX">
+							<ShortName>music_layer_02.wav</ShortName>
+							<Path>SFX\music_layer_02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="677288347" Language="SFX">
+							<ShortName>music_layer_03.wav</ShortName>
+							<Path>SFX\music_layer_03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="716328081" Language="SFX">
+							<ShortName>music_layer_01.wav</ShortName>
+							<Path>SFX\music_layer_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="267517120" Name="Music_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Music_RTPC"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
