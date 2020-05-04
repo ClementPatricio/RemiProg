@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<GameParameter Name="Music_RTPC" ID="{42F450AE-C104-4824-BEAD-D469B20638BC}">
 					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>

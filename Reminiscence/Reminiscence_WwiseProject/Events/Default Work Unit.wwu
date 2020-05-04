@@ -38,16 +38,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{02DC1587-68F8-4072-9A5A-BCDF17BEFE3A}" ShortID="536526152">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_RTPC" ID="{42F450AE-C104-4824-BEAD-D469B20638BC}" WorkUnitID="{D71938BD-4626-450B-9A3C-6570C388A01B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{46566AF4-AC3E-42A7-A7C4-E845A4ABE0F5}" ShortID="542635327">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
