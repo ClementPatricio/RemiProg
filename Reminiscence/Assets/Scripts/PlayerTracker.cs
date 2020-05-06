@@ -22,6 +22,11 @@ public class PlayerTracker : MonoBehaviour
 
     private float distBetwweenHands;
 
+    public GameObject robotPoint;
+    bool firstTime = true;
+
+    public float sensitivity;
+
     #region Singleton
     public static PlayerTracker instance;
 
@@ -38,6 +43,7 @@ public class PlayerTracker : MonoBehaviour
         float chosenY = Mathf.NegativeInfinity;
         if(player == null)
         {
+            firstTime = true;
             return;
         }
 
@@ -68,5 +74,14 @@ public class PlayerTracker : MonoBehaviour
         chosenTranslate = chosenPos - this.transform.position;
 
         this.transform.Translate(chosenTranslate);
+        if (firstTime)
+        {
+            firstTime = false;
+        }
+        else
+        {
+            Debug.Log(chosenTranslate);
+            this.robotPoint.transform.Translate(chosenTranslate*sensitivity);
+        }
     }
 }
