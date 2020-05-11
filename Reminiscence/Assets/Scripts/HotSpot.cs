@@ -15,6 +15,7 @@ public class HotSpot : MonoBehaviour
     public IK ikMotor;
 
     float stepAngle;
+    private bool once = true;
 
     // Start is called before the first frame update
     void Start()
@@ -27,10 +28,16 @@ public class HotSpot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         hotness = this.HotOrCold();
 
         AkSoundEngine.SetRTPCValue("Music_RTPC", hotness, null);
         this.IkToPlaceHotSpot();
+        if(hotness > 90 && once)
+        {
+            AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
+            once = false;
+        }
 
     }
 
