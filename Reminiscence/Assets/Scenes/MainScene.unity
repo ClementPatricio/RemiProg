@@ -762,7 +762,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490799798}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8754c4ba7097c384296ca4db7c70219d, type: 3}
   m_Name: 
@@ -775,7 +775,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 73a2e6405e4345546974e20f523ea9a3,
+    WwiseObjectReference: {fileID: 11400000, guid: 36d71c3985bc2d34eaf62344b0793660,
       type: 2}
   useCallbacks: 0
   Callbacks: []
