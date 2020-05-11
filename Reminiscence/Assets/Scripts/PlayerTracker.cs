@@ -40,7 +40,7 @@ public class PlayerTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float chosenY = Mathf.NegativeInfinity;
+        //float chosenY = Mathf.NegativeInfinity;
         if(player == null)
         {
             firstTime = true;
@@ -80,7 +80,6 @@ public class PlayerTracker : MonoBehaviour
         }
         else
         {
-            Debug.Log(chosenTranslate);
             this.robotPoint.transform.Translate(chosenTranslate*sensitivity);
         }
     }

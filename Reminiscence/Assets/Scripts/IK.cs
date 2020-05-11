@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class IK : MonoBehaviour
 {
+    public int stepPerRevolution = 512;
+
+    private float stepAngle;
 
     public GameObject[] arms;
 
@@ -18,14 +21,17 @@ public class IK : MonoBehaviour
     private Vector3 pointToRotateAround;
 
     float lenghtArm, lenghtForeArm;
-    float angle;
+    float angle, trueAngle;
+    float q2angle, q1angle;
+    int actualStep = 0;
+    int moveStep = 0;
 
 
     void Awake()
     {
         lenghtArm = Vector3.Distance(this.pivots[0].transform.position, this.pivots[1].transform.position);
         lenghtForeArm = Vector3.Distance(this.pivots[1].transform.position, this.end.position);
-        
+        stepAngle = 360f / stepPerRevolution;
     }
 
 
@@ -39,23 +45,40 @@ public class IK : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(this.end.position, this.pointToReach.position) > 0.01 && Vector3.Distance(this.pivots[0].transform.position, this.pointToReach.position) < lenghtArm+lenghtForeArm )
+        if (Vector3.Distance(this.end.position, this.pointToReach.position) > 0.02f && Vector3.Distance(this.pivots[0].transform.position, this.pointToReach.position) < lenghtArm+lenghtForeArm )
         {
+            actualStep = AngleToStepCount(-angle);
             resetRotations();
-            resolveIK();
+            applyRotationsIK(resolveIK());
+            moveStep = AngleToStepCount(-angle) - actualStep;
+            Debug.Log(moveStep);
+
         }
 
     }
 
-    void resolveIK()
+    public Vector3 resolveIK()
     {
+        
         pointToRotateAround = this.pivots[0].transform.position;
         pointToRotateAround.y = this.pointToReach.position.y;
         angle = Vector3.SignedAngle((pointToReach.position - pointToRotateAround), (new Vector3(this.end.position.x, pointToRotateAround.y, this.end.position.z)-pointToRotateAround),Vector3.up);
-
-        this.pointToReach.RotateAround(pointToRotateAround, Vector3.up, angle);
-
+        trueAngle = angle;
+        this.pointToReach.RotateAround(pointToRotateAround, Vector3.up, trueAngle);
         
+
+
+        if (Mathf.Repeat(angle, stepAngle) <= stepAngle / 2f)
+        {
+            angle -= (Mathf.Repeat(angle, stepAngle));
+        }
+        else
+        {
+            angle += stepAngle - (Mathf.Repeat(angle, stepAngle));
+        }
+        
+
+
         Vector3 pointOffset = pointToReach.position - this.pivots[0].transform.position;
         
         //lenghtArm = 0.9f;
@@ -63,53 +86,93 @@ public class IK : MonoBehaviour
 
         q2 = Mathf.Acos((Mathf.Pow(pointOffset.x, 2) + Mathf.Pow(pointOffset.y, 2) - Mathf.Pow(lenghtArm, 2) - Mathf.Pow(lenghtForeArm, 2))/(2*lenghtArm*lenghtForeArm));
 
+
+        //adapting q2 to stepMotor
+        q2angle = q2 * Mathf.Rad2Deg;
+        if(Mathf.Repeat(q2angle, stepAngle) <= stepAngle / 2f) {
+            q2angle -= Mathf.Repeat(q2angle, stepAngle);
+        }
+        else
+        {
+            q2angle += stepAngle - (Mathf.Repeat(q2angle, stepAngle));
+        }
+        
+
+        q2 = q2angle * Mathf.Deg2Rad;
+
         q1 = Mathf.Atan(pointOffset.y / pointOffset.x) - Mathf.Atan((lenghtForeArm*Mathf.Sin(q2)) / (lenghtArm + lenghtForeArm*Mathf.Cos(q2)));
 
-        q2 = q2 * Mathf.Rad2Deg;
+        q2angle = q2 * Mathf.Rad2Deg;
 
-        q1 = q1 * Mathf.Rad2Deg;
+        q1angle = q1 * Mathf.Rad2Deg;
 
-        if(pointOffset.x > 0)
+        //adapting q1 to stepMotor
+        q1angle = q1 * Mathf.Rad2Deg;
+        if (Mathf.Repeat(q1angle, stepAngle) <= stepAngle / 2f)
         {
-            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, Vector3.up, -angle);
-            this.pointToReach.RotateAround(pointToRotateAround, Vector3.up, -angle);
-            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, this.transform.forward, q1);
-            this.arms[1].transform.RotateAround(this.pivots[1].transform.position, this.transform.forward, q2);
-            
+            q1angle -= Mathf.Repeat(q1angle, stepAngle);
+        }
+        else
+        {
+            q1angle += stepAngle - (Mathf.Repeat(q1angle, stepAngle));
+        }
+
+
+
+        if (pointOffset.x > 0)
+        {
+            this.pointToReach.RotateAround(pointToRotateAround, Vector3.up, -trueAngle);
+        }
+        else
+        {
+            this.pointToReach.RotateAround(pointToRotateAround, Vector3.up, -trueAngle);
+        }
+        return new Vector3(-angle,q1angle,q2angle);
+    }
+
+    public void resetRotations()
+    {
+        if((pointToReach.transform.position - this.pivots[0].transform.position).x > 0)
+        {
+            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, Vector3.up, angle);
+            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, this.transform.forward, -q1angle);
+            this.arms[1].transform.RotateAround(this.pivots[1].transform.position, this.transform.forward, -q2angle);
+        }
+        else
+        {
+            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, Vector3.up, angle);
+            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, this.transform.forward, -q1angle);
+            this.arms[1].transform.RotateAround(this.pivots[1].transform.position, this.transform.forward, -q2angle);
+        }
+
+    }
+    public void applyRotationsIK(Vector3 angles)
+    {
+        if (pointToReach.position.x > pivots[0].transform.position.x)
+        {
+            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, Vector3.up, angles[0]);
+            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, this.transform.forward, angles[1]);
+            this.arms[1].transform.RotateAround(this.pivots[1].transform.position, this.transform.forward, angles[2]);
+
 
         }
         else
         {
             q1 += 180;
-            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, Vector3.up, -angle);
-            this.pointToReach.RotateAround(pointToRotateAround, Vector3.up, -angle);
-            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, this.transform.forward, q1);
-            this.arms[1].transform.RotateAround(this.pivots[1].transform.position, this.transform.forward, q2);
-            
+            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, Vector3.up, angles[0]);
+            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, this.transform.forward, angles[1]);
+            this.arms[1].transform.RotateAround(this.pivots[1].transform.position, this.transform.forward, angles[2]);
+
         }
-
-
-    }
-
-    void resetRotations()
-    {
-        if((pointToReach.transform.position - this.pivots[0].transform.position).x > 0)
-        {
-            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, Vector3.up, angle);
-            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, this.transform.forward, -q1);
-            this.arms[1].transform.RotateAround(this.pivots[1].transform.position, this.transform.forward, -q2);
-        }
-        else
-        {
-            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, Vector3.up, angle);
-            this.arms[0].transform.RotateAround(this.pivots[0].transform.position, this.transform.forward, -q1);
-            this.arms[1].transform.RotateAround(this.pivots[1].transform.position, this.transform.forward, -q2);
-        }
-
     }
 
     void OnDrawGizmos()
     {
-        Gizmos.DrawWireSphere(transform.position, 1.9f);
+        Gizmos.DrawWireSphere(transform.position, lenghtArm + lenghtForeArm);
+    }
+
+    int AngleToStepCount(float angle)
+    {
+        return (int)(angle / stepAngle) + 256;
     }
 }
