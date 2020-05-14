@@ -37,7 +37,7 @@ public class HotSpot : MonoBehaviour
         {
             AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
             once = false;
-            Arduino.sendMessageToArduino("bli");
+            //Arduino.sendMessageToArduino("bli");
         }
 
     }
