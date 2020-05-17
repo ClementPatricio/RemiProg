@@ -27,26 +27,24 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{4FCBC670-E418-4AF1-84F2-547BFEA32D9D}" ShortID="937266669">
-							<PropertyList>
-								<Property Name="FadeInCurve" Type="int16" Value="5"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
+						<Action Name="" ID="{CFCE7DCC-DE83-4E98-8395-5F399A78405F}" ShortID="291973952">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Musical_Layers" ID="{529D08D9-4344-48AA-9966-8B3783091B5A}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+									<ObjectRef Name="Chords" ID="{00D0F482-5035-40F0-A4BC-0731AD7837C7}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{46566AF4-AC3E-42A7-A7C4-E845A4ABE0F5}" ShortID="542635327">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
+						<Action Name="" ID="{75786733-B996-40DC-8EED-F1BD80AE817E}" ShortID="66370598">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+									<ObjectRef Name="Bass_Play" ID="{CDDBB4AC-BC88-4D43-BA51-2646DDDFEF2B}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{18FFE94E-1FA2-4FE8-859D-FF6A57D55E1C}" ShortID="198034720">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pluck" ID="{6B04B5A0-433A-4F49-A6FD-9E64EAF1BD72}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -54,17 +52,12 @@
 				</Event>
 				<Event Name="LogAudio_Unlocked" ID="{6952E76C-7A25-4815-AC96-9BF8469781FE}">
 					<ChildrenList>
-						<Action Name="" ID="{EC238055-C796-4F88-A8DF-EBD6A10870F8}" ShortID="126343843">
+						<Action Name="" ID="{4F1C8D74-2F5F-4006-A4CA-88EE4E86F0D4}" ShortID="909548866">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+								<Property Name="ActionType" Type="int16" Value="3"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Musical_Layers" ID="{529D08D9-4344-48AA-9966-8B3783091B5A}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 						</Action>
 						<Action Name="" ID="{A7789541-AE61-4FC1-BF5C-C9DBB377F145}" ShortID="461891728">
 							<ReferenceList>

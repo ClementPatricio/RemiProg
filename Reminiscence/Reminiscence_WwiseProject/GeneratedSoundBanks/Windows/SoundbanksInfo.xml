@@ -78,21 +78,29 @@
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="43440568" Language="SFX">
-							<ShortName>music_layer_04_noise.wav</ShortName>
-							<Path>SFX\music_layer_04_noise_B0624A5D.wem</Path>
+						<File Id="131616581" Language="SFX">
+							<ShortName>chord03.wav</ShortName>
+							<Path>SFX\chord03_D79FB2B7.wem</Path>
 						</File>
-						<File Id="622189270" Language="SFX">
-							<ShortName>music_layer_02.wav</ShortName>
-							<Path>SFX\music_layer_02_D79FB2B7.wem</Path>
+						<File Id="251003148" Language="SFX">
+							<ShortName>pluck01.wav</ShortName>
+							<Path>SFX\pluck01_D79FB2B7.wem</Path>
 						</File>
-						<File Id="677288347" Language="SFX">
-							<ShortName>music_layer_03.wav</ShortName>
-							<Path>SFX\music_layer_03_D79FB2B7.wem</Path>
+						<File Id="266569991" Language="SFX">
+							<ShortName>bass_60bpm44.wav</ShortName>
+							<Path>SFX\bass_60bpm44_D79FB2B7.wem</Path>
 						</File>
-						<File Id="716328081" Language="SFX">
-							<ShortName>music_layer_01.wav</ShortName>
-							<Path>SFX\music_layer_01_D79FB2B7.wem</Path>
+						<File Id="323167565" Language="SFX">
+							<ShortName>chord04.wav</ShortName>
+							<Path>SFX\chord04_D79FB2B7.wem</Path>
+						</File>
+						<File Id="435809258" Language="SFX">
+							<ShortName>chord02.wav</ShortName>
+							<Path>SFX\chord02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="742329624" Language="SFX">
+							<ShortName>chord01.wav</ShortName>
+							<Path>SFX\chord01_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
