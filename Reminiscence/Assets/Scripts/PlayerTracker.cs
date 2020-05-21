@@ -23,6 +23,7 @@ public class PlayerTracker : MonoBehaviour
     private float distBetwweenHands;
 
     public GameObject robotPoint;
+    public MatrixTransposer transposer;
     bool firstTime = true;
 
     public float sensitivity;
@@ -80,7 +81,7 @@ public class PlayerTracker : MonoBehaviour
         }
         else
         {
-            this.robotPoint.transform.Translate(chosenTranslate*sensitivity);
+            this.robotPoint.transform.Translate(transposer.TranslatePosition(chosenTranslate) * sensitivity);
         }
     }
 }
