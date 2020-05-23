@@ -20,6 +20,8 @@ public class IK : MonoBehaviour
 
     private Vector3 pointToRotateAround;
 
+    private Vector3 pointOffset;
+
     float lenghtArm, lenghtForeArm;
     float angle, trueAngle;
     float q2angle, q1angle;
@@ -45,15 +47,13 @@ public class IK : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(this.end.position, this.pointToReach.position) > 0.02f && Vector3.Distance(this.pivots[0].transform.position, this.pointToReach.position) < lenghtArm+lenghtForeArm )
-        {
+        
             actualStep = AngleToStepCount(-angle);
             resetRotations();
             applyRotationsIK(resolveIK());
             moveStep = AngleToStepCount(-angle) - actualStep;
             //Debug.Log(moveStep);
 
-        }
 
     }
 
@@ -84,7 +84,15 @@ public class IK : MonoBehaviour
         
 
 
-        Vector3 pointOffset = pointToReach.position - this.pivots[0].transform.position;
+        pointOffset = pointToReach.position - this.pivots[0].transform.position;
+
+        if(Vector3.Distance(this.pivots[0].transform.position, pointOffset) > (lenghtArm + lenghtForeArm)*0.95f)
+        {
+
+            Vector3 normalized = (pointOffset - this.pivots[0].transform.position).normalized;
+
+            pointOffset = this.pivots[0].transform.position + (normalized * 0.95f * (lenghtArm + lenghtForeArm));
+        }
         
         //lenghtArm = 0.9f;
         //lenghtForeArm = 0.9f;
