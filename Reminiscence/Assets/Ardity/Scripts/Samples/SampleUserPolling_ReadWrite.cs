@@ -15,7 +15,9 @@ using System.Collections;
 public class SampleUserPolling_ReadWrite : MonoBehaviour
 {
     public SerialController serialController;
+    public IK iKRobot;
 
+    int framecount;
     // Initialization
     void Start()
     {
@@ -27,6 +29,51 @@ public class SampleUserPolling_ReadWrite : MonoBehaviour
     // Executed each frame
     void Update()
     {
+        framecount++;
+
+        string messageAngles = "";
+        Vector3 angles = iKRobot.getAnglesForMotorAsVec3();
+        //Adding the base angle in the message
+        messageAngles += "b";
+        if(Mathf.Abs(angles.x) < 100)
+        {
+            messageAngles += "0";
+            if(Mathf.Abs(angles.x) < 10)
+            {
+                messageAngles += "0";
+            }
+        }
+        messageAngles += Mathf.Abs(angles.x);
+        //Adding the left angle in the message
+        messageAngles += "l";
+        if (Mathf.Abs(angles.y) < 100)
+        {
+            messageAngles += "0";
+            if (Mathf.Abs(angles.y) < 10)
+            {
+                messageAngles += "0";
+            }
+        }
+        messageAngles += Mathf.Abs(angles.y);
+        //Adding the right angle in the message
+        messageAngles += "r";
+        if (Mathf.Abs(angles.z) < 100)
+        {
+            messageAngles += "0";
+            if (Mathf.Abs(angles.z) < 10)
+            {
+                messageAngles += "0";
+            }
+        }
+        messageAngles += Mathf.Abs(angles.z);
+
+        if (framecount%120 ==0)
+        {
+            Debug.Log("Sending "+ messageAngles);
+            serialController.SendSerialMessage(messageAngles);
+            framecount = 1;
+        }
+
         //---------------------------------------------------------------------
         // Send data
         //---------------------------------------------------------------------

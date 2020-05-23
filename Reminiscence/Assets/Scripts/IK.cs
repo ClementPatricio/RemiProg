@@ -57,6 +57,11 @@ public class IK : MonoBehaviour
 
     }
 
+    public Vector3 getAnglesForMotorAsVec3()
+    {
+        return new Vector3(-this.angle, this.q1angle, this.q2angle);
+    }
+
     public Vector3 resolveIK()
     {
         
@@ -76,7 +81,6 @@ public class IK : MonoBehaviour
         {
             angle += stepAngle - (Mathf.Repeat(angle, stepAngle));
         }
-        Debug.Log("angle de la base : " + angle);
         
 
 
@@ -100,7 +104,6 @@ public class IK : MonoBehaviour
         //adapting q2 to stepMotor
         q2angle = q2 * Mathf.Rad2Deg;
        
-        Debug.Log("angle de l'avant bras : " + q2angle);
         if (Mathf.Repeat(q2angle, stepAngle) <= stepAngle / 2f)
         {
             q2angle -= Mathf.Repeat(q2angle, stepAngle);
@@ -110,13 +113,11 @@ public class IK : MonoBehaviour
             q2angle += stepAngle - (Mathf.Repeat(q2angle, stepAngle));
         }
         
-        Debug.Log("angle de l'avant bras : " + q2angle);
 
 
         //adapting q1 to stepMotor
         q1angle = q1 * Mathf.Rad2Deg;
         
-        Debug.Log("angle du bras : " + q1angle);
         if (Mathf.Repeat(q1angle, stepAngle) <= stepAngle / 2f)
         {
             q1angle -= Mathf.Repeat(q1angle, stepAngle);
@@ -126,7 +127,6 @@ public class IK : MonoBehaviour
             q1angle += stepAngle - (Mathf.Repeat(q1angle, stepAngle));
         }
         
-        Debug.Log("angle du bras : " + q1angle);
 
         this.pointToReach.RotateAround(pointToRotateAround, Vector3.up, -trueAngle);
 
