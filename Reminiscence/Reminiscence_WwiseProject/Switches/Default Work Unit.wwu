@@ -36,6 +36,13 @@
 						</Curve>
 					</SwitchOnRTPC>
 				</SwitchGroup>
+				<SwitchGroup Name="Log_Switches" ID="{697F42CB-9B80-46D1-B292-709BADB34E8E}">
+					<ChildrenList>
+						<Switch Name="Log_S01E01" ID="{A37DF209-D96B-4086-898F-FA203384B6D1}"/>
+						<Switch Name="Log_S01E02" ID="{8F376D1A-4DB6-4493-B6FB-AA6EA546F3C1}"/>
+						<Switch Name="Log_S01E03" ID="{5751A528-0160-46C7-AB8A-C595745F174B}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

@@ -20,6 +20,18 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace LOG_SWITCHES
+        {
+            static const AkUniqueID GROUP = 3564331944U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID LOG_S01E01 = 683779362U;
+                static const AkUniqueID LOG_S01E02 = 683779361U;
+                static const AkUniqueID LOG_S01E03 = 683779360U;
+            } // namespace SWITCH
+        } // namespace LOG_SWITCHES
+
         namespace MUSIC
         {
             static const AkUniqueID GROUP = 3991942870U;

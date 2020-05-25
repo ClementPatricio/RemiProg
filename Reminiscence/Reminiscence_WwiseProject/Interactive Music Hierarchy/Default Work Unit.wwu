@@ -282,6 +282,11 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
+														<XPos>30</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
 														<XPos>50</XPos>
 														<YPos>-12</YPos>
 														<Flags>0</Flags>
@@ -661,7 +666,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-12</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{77A1F111-E815-422A-ADF4-306FF8725BC5}" ShortID="861339160">
@@ -827,7 +832,7 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="pluck01_01" ID="{34058241-22B9-452D-8BF6-754F57CE58E1}" ShortID="918649639">
+								<MusicSegment Name="pluck02" ID="{34058241-22B9-452D-8BF6-754F57CE58E1}" ShortID="918649639">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="2517.12328767123"/>
 									</PropertyList>
@@ -950,7 +955,7 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
-								<MusicSegment Name="pluck01_02" ID="{7759DA7E-FDC5-48AC-AF04-DD25F2E3D764}" ShortID="611126047">
+								<MusicSegment Name="pluck03" ID="{7759DA7E-FDC5-48AC-AF04-DD25F2E3D764}" ShortID="611126047">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="2506.84931506849"/>
 									</PropertyList>
@@ -1105,13 +1110,13 @@
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="pluck01_01" ID="{34058241-22B9-452D-8BF6-754F57CE58E1}"/>
+											<SegmentRef Name="pluck02" ID="{34058241-22B9-452D-8BF6-754F57CE58E1}"/>
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{17BAE684-B6A8-4EEA-97CB-3256FC421DEF}" ShortID="348194397">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="pluck01_02" ID="{7759DA7E-FDC5-48AC-AF04-DD25F2E3D764}"/>
+											<SegmentRef Name="pluck03" ID="{7759DA7E-FDC5-48AC-AF04-DD25F2E3D764}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
