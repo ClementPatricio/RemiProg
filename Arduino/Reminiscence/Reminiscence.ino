@@ -45,8 +45,16 @@ void loop() {
       posRight = message.substring(9).toInt();
     }
   }
-  servoBase.write(posBase);
-  servoLeft.write(posLeft);
-  servoRight.write(posRight);
-  delay(16);        // delay in between reads for stability
+  //Only writing if the angle of a motor need to be changed
+  
+  if(servoBase.read() != posBase){
+    servoBase.write(posBase);
+  }
+  if(servoLeft.read() != posLeft){
+    servoLeft.write(posLeft);
+  }
+  if(servoRight.read() != posRight){
+    servoRight.write(posRight);
+  }
+  delay(5);        // delay in between reads for stability
 }

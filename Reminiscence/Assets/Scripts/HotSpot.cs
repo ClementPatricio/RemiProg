@@ -10,7 +10,8 @@ public class HotSpot : MonoBehaviour
     public float hotness;
     public Transform player;
     private bool inZone;
-    private SphereCollider zone;
+    public SphereCollider zone;
+    public float unlockAtHotness = 90;
 
     public IK ikMotor;
 
@@ -21,7 +22,7 @@ public class HotSpot : MonoBehaviour
     void Start()
     {
         hotness = 0;
-        this.zone = this.GetComponent<SphereCollider>();
+        //this.zone = this.GetComponent<SphereCollider>();
         this.stepAngle =360f / ikMotor.stepPerRevolution ;
     }
 
@@ -33,7 +34,7 @@ public class HotSpot : MonoBehaviour
 
         AkSoundEngine.SetRTPCValue("Music_RTPC", hotness, null);
         this.IkToPlaceHotSpot();
-        if(hotness > 90 && once)
+        if(hotness > unlockAtHotness && once)
         {
             AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
             once = false;
@@ -78,5 +79,10 @@ public class HotSpot : MonoBehaviour
         //ikMotor.resolveIK();
         //this.transform.position = ikMotor.end.position;
         //ikMotor.resetRotations();
+    }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.DrawSphere(transform.position, zone.radius*(1-(unlockAtHotness/100)));
     }
 }
