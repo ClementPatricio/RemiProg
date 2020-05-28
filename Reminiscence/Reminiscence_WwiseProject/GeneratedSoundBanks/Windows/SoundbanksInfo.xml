@@ -16,17 +16,96 @@
 			<ShortName>All</ShortName>
 			<Path>All.bnk</Path>
 			<IncludedEvents>
-				<Event Id="322021059" Name="LogAudio_Unlocked" ObjectPath="\Events\Default Work Unit\LogAudio_Unlocked" DurationType="OneShot" DurationMin="4.000000" DurationMax="4.000000">
+				<Event Id="322021059" Name="LogAudio_Unlocked" ObjectPath="\Events\Default Work Unit\LogAudio_Unlocked" DurationType="Mixed" DurationMin="49.848366" DurationMax="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="97148101" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_02_10C4C929.wem</Path>
+						</File>
+						<File Id="207183486" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_04_10C4C929.wem</Path>
+						</File>
 						<File Id="300574510" Language="SFX">
 							<ShortName>aftermusic_seq.wav</ShortName>
 							<Path>SFX\aftermusic_seq_10C4C929.wem</Path>
+						</File>
+						<File Id="310480929" Language="SFX">
+							<ShortName>log1_bricolage.wav</ShortName>
+							<Path>SFX\log1_bricolage_10C4C929.wem</Path>
+						</File>
+						<File Id="373445364" Language="SFX">
+							<ShortName>log2_news.wav</ShortName>
+							<Path>SFX\log2_news_10C4C929.wem</Path>
+						</File>
+						<File Id="431973196" Language="SFX">
+							<ShortName>amb_train_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_02_10C4C929.wem</Path>
 						</File>
 						<File Id="483230475" Language="SFX">
 							<ShortName>aftermusic_seq_reverb.wav</ShortName>
 							<Path>SFX\aftermusic_seq_reverb_10C4C929.wem</Path>
 						</File>
+						<File Id="537478078" Language="SFX">
+							<ShortName>amb_sfx_02.wav</ShortName>
+							<Path>SFX\amb_sfx_02_10C4C929.wem</Path>
+						</File>
+						<File Id="648080981" Language="SFX">
+							<ShortName>amb_sfx_01.wav</ShortName>
+							<Path>SFX\amb_sfx_01_10C4C929.wem</Path>
+						</File>
+						<File Id="654114073" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_01_10C4C929.wem</Path>
+						</File>
+						<File Id="857208602" Language="SFX">
+							<ShortName>amb_sfx_03.wav</ShortName>
+							<Path>SFX\amb_sfx_03_10C4C929.wem</Path>
+						</File>
+						<File Id="860074005" Language="SFX">
+							<ShortName>amb_train_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_01_10C4C929.wem</Path>
+						</File>
+						<File Id="876872288" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_B21F127F.wem</Path>
+						</File>
+						<File Id="943239995" Language="SFX">
+							<ShortName>amb_sfx_04.wav</ShortName>
+							<Path>SFX\amb_sfx_04_10C4C929.wem</Path>
+						</File>
+						<File Id="984585590" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_03.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_03_10C4C929.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{5751A528-0160-46C7-AB8A-C595745F174B}">
+							<Media>
+								<File Id="876872288"/>
+								<File Id="857208602"/>
+								<File Id="943239995"/>
+								<File Id="648080981"/>
+								<File Id="537478078"/>
+								<File Id="984585590"/>
+								<File Id="207183486"/>
+								<File Id="860074005"/>
+								<File Id="431973196"/>
+								<File Id="654114073"/>
+								<File Id="97148101"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A37DF209-D96B-4086-898F-FA203384B6D1}">
+							<Media>
+								<File Id="310480929"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8F376D1A-4DB6-4493-B6FB-AA6EA546F3C1}">
+							<Media>
+								<File Id="373445364"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3591343105" Name="Play_Amb_Apartment" ObjectPath="\Events\Default Work Unit\Play_Amb_Apartment" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -108,6 +187,15 @@
 			<GameParameters>
 				<GameParameter Id="267517120" Name="Music_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Music_RTPC"/>
 			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3564331944" Name="Log_Switches" ObjectPath="\Switches\Default Work Unit\Log_Switches">
+					<Switches>
+						<Switch Id="683779362" Name="Log_S01E01" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_S01E01"/>
+						<Switch Id="683779361" Name="Log_S01E02" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_S01E02"/>
+						<Switch Id="683779360" Name="Log_S01E03" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_S01E03"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
