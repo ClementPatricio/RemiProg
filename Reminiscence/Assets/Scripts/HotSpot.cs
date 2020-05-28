@@ -13,6 +13,9 @@ public class HotSpot : MonoBehaviour
     public SphereCollider zone;
     public float unlockAtHotness = 90;
 
+    [Range(1,12)]
+    public int logToUnlock;
+
     public IK ikMotor;
 
     float stepAngle;
@@ -101,6 +104,16 @@ public class HotSpot : MonoBehaviour
             if (i > duration && once)
             {
                 AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
+                Debug.Log(this.logToUnlock);
+                if(this.logToUnlock < 10)
+                {
+                    AkSoundEngine.PostEvent("Log_0" + this.logToUnlock, this.gameObject);
+                }
+                else
+                {
+                    AkSoundEngine.PostEvent("Log_" + this.logToUnlock, this.gameObject);
+                }
+                
                 once = false;
             }
             
