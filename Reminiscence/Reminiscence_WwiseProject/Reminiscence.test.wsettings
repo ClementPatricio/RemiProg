@@ -33,7 +33,7 @@
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="pUY3O4XInEy2UeNJB+ysLhbuUEe6mg5Luz3Euubnjx8="/>
@@ -98,7 +98,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="RF5f6I9gPUukGUr3jjA3fQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="RnMajF4B80K7Rq/gPQIZYA=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="RnMajF4B80K7Rq/gPQIZYNgT8Km3eDBEr5JFNgQOHjw="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="2nWc/PefhEex24DvjQvyYNesJDt6YWdOoB8jydq4yyM="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="9W+GL/mDxkSAECjq+2auP8tCf2mAm9FGspJwm62zTo7676m9MBAMSrqZjtm7l1V9"/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
@@ -106,7 +106,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="vTgZ1yZGC0WaPGVww4igGw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
 				<Property Name="RTPC\GameParameterSimValue\{42F450AE-C104-4824-BEAD-D469B20638BC}" Type="Real64" Value="16"/>
-				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="epVAo+lCTUO4UkCU0hLfbA=="/>
+				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="epVAo+lCTUO4UkCU0hLfbLwIQLnXD3BEjBCkYdMpdlM="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>

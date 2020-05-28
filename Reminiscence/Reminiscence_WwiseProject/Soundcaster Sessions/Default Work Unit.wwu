@@ -17,6 +17,10 @@
 							<ObjectRef Name="LogAudio_Unlocked" ID="{6952E76C-7A25-4815-AC96-9BF8469781FE}" WorkUnitID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}"/>
 							<Position X="2" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Log_03" ID="{92EBD83B-3A97-42D3-9D5D-B67B5A5774C4}" WorkUnitID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}"/>
+							<Position X="4" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -26,7 +30,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Log_S01E03" ID="{5751A528-0160-46C7-AB8A-C595745F174B}"/>
+						<CurrentSwitchRef Name="Log_S01E01" ID="{A37DF209-D96B-4086-898F-FA203384B6D1}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

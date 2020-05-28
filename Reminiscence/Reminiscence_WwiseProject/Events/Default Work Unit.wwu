@@ -97,6 +97,17 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{F3C6860B-E0E3-48A1-AF35-522DDA18888D}" ShortID="375320285">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Delay" Type="Real64" Value="49.348"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Music" ID="{0CFAA4D6-39BB-47A3-9260-80F3DC3F58E5}" WorkUnitID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Log_02" ID="{CD51F00C-C343-46E4-9C3D-7255CC4101AA}">
@@ -108,6 +119,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Log_S01E02" ID="{8F376D1A-4DB6-4493-B6FB-AA6EA546F3C1}" WorkUnitID="{BDA9EFFA-1030-4A0C-BA99-8ED9BB97557D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{461AFD0A-092D-43FA-A7A1-AB958730AC85}" ShortID="389922280">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Delay" Type="Real64" Value="50.562"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Music" ID="{0CFAA4D6-39BB-47A3-9260-80F3DC3F58E5}" WorkUnitID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

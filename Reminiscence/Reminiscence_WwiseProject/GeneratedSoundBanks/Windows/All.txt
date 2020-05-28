@@ -2,6 +2,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	322021059	LogAudio_Unlocked			\Default Work Unit\LogAudio_Unlocked	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3591343105	Play_Amb_Apartment			\Default Work Unit\Play_Amb_Apartment	
+	3628499089	Log_01			\Default Work Unit\Log_Switch\Log_01	
+	3628499090	Log_02			\Default Work Unit\Log_Switch\Log_02	
+	3628499091	Log_03			\Default Work Unit\Log_Switch\Log_03	
+	3628499092	Log_04			\Default Work Unit\Log_Switch\Log_04	
+	3628499093	Log_05			\Default Work Unit\Log_Switch\Log_05	
+	3628499094	Log_06			\Default Work Unit\Log_Switch\Log_06	
+	3628499095	Log_07			\Default Work Unit\Log_Switch\Log_07	
+	3628499096	Log_08			\Default Work Unit\Log_Switch\Log_08	
+	3628499097	Log_09			\Default Work Unit\Log_Switch\Log_09	
+	3645276673	Log_12			\Default Work Unit\Log_Switch\Log_12	
+	3645276674	Log_11			\Default Work Unit\Log_Switch\Log_11	
+	3645276675	Log_10			\Default Work Unit\Log_Switch\Log_10	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3564331944	Log_Switches			\Default Work Unit\Log_Switches	

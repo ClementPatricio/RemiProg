@@ -16,6 +16,18 @@
 			<ShortName>All</ShortName>
 			<Path>All.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3628499089" Name="Log_01" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3628499090" Name="Log_02" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_02" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3628499091" Name="Log_03" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_03" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3628499092" Name="Log_04" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_04" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3628499093" Name="Log_05" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_05" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3628499094" Name="Log_06" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_06" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3628499095" Name="Log_07" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_07" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3628499096" Name="Log_08" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_08" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3628499097" Name="Log_09" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_09" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3645276675" Name="Log_10" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_10" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3645276674" Name="Log_11" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_11" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3645276673" Name="Log_12" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_12" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="322021059" Name="LogAudio_Unlocked" ObjectPath="\Events\Default Work Unit\LogAudio_Unlocked" DurationType="Mixed" DurationMin="49.848366" DurationMax="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="97148101" Language="SFX">

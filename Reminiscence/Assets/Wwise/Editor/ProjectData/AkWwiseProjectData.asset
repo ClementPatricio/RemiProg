@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7a9540a3e9424d43b8524094d212df6c
     GuidInternal: 
-    m_lastTime: -8586130100120435387
+    m_lastTime: -8586109294332028317
     List:
     - name: All
       guid: bc0840b9d70f70448c10a461d3297653
@@ -69,8 +69,190 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d7ac243b7a61674ea01f23c9dab8cb23
     GuidInternal: 
-    m_lastTime: -8586118811099730587
+    m_lastTime: -8586109286465311275
     List:
+    - name: Log_01
+      guid: 94b30674fa692142b20808f77b442828
+      id: 3628499089
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_01
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_02
+      guid: 0cf051cd43c3e4469c3d7255cc4101aa
+      id: 3628499090
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_02
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_02
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_03
+      guid: 3bd8eb92973ad3429d5db67b5a5774c4
+      id: 3628499091
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_03
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_04
+      guid: 7d95b037db84b04b9148917a1bb3d864
+      id: 3628499092
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_04
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_04
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_05
+      guid: e31b7f4cf7af0c4c94b99dca4d8e4534
+      id: 3628499093
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_05
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_05
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_06
+      guid: e4158f5b3df27844937cafb43d483bd8
+      id: 3628499094
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_06
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_06
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_07
+      guid: 5dd3567ae6f73a48a52c991d097a835e
+      id: 3628499095
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_07
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_07
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_08
+      guid: b37f045299768c499d09477feeda23e0
+      id: 3628499096
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_08
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_08
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_09
+      guid: fb09bc1c11d74b4dab5751bae1426076
+      id: 3628499097
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_09
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_09
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_10
+      guid: c05c7f39d0b2414e9882a2edf8f2f9bc
+      id: 3645276675
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_10
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_10
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_11
+      guid: 6d733e117fad3b47b0e51793e5094453
+      id: 3645276674
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_11
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_11
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_12
+      guid: a2ca02b5e3acfe41a747da942a0c0ea5
+      id: 3645276673
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_12
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_12
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Log_Switch
+      guid: da759cfcf79f8447b1db80ef8d0bf260
+      id: 1395000212
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switch
+        ObjectType: 4
+      - ElementName: Log_Switch
+        ObjectType: 3
+      Path: Default Work Unit\Log_Switch\Log_Switch
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: LogAudio_Unlocked
       guid: 6ce75269257a1548ac969bf8469781fe
       id: 322021059
@@ -135,8 +317,39 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: faefa9bd30100c4aba998ed9bb97557d
     GuidInternal: 
-    m_lastTime: -8586137579103907297
+    m_lastTime: -8586112078637795724
     List:
+    - name: Log_Switches
+      guid: cb427f69809bd146b292709badb34e8e
+      id: 3564331944
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Log_Switches
+        ObjectType: 11
+      Path: Default Work Unit\Log_Switches
+      values:
+      - name: Log_S01E01
+        guid: 09f27da36bd98640898ffa203384b6d1
+        id: 683779362
+        PathAndIcons:
+        - ElementName: Log_S01E01
+          ObjectType: 10
+      - name: Log_S01E02
+        guid: 1a6d378fb64d9344b6fbaa6ea546f3c1
+        id: 683779361
+        PathAndIcons:
+        - ElementName: Log_S01E02
+          ObjectType: 10
+      - name: Log_S01E03
+        guid: 28a551576001c746ab8ac595745f174b
+        id: 683779360
+        PathAndIcons:
+        - ElementName: Log_S01E03
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Music
       guid: f56f862ff983c644801028eafb66ae3f
       id: 3991942870
@@ -167,5 +380,6 @@ MonoBehaviour:
   - /Reminiscence
   - /Reminiscence/Events
   - /Reminiscence/Events/Default Work Unit
+  - /Reminiscence/Events/Default Work Unit/Log_Switch
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
