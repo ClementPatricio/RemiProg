@@ -17,6 +17,7 @@ public class HotSpot : MonoBehaviour
 
     float stepAngle;
     private bool once = true;
+    public float duration = 2f;
 
     // Start is called before the first frame update
     void Start()
@@ -34,11 +35,15 @@ public class HotSpot : MonoBehaviour
 
         AkSoundEngine.SetRTPCValue("Music_RTPC", hotness, null);
         this.IkToPlaceHotSpot();
-        if(hotness > unlockAtHotness && once)
+        if(hotness > unlockAtHotness)
         {
-            AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
-            once = false;
+            StartCoroutine("Unlock");
             //Arduino.sendMessageToArduino("bli");
+            
+        }
+        else
+        {
+            StopCoroutine("Unlock");
         }
 
     }
@@ -84,5 +89,23 @@ public class HotSpot : MonoBehaviour
     void OnDrawGizmos()
     {
         Gizmos.DrawSphere(transform.position, zone.radius*(1-(unlockAtHotness/100)));
+    }
+
+    IEnumerator Unlock()
+    {
+        float i = 0;
+        for(; ; )
+        {
+            i += Time.deltaTime;
+            
+            if (i > duration && once)
+            {
+                AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
+                once = false;
+            }
+            
+            yield return null;
+        }
+        
     }
 }

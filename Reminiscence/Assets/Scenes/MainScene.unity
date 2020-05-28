@@ -1328,6 +1328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   robotPoint: {fileID: 2022769839}
+  transposer: {fileID: 0}
   sensitivity: 0.5
 --- !u!65 &1299545302
 BoxCollider:
@@ -2256,6 +2257,7 @@ MonoBehaviour:
   zone: {fileID: 1763822415}
   unlockAtHotness: 90
   ikMotor: {fileID: 2129695902}
+  duration: 7.99
 --- !u!135 &1763822415
 SphereCollider:
   m_ObjectHideFlags: 0
