@@ -4,10 +4,19 @@
 		<UserProjectSettings Name="" ID="{DB740CC7-BFB3-4C87-A833-F0050E2B15BE}">
 			<PropertyList>
 				<Property Name="Event Action List\{0CFAA4D6-39BB-47A3-9260-80F3DC3F58E5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{113E736D-AD7F-473B-B0E5-1793E5094453}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{179FD5D3-668E-4259-A655-CE0A633DAAE1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1CBC09FB-D711-4D4B-AB57-51BAE1426076}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{37B0957D-84DB-4BB0-9148-917A1BB3D864}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{397F5CC0-B2D0-4E41-9882-A2EDF8F2F9BC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4C7F1BE3-AFF7-4C0C-94B9-9DCA4D8E4534}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{52047FB3-7699-498C-9D09-477FEEDA23E0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5B8F15E4-F23D-4478-937C-AFB43D483BD8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6952E76C-7A25-4815-AC96-9BF8469781FE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{7406B394-69FA-4221-B208-08F77B442828}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7A56D35D-F7E6-483A-A52C-991D097A835E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{92EBD83B-3A97-42D3-9D5D-B67B5A5774C4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B502CAA2-ACE3-41FE-A747-DA942A0C0EA5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CD51F00C-C343-46E4-9C3D-7255CC4101AA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -89,7 +98,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="RF5f6I9gPUukGUr3jjA3fQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="RnMajF4B80K7Rq/gPQIZYNgT8Km3eDBEr5JFNgQOHjw="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="RnMajF4B80K7Rq/gPQIZYA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="2nWc/PefhEex24DvjQvyYNesJDt6YWdOoB8jydq4yyM="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="9W+GL/mDxkSAECjq+2auP8tCf2mAm9FGspJwm62zTo7676m9MBAMSrqZjtm7l1V9"/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>

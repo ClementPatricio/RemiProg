@@ -85,7 +85,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Log_Part3_01" ID="{7406B394-69FA-4221-B208-08F77B442828}">
+						<Event Name="Log_01" ID="{7406B394-69FA-4221-B208-08F77B442828}">
 							<ChildrenList>
 								<Action Name="" ID="{4C256401-EE39-4F53-ACFB-DB9F8E4F4192}" ShortID="182292195">
 									<PropertyList>
@@ -99,7 +99,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Log_Part3_02" ID="{CD51F00C-C343-46E4-9C3D-7255CC4101AA}">
+						<Event Name="Log_02" ID="{CD51F00C-C343-46E4-9C3D-7255CC4101AA}">
 							<ChildrenList>
 								<Action Name="" ID="{8E94A90E-A224-4D98-A8C9-2F1FDB4A3A7F}" ShortID="340510377">
 									<PropertyList>
@@ -113,7 +113,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Log_Part3_03" ID="{92EBD83B-3A97-42D3-9D5D-B67B5A5774C4}">
+						<Event Name="Log_03" ID="{92EBD83B-3A97-42D3-9D5D-B67B5A5774C4}">
 							<ChildrenList>
 								<Action Name="" ID="{4EB5B495-09AD-44C0-AFB0-FD61F9EBDD8A}" ShortID="189456945">
 									<PropertyList>
@@ -127,6 +127,15 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Log_04" ID="{37B0957D-84DB-4BB0-9148-917A1BB3D864}"/>
+						<Event Name="Log_05" ID="{4C7F1BE3-AFF7-4C0C-94B9-9DCA4D8E4534}"/>
+						<Event Name="Log_06" ID="{5B8F15E4-F23D-4478-937C-AFB43D483BD8}"/>
+						<Event Name="Log_07" ID="{7A56D35D-F7E6-483A-A52C-991D097A835E}"/>
+						<Event Name="Log_08" ID="{52047FB3-7699-498C-9D09-477FEEDA23E0}"/>
+						<Event Name="Log_09" ID="{1CBC09FB-D711-4D4B-AB57-51BAE1426076}"/>
+						<Event Name="Log_10" ID="{397F5CC0-B2D0-4E41-9882-A2EDF8F2F9BC}"/>
+						<Event Name="Log_11" ID="{113E736D-AD7F-473B-B0E5-1793E5094453}"/>
+						<Event Name="Log_12" ID="{B502CAA2-ACE3-41FE-A747-DA942A0C0EA5}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
