@@ -2256,6 +2256,7 @@ MonoBehaviour:
   player: {fileID: 0}
   zone: {fileID: 1763822415}
   unlockAtHotness: 90
+  logToUnlock: 3
   ikMotor: {fileID: 2129695902}
   duration: 7.99
 --- !u!135 &1763822415
