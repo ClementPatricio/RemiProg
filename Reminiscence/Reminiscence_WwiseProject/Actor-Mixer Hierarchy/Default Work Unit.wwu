@@ -484,6 +484,11 @@
 								<Sound Name="amb_interior_01" ID="{28010412-717D-4C37-8D22-0BADEB5FC100}" ShortID="728007502">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>60</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -537,6 +542,11 @@
 										</Property>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -549,6 +559,11 @@
 									<ChildrenList>
 										<Sound Name="amb_sfx_03" ID="{31C11455-47C4-41D1-A1AB-6CE8C5593400}" ShortID="498338730">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Weight" Type="Real64">
 													<ValueList>
 														<Value>20</Value>
@@ -829,6 +844,13 @@
 							</ChildrenList>
 						</BlendContainer>
 						<Sound Name="log1_bricolage" ID="{E2C21264-6849-491B-BC00-7931E922192F}" ShortID="489152404">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
@@ -851,6 +873,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="log2_news" ID="{9D5B5385-3778-4777-84D5-46D7102B7FA2}" ShortID="534482585">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
@@ -872,6 +901,74 @@
 								<ActiveSource Name="log2_news" ID="{0581BA2D-CDAF-484B-8194-3274B0F50E8B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<BlendContainer Name="Log_01_Voice_UI" ID="{FE5053E9-F529-478D-BE2C-A8098C157333}" ShortID="955871440">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="log01_voice_ui" ID="{80984FE6-9568-47F2-90A2-3BC206BFE5EB}" ShortID="352561885">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="log01_voice_ui" ID="{EB37F1A6-74F6-4F2D-8145-6126D4560727}">
+											<Language>SFX</Language>
+											<AudioFile>log01_voice_ui.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="621704609"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="log01_voice_ui" ID="{EB37F1A6-74F6-4F2D-8145-6126D4560727}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="Log_02_Voice_UI" ID="{42F8F997-1B19-4949-BCE4-5E6173F5C343}" ShortID="559842011">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="log02_voice_ui" ID="{59D6AFF5-A443-4713-B47E-5D5A86812335}" ShortID="927025935">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="log02_voice_ui" ID="{DDBA6F9A-01B2-4BE0-AAB4-3E0F739C29A2}">
+											<Language>SFX</Language>
+											<AudioFile>log02_voice_ui.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="194777844"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="log02_voice_ui" ID="{DDBA6F9A-01B2-4BE0-AAB4-3E0F739C29A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
@@ -882,20 +979,28 @@
 								<ItemRef Name="log2_news" ID="{9D5B5385-3778-4777-84D5-46D7102B7FA2}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
+								<ItemRef Name="Log_02_Voice_UI" ID="{42F8F997-1B19-4949-BCE4-5E6173F5C343}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
 								<ItemRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Log_01_Voice_UI" ID="{FE5053E9-F529-478D-BE2C-A8098C157333}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 						<GroupingList>
 							<Grouping>
 								<SwitchRef Name="Log_S01E01" ID="{A37DF209-D96B-4086-898F-FA203384B6D1}"/>
 								<ItemList>
-									<ItemRef Name="log1_bricolage" ID="{E2C21264-6849-491B-BC00-7931E922192F}"/>
+									<ItemRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}"/>
+									<ItemRef Name="Log_01_Voice_UI" ID="{FE5053E9-F529-478D-BE2C-A8098C157333}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
 								<SwitchRef Name="Log_S01E02" ID="{8F376D1A-4DB6-4493-B6FB-AA6EA546F3C1}"/>
 								<ItemList>
-									<ItemRef Name="log2_news" ID="{9D5B5385-3778-4777-84D5-46D7102B7FA2}"/>
+									<ItemRef Name="Log_02_Voice_UI" ID="{42F8F997-1B19-4949-BCE4-5E6173F5C343}"/>
+									<ItemRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
