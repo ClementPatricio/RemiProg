@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 714fd575afc01ee43be60715e082f6ae, type: 3}
-  m_Name: Level1
+  m_Name: Level2
   m_EditorClassIdentifier: 
-  negativeX: {x: -1, y: 0, z: 0}
-  positiveX: {x: 1, y: 0, z: 0}
+  negativeX: {x: 1, y: 0, z: 0}
+  positiveX: {x: -1, y: 0, z: 0}
   negativeY: {x: 0, y: -1, z: 0}
   positiveY: {x: 0, y: 1, z: 0}
   negativeZ: {x: 0, y: 0, z: 0}
