@@ -104,7 +104,6 @@ public class HotSpot : MonoBehaviour
             if (i > duration && once)
             {
                 AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
-                Debug.Log(this.logToUnlock);
                 if(this.logToUnlock < 10)
                 {
                     AkSoundEngine.PostEvent("Log_0" + this.logToUnlock, this.gameObject);
@@ -115,6 +114,7 @@ public class HotSpot : MonoBehaviour
                 }
                 
                 once = false;
+                GameManager.instance.FinishLevel();
             }
             
             yield return null;
