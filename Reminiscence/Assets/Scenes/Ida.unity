@@ -174,7 +174,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16786
+  m_Name: pb_Mesh25524
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -444,7 +444,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16858
+  m_Name: pb_Mesh25596
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1101,6 +1101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   serialController: {fileID: 845389669}
+  iKRobot: {fileID: 0}
 --- !u!114 &845389669 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11442534, guid: a65acf0cbf56b80419f74ebf0bc845f4,
@@ -1329,7 +1330,7 @@ MonoBehaviour:
   player: {fileID: 0}
   robotPoint: {fileID: 2022769839}
   transposer: {fileID: 1299545306}
-  sensitivity: 0.5
+  sensitivity: 0.1
 --- !u!65 &1299545302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1416,7 +1417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c63609092692f747b31b5c0d238ea47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parameterMatrix: {fileID: 11400000, guid: f8a23b440f4c9ae45ae559adfffb6723, type: 2}
+  parameterMatrix: {fileID: 11400000, guid: 4bf087c0b2188484aa837c4a2c5bfd1c, type: 2}
 --- !u!1 &1392178652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2265,9 +2266,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ad099546b2af724481ef3064cb44dd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hotness: 0
+  hotness: 10
   player: {fileID: 0}
+  zone: {fileID: 1763822415}
+  unlockAtHotness: 76.95
+  logToUnlock: 1
   ikMotor: {fileID: 2129695902}
+  duration: 3
 --- !u!135 &1763822415
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2279,7 +2284,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.9
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1763822416
 Transform:
@@ -2289,8 +2294,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763822413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.81, y: 0.98, z: 0.37}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.96, y: -0.18, z: -0.26}
+  m_LocalScale: {x: 1.7210655, y: 2.401442, z: 2.401442}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
