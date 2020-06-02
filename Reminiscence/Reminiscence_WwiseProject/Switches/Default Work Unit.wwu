@@ -38,9 +38,14 @@
 				</SwitchGroup>
 				<SwitchGroup Name="Log_Switches" ID="{697F42CB-9B80-46D1-B292-709BADB34E8E}">
 					<ChildrenList>
-						<Switch Name="Log_S01E01" ID="{A37DF209-D96B-4086-898F-FA203384B6D1}"/>
-						<Switch Name="Log_S01E02" ID="{8F376D1A-4DB6-4493-B6FB-AA6EA546F3C1}"/>
-						<Switch Name="Log_S01E03" ID="{5751A528-0160-46C7-AB8A-C595745F174B}"/>
+						<Switch Name="Log_04" ID="{74D890EC-71A6-4821-9FA7-81699ED505EA}"/>
+						<Switch Name="Log_05" ID="{8B109F1A-9AAF-4DBC-9ABB-D12ABA9F3D9F}"/>
+						<Switch Name="Log_06" ID="{4CA3756F-5264-4CEB-AE2A-0FF1D58E62AC}"/>
+						<Switch Name="Log_07" ID="{679E30CA-C575-4DAA-91AF-4D3D9B0C3A9F}"/>
+						<Switch Name="Log_08" ID="{41469DC2-BBE7-44A7-9EF6-7979E92D6F10}"/>
+						<Switch Name="Log_01" ID="{0E439FF5-E9D3-41DB-8715-600266EA38AD}"/>
+						<Switch Name="Log_02" ID="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}"/>
+						<Switch Name="Log_03" ID="{90DB4E51-439C-492B-A63D-956748DBFD89}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

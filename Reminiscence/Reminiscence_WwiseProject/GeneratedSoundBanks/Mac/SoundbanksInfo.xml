@@ -24,19 +24,15 @@
 				<Event Id="3628499094" Name="Log_06" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_06" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3628499095" Name="Log_07" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_07" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3628499096" Name="Log_08" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_08" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3628499097" Name="Log_09" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_09" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3645276675" Name="Log_10" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_10" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3645276674" Name="Log_11" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_11" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3645276673" Name="Log_12" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_12" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="322021059" Name="LogAudio_Unlocked" ObjectPath="\Events\Default Work Unit\LogAudio_Unlocked" DurationType="Mixed" DurationMin="24.500000" DurationMax="Infinite">
+				<Event Id="322021059" Name="LogAudio_Unlocked" ObjectPath="\Events\Default Work Unit\LogAudio_Unlocked" DurationType="Mixed" DurationMin="4.000000" DurationMax="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="54936778" Language="SFX">
+							<ShortName>log04_voice_ui.wav</ShortName>
+							<Path>SFX\log04_voice_ui_10C4C929.wem</Path>
+						</File>
 						<File Id="97148101" Language="SFX">
 							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
 							<Path>SFX\amb_vehicle_pass-by_02_10C4C929.wem</Path>
-						</File>
-						<File Id="194777844" Language="SFX">
-							<ShortName>log02_voice_ui.wav</ShortName>
-							<Path>SFX\log02_voice_ui_10C4C929.wem</Path>
 						</File>
 						<File Id="207183486" Language="SFX">
 							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
@@ -70,6 +66,14 @@
 							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
 							<Path>SFX\amb_vehicle_pass-by_01_10C4C929.wem</Path>
 						</File>
+						<File Id="768964786" Language="SFX">
+							<ShortName>log02_voice_ui_bricolage.wav</ShortName>
+							<Path>SFX\log02_voice_ui_bricolage_10C4C929.wem</Path>
+						</File>
+						<File Id="810954624" Language="SFX">
+							<ShortName>log03_voice_ui_tia.wav</ShortName>
+							<Path>SFX\log03_voice_ui_tia_10C4C929.wem</Path>
+						</File>
 						<File Id="860074005" Language="SFX">
 							<ShortName>amb_train_pass-by_01.wav</ShortName>
 							<Path>SFX\amb_train_pass-by_01_10C4C929.wem</Path>
@@ -88,7 +92,7 @@
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{A37DF209-D96B-4086-898F-FA203384B6D1}">
+						<SwitchContainer SwitchValue="{8B109F1A-9AAF-4DBC-9ABB-D12ABA9F3D9F}">
 							<Media>
 								<File Id="876872288"/>
 								<File Id="943239995"/>
@@ -102,14 +106,24 @@
 								<File Id="97148101"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{A37DF209-D96B-4086-898F-FA203384B6D1}">
+						<SwitchContainer SwitchValue="{0E439FF5-E9D3-41DB-8715-600266EA38AD}">
 							<Media>
 								<File Id="621704609"/>
 							</Media>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{8F376D1A-4DB6-4493-B6FB-AA6EA546F3C1}">
+						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
 							<Media>
-								<File Id="194777844"/>
+								<File Id="768964786"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
+							<Media>
+								<File Id="810954624"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{74D890EC-71A6-4821-9FA7-81699ED505EA}">
+							<Media>
+								<File Id="54936778"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -193,9 +207,14 @@
 			<SwitchGroups>
 				<SwitchGroup Id="3564331944" Name="Log_Switches" ObjectPath="\Switches\Default Work Unit\Log_Switches">
 					<Switches>
-						<Switch Id="683779362" Name="Log_S01E01" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_S01E01"/>
-						<Switch Id="683779361" Name="Log_S01E02" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_S01E02"/>
-						<Switch Id="683779360" Name="Log_S01E03" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_S01E03"/>
+						<Switch Id="3628499092" Name="Log_04" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_04"/>
+						<Switch Id="3628499093" Name="Log_05" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_05"/>
+						<Switch Id="3628499094" Name="Log_06" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_06"/>
+						<Switch Id="3628499095" Name="Log_07" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_07"/>
+						<Switch Id="3628499096" Name="Log_08" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_08"/>
+						<Switch Id="3628499089" Name="Log_01" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_01"/>
+						<Switch Id="3628499090" Name="Log_02" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_02"/>
+						<Switch Id="3628499091" Name="Log_03" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_03"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
