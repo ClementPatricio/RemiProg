@@ -69,7 +69,7 @@ public class SampleUserPolling_ReadWrite : MonoBehaviour
 
         if (framecount%120 ==0)
         {
-            Debug.Log("Sending "+ messageAngles);
+            //Debug.Log("Sending "+ messageAngles);
             serialController.SendSerialMessage(messageAngles);
             framecount = 1;
         }
@@ -82,13 +82,13 @@ public class SampleUserPolling_ReadWrite : MonoBehaviour
         // sample serial device that accepts this input is given in the README.
         if (Input.GetKeyDown(KeyCode.A))
         {
-            Debug.Log("Sending b120l090r090");
+            //Debug.Log("Sending b120l090r090");
             serialController.SendSerialMessage("b120l120r060");
         }
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            Debug.Log("Sending b060l090r090");
+            //Debug.Log("Sending b060l090r090");
             serialController.SendSerialMessage("b060l060r120");
         }
 

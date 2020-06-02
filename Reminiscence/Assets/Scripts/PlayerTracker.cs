@@ -26,7 +26,7 @@ public class PlayerTracker : MonoBehaviour
     public MatrixTransposer transposer;
     bool firstTime = true;
 
-    public float sensitivity;
+    public Vector3 sensitivity;
 
     #region Singleton
     public static PlayerTracker instance;
@@ -81,7 +81,7 @@ public class PlayerTracker : MonoBehaviour
         }
         else
         {
-            this.robotPoint.transform.Translate(transposer.TranslatePosition(chosenTranslate) * sensitivity);
+            this.robotPoint.transform.Translate(new Vector3(transposer.TranslatePosition(chosenTranslate).x * sensitivity.x, transposer.TranslatePosition(chosenTranslate).y * sensitivity.y, transposer.TranslatePosition(chosenTranslate).z * sensitivity.z));
         }
     }
 }
