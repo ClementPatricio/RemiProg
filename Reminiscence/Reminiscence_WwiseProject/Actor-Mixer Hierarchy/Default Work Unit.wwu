@@ -471,6 +471,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="log01_voice_ui" ID="{EB37F1A6-74F6-4F2D-8145-6126D4560727}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.72841133816744"/>
+												<Property Name="TrimEnd" Type="Real64" Value="37.1483190507581"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>log01_voice_ui.wav</AudioFile>
 											<MediaIDList>
@@ -539,6 +544,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="log03_voice_ui_tia" ID="{0F4EA13C-EA25-4B10-A6CF-61B2588AF0EA}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.78166584598748"/>
+												<Property Name="TrimEnd" Type="Real64" Value="55.0310043390944"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>log03_voice_ui_tia.wav</AudioFile>
 											<MediaIDList>
@@ -573,6 +583,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="log04_voice_ui" ID="{0BF42874-1FD2-4B46-88D1-064BB8A33DF6}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.78342553483698"/>
+												<Property Name="TrimEnd" Type="Real64" Value="41.4906392732291"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>log04_voice_ui.wav</AudioFile>
 											<MediaIDList>
@@ -605,6 +620,30 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="log06_voice_ui_tia" ID="{6CD9C093-344E-4476-8423-C14BCF715E03}" ShortID="497381777">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="log06_voice_ui_tia" ID="{25D2CC6B-C672-4F4E-A259-23DD6D93257C}">
+											<Language>SFX</Language>
+											<AudioFile>log06_voice_ui_tia.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="243334808"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="log06_voice_ui_tia" ID="{25D2CC6B-C672-4F4E-A259-23DD6D93257C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Log_07" ID="{7EF2B4DC-1293-418C-98C1-D7714370DD57}" ShortID="313826091">
 							<ReferenceList>
@@ -615,6 +654,30 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="log07_voice_ui_tia" ID="{AA122453-259B-4251-9228-5DC049881A0A}" ShortID="309235037">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="log07_voice_ui_tia" ID="{0AD126D5-627D-41E7-8BC8-EED1C6D28671}">
+											<Language>SFX</Language>
+											<AudioFile>log07_voice_ui_tia.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="345222929"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="log07_voice_ui_tia" ID="{0AD126D5-627D-41E7-8BC8-EED1C6D28671}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Log_08" ID="{75F8D30F-7650-4ADF-B511-2786F8D0E21A}" ShortID="500102487">
 							<ReferenceList>

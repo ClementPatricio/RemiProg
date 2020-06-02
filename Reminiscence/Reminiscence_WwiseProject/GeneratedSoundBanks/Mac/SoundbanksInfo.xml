@@ -28,7 +28,7 @@
 					<IncludedMemoryFiles>
 						<File Id="54936778" Language="SFX">
 							<ShortName>log04_voice_ui.wav</ShortName>
-							<Path>SFX\log04_voice_ui_10C4C929.wem</Path>
+							<Path>SFX\log04_voice_ui_38DD63F0.wem</Path>
 						</File>
 						<File Id="97148101" Language="SFX">
 							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
@@ -38,9 +38,17 @@
 							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
 							<Path>SFX\amb_vehicle_pass-by_04_10C4C929.wem</Path>
 						</File>
+						<File Id="243334808" Language="SFX">
+							<ShortName>log06_voice_ui_tia.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_10C4C929.wem</Path>
+						</File>
 						<File Id="300574510" Language="SFX">
 							<ShortName>aftermusic_seq.wav</ShortName>
 							<Path>SFX\aftermusic_seq_10C4C929.wem</Path>
+						</File>
+						<File Id="345222929" Language="SFX">
+							<ShortName>log07_voice_ui_tia.wav</ShortName>
+							<Path>SFX\log07_voice_ui_tia_10C4C929.wem</Path>
 						</File>
 						<File Id="431973196" Language="SFX">
 							<ShortName>amb_train_pass-by_02.wav</ShortName>
@@ -56,7 +64,7 @@
 						</File>
 						<File Id="621704609" Language="SFX">
 							<ShortName>log01_voice_ui.wav</ShortName>
-							<Path>SFX\log01_voice_ui_10C4C929.wem</Path>
+							<Path>SFX\log01_voice_ui_0B25EB7B.wem</Path>
 						</File>
 						<File Id="648080981" Language="SFX">
 							<ShortName>amb_sfx_01.wav</ShortName>
@@ -72,7 +80,7 @@
 						</File>
 						<File Id="810954624" Language="SFX">
 							<ShortName>log03_voice_ui_tia.wav</ShortName>
-							<Path>SFX\log03_voice_ui_tia_10C4C929.wem</Path>
+							<Path>SFX\log03_voice_ui_tia_F4589D96.wem</Path>
 						</File>
 						<File Id="860074005" Language="SFX">
 							<ShortName>amb_train_pass-by_01.wav</ShortName>
@@ -124,6 +132,16 @@
 						<SwitchContainer SwitchValue="{74D890EC-71A6-4821-9FA7-81699ED505EA}">
 							<Media>
 								<File Id="54936778"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4CA3756F-5264-4CEB-AE2A-0FF1D58E62AC}">
+							<Media>
+								<File Id="243334808"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{679E30CA-C575-4DAA-91AF-4D3D9B0C3A9F}">
+							<Media>
+								<File Id="345222929"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
