@@ -77,6 +77,30 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{5F37A0E3-C44A-4575-9135-1BCCC9FE881A}" ShortID="378875849">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="SeekPercent" Type="Real64" Value="20">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E5C2FAF8-3511-4CFE-8F9D-DA20A517ED09}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Folder Name="Log_Switch" ID="{FC9C75DA-9FF7-4784-B1DB-80EF8D0BF260}" ShortID="209472923">
