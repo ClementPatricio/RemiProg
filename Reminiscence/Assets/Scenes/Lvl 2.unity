@@ -1329,7 +1329,7 @@ MonoBehaviour:
   player: {fileID: 0}
   robotPoint: {fileID: 2022769839}
   transposer: {fileID: 0}
-  sensitivity: 0.5
+  sensitivity: {x: 0, y: 0, z: 0}
 --- !u!65 &1299545302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2256,9 +2256,13 @@ MonoBehaviour:
   player: {fileID: 0}
   zone: {fileID: 1763822415}
   unlockAtHotness: 90
-  logToUnlock: 1
   ikMotor: {fileID: 2129695902}
   duration: 7.99
+  logEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 46b179a0e7c568e4bb205b3831884537,
+      type: 2}
 --- !u!135 &1763822415
 SphereCollider:
   m_ObjectHideFlags: 0
