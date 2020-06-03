@@ -762,12 +762,14 @@
 								<SwitchRef Name="Log_08" ID="{41469DC2-BBE7-44A7-9EF6-7979E92D6F10}"/>
 								<ItemList>
 									<ItemRef Name="Log_08" ID="{75F8D30F-7650-4ADF-B511-2786F8D0E21A}"/>
+									<ItemRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
 								<SwitchRef Name="Log_07" ID="{679E30CA-C575-4DAA-91AF-4D3D9B0C3A9F}"/>
 								<ItemList>
 									<ItemRef Name="Log_07" ID="{7EF2B4DC-1293-418C-98C1-D7714370DD57}"/>
+									<ItemRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
