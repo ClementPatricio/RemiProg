@@ -661,6 +661,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="log_05_voice_ui_part02" ID="{9E1EB36E-0556-4C92-AD32-BA16F60DC84B}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.672379696769941"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.7"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>log_05_voice_ui_part02.wav</AudioFile>
 													<MediaIDList>
