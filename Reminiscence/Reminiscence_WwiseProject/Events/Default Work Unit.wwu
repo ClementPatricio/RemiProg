@@ -361,22 +361,10 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{7756FC81-46C7-4A36-A304-3EA6849B84E7}" ShortID="104143716">
+								<Action Name="" ID="{A89CFFF0-8FFA-4ABB-908D-3699F358443D}" ShortID="806552054">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Log_Switch" ID="{A9F013D8-78B7-4430-AF92-4536040E1E3C}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{3BC9DF02-20F7-43F1-8C44-B5ED5FB796DA}" ShortID="893535644">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="Delay" Type="Real64" Value="5"/>
-										<Property Name="Scope" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+											<ObjectRef Name="Log_08" ID="{75F8D30F-7650-4ADF-B511-2786F8D0E21A}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
