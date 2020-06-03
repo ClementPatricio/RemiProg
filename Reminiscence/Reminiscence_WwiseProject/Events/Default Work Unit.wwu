@@ -253,22 +253,10 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{67B5D2A4-A79A-45FE-B454-D383340DDDE8}" ShortID="1018424250">
+								<Action Name="" ID="{B95589E8-23F5-44F7-B90A-B43859AE07A9}" ShortID="135720083">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Log_Switch" ID="{A9F013D8-78B7-4430-AF92-4536040E1E3C}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{C30EB3DA-AACA-4B03-AD5E-491E2CA6440A}" ShortID="1048458808">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="Delay" Type="Real64" Value="5"/>
-										<Property Name="Scope" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Amb_Apartment" ID="{EEB9C2B9-A04B-4AA8-A105-8D672D263144}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+											<ObjectRef Name="Log_05" ID="{1ADC03CB-5EDD-41F6-B028-409E69856DF3}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
