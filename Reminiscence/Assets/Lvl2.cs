@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Lobby : StateMachineBehaviour
+public class Lvl2 : StateMachineBehaviour
 {
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        SceneManager.LoadScene("Lobby", LoadSceneMode.Single);
-        GameManager.instance.getLog().Post(GameManager.instance.gameObject, (uint)AkCallbackType.AK_EndOfEvent, CallbackFunction);
+        SceneManager.LoadScene("Lvl 2", LoadSceneMode.Single);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -35,11 +34,4 @@ public class Lobby : StateMachineBehaviour
     //{
     //    // Implement code that sets up animation IK (inverse kinematics)
     //}
-
-    public void CallbackFunction(object in_cookie, AkCallbackType in_type, object in_info)
-    {
-        Debug.Log("ba");
-        GameManager.instance.StartLevel();
-    }
 }
-
