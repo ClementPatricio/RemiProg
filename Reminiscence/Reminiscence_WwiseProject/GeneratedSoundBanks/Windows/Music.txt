@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	267517120	Music_RTPC			\Default Work Unit\Music_RTPC	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	131616581	Random	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\chord03_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Chords\Chord\Random		197142
+	251003148	pluck01	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\pluck01_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Pluck\pluck01\pluck01		120925
+	266569991	BassRand	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\bass_60bpm44_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Bass_Play\Bass\BassRand		5206
+	323167565	Random	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\chord04_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Chords\Chord\Random		196387
+	435809258	Random	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\chord02_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Chords\Chord\Random		197638
+	742329624	Random	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\chord01_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Chords\Chord\Random		196141
+
