@@ -8,8 +8,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public Animator gameStateMachine;
-    public AnimatorController te;
 
+    private AK.Wwise.Event logEvent;
 
     void Awake()
     {
@@ -38,5 +38,15 @@ public class GameManager : MonoBehaviour
     public void StartLevel()
     {
         this.gameStateMachine.SetTrigger("Lvl Starting");
+    }
+
+
+    public void setLog(AK.Wwise.Event logEvent)
+    {
+        this.logEvent = logEvent;
+    }
+    public AK.Wwise.Event getLog()
+    {
+        return this.logEvent;
     }
 }

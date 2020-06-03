@@ -9,6 +9,8 @@ public class Lobby : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         SceneManager.LoadScene("Lobby", LoadSceneMode.Single);
+        GameManager.instance.getLog().Post(GameManager.instance.gameObject, (uint)AkCallbackType.AK_EndOfEvent, CallbackFunction);
+        Debug.Log("FSFSDQFQSDF");
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -34,4 +36,11 @@ public class Lobby : StateMachineBehaviour
     //{
     //    // Implement code that sets up animation IK (inverse kinematics)
     //}
+
+    public void CallbackFunction(object in_cookie, AkCallbackType in_type, object in_info)
+    {
+        Debug.Log("ba");
+        GameManager.instance.StartLevel();
+    }
 }
+

@@ -9,7 +9,6 @@ public class Lvl1 : StateMachineBehaviour
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Debug.Log("loading lvl 1");
         SceneManager.LoadScene("Lvl 1", LoadSceneMode.Single);
     }
 

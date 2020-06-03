@@ -13,14 +13,13 @@ public class HotSpot : MonoBehaviour
     public SphereCollider zone;
     public float unlockAtHotness = 90;
 
-    [Range(1,12)]
-    public int logToUnlock;
 
     public IK ikMotor;
 
     float stepAngle;
     private bool once = true;
     public float duration = 2f;
+    public AK.Wwise.Event logEvent;
 
     // Start is called before the first frame update
     void Start()
@@ -104,14 +103,8 @@ public class HotSpot : MonoBehaviour
             if (i > duration && once)
             {
                 AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
-                if(this.logToUnlock < 10)
-                {
-                    AkSoundEngine.PostEvent("Log_0" + this.logToUnlock, this.gameObject);
-                }
-                else
-                {
-                    AkSoundEngine.PostEvent("Log_" + this.logToUnlock, this.gameObject);
-                }
+                GameManager.instance.setLog(this.logEvent);
+                
                 
                 once = false;
                 GameManager.instance.FinishLevel();
@@ -121,4 +114,6 @@ public class HotSpot : MonoBehaviour
         }
         
     }
+
+    
 }

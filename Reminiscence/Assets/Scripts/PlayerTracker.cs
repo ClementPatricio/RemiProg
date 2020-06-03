@@ -45,6 +45,9 @@ public class PlayerTracker : MonoBehaviour
         if(player == null)
         {
             firstTime = true;
+            oldPos = new Dictionary<Kinect.JointType, Vector3>();
+            newPos = new Dictionary<Kinect.JointType, Vector3>();
+            joints = new Dictionary<Kinect.JointType, GameObject>();
             return;
         }
 
