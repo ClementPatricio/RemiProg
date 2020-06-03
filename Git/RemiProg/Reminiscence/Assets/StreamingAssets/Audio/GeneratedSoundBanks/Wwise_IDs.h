@@ -21,8 +21,6 @@ namespace AK
         static const AkUniqueID LOG_06 = 3628499094U;
         static const AkUniqueID LOG_07 = 3628499095U;
         static const AkUniqueID LOG_08 = 3628499096U;
-        static const AkUniqueID LOGAUDIO_UNLOCKED = 322021059U;
-        static const AkUniqueID PLAY_AMB_APARTMENT = 3591343105U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
     } // namespace EVENTS
 
@@ -65,7 +63,8 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID ALL = 1100754030U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BANKS
 
     namespace BUSSES

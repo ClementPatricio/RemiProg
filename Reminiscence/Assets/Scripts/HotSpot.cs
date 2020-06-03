@@ -102,7 +102,7 @@ public class HotSpot : MonoBehaviour
             
             if (i > duration && once)
             {
-                AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
+                //AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
                 GameManager.instance.setLog(this.logEvent);
                 
                 
