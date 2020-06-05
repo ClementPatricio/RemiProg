@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6b7c818acd547849aa1e9b2915ea9380
     GuidInternal: 
-    m_lastTime: -8586158699046335517
+    m_lastTime: -8586130072996931358
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 445e5fe88f603d4ba4194af78e30377d
     GuidInternal: 
-    m_lastTime: -8586152522348227552
+    m_lastTime: -8586130072997868846
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7a9540a3e9424d43b8524094d212df6c
     GuidInternal: 
-    m_lastTime: -8586109294332028317
+    m_lastTime: -8586104014677619541
     List:
     - name: All
       guid: bc0840b9d70f70448c10a461d3297653
@@ -53,23 +53,34 @@ MonoBehaviour:
       - ElementName: All
         ObjectType: 7
       Path: Default Work Unit\All\All
-    - name: All
-      guid: d06222fb6a8bc94f9dc6fbdd4c450a44
-      id: 1100754030
+    - name: Music
+      guid: e271edf902eb6b40896baeb26de3f2fb
+      id: 3991942870
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: All
         ObjectType: 4
-      - ElementName: All
+      - ElementName: Music
         ObjectType: 7
-      Path: Default Work Unit\All\All
+      Path: Default Work Unit\All\Music
+    - name: SFX
+      guid: d06222fb6a8bc94f9dc6fbdd4c450a44
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: All
+        ObjectType: 4
+      - ElementName: SFX
+        ObjectType: 7
+      Path: Default Work Unit\All\SFX
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: d7ac243b7a61674ea01f23c9dab8cb23
     GuidInternal: 
-    m_lastTime: -8586109286465311275
+    m_lastTime: -8586104014679659277
     List:
     - name: Log_01
       guid: 94b30674fa692142b20808f77b442828
@@ -183,62 +194,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Log_09
-      guid: fb09bc1c11d74b4dab5751bae1426076
-      id: 3628499097
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Log_Switch
-        ObjectType: 4
-      - ElementName: Log_09
-        ObjectType: 3
-      Path: Default Work Unit\Log_Switch\Log_09
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Log_10
-      guid: c05c7f39d0b2414e9882a2edf8f2f9bc
-      id: 3645276675
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Log_Switch
-        ObjectType: 4
-      - ElementName: Log_10
-        ObjectType: 3
-      Path: Default Work Unit\Log_Switch\Log_10
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Log_11
-      guid: 6d733e117fad3b47b0e51793e5094453
-      id: 3645276674
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Log_Switch
-        ObjectType: 4
-      - ElementName: Log_11
-        ObjectType: 3
-      Path: Default Work Unit\Log_Switch\Log_11
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Log_12
-      guid: a2ca02b5e3acfe41a747da942a0c0ea5
-      id: 3645276673
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Log_Switch
-        ObjectType: 4
-      - ElementName: Log_12
-        ObjectType: 3
-      Path: Default Work Unit\Log_Switch\Log_12
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Log_Switch
       guid: da759cfcf79f8447b1db80ef8d0bf260
       id: 1395000212
@@ -294,7 +249,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: bd3819d726460b459a3c6570c388a01b
     GuidInternal: 
-    m_lastTime: -8586130001802113618
+    m_lastTime: -8586128637246672721
     List:
     - name: Music_RTPC
       guid: ae50f44204c12448beadd469b20638bc
@@ -310,14 +265,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 76419726060bab4385c970a2911eca06
     GuidInternal: 
-    m_lastTime: -8586158699046095886
+    m_lastTime: -8586130072997100910
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: faefa9bd30100c4aba998ed9bb97557d
     GuidInternal: 
-    m_lastTime: -8586112078637795724
+    m_lastTime: -8586104329429783591
     List:
     - name: Log_Switches
       guid: cb427f69809bd146b292709badb34e8e
@@ -329,23 +284,53 @@ MonoBehaviour:
         ObjectType: 11
       Path: Default Work Unit\Log_Switches
       values:
-      - name: Log_S01E01
-        guid: 09f27da36bd98640898ffa203384b6d1
-        id: 683779362
+      - name: Log_01
+        guid: f59f430ed3e9db418715600266ea38ad
+        id: 3628499089
         PathAndIcons:
-        - ElementName: Log_S01E01
+        - ElementName: Log_01
           ObjectType: 10
-      - name: Log_S01E02
-        guid: 1a6d378fb64d9344b6fbaa6ea546f3c1
-        id: 683779361
+      - name: Log_02
+        guid: 9860979da19c52458ab8ddaeeb68ff8f
+        id: 3628499090
         PathAndIcons:
-        - ElementName: Log_S01E02
+        - ElementName: Log_02
           ObjectType: 10
-      - name: Log_S01E03
-        guid: 28a551576001c746ab8ac595745f174b
-        id: 683779360
+      - name: Log_03
+        guid: 514edb909c432b49a63d956748dbfd89
+        id: 3628499091
         PathAndIcons:
-        - ElementName: Log_S01E03
+        - ElementName: Log_03
+          ObjectType: 10
+      - name: Log_04
+        guid: ec90d874a67121489fa781699ed505ea
+        id: 3628499092
+        PathAndIcons:
+        - ElementName: Log_04
+          ObjectType: 10
+      - name: Log_05
+        guid: 1a9f108baf9abc4d9abbd12aba9f3d9f
+        id: 3628499093
+        PathAndIcons:
+        - ElementName: Log_05
+          ObjectType: 10
+      - name: Log_06
+        guid: 6f75a34c6452eb4cae2a0ff1d58e62ac
+        id: 3628499094
+        PathAndIcons:
+        - ElementName: Log_06
+          ObjectType: 10
+      - name: Log_07
+        guid: ca309e6775c5aa4d91af4d3d9b0c3a9f
+        id: 3628499095
+        PathAndIcons:
+        - ElementName: Log_07
+          ObjectType: 10
+      - name: Log_08
+        guid: c29d4641e7bba7449ef67979e92d6f10
+        id: 3628499096
+        PathAndIcons:
+        - ElementName: Log_08
           ObjectType: 10
       ValueGuids: []
       ValueIcons: []
@@ -374,7 +359,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 42f6e32dcf54ad4eb7b59b516ee573d4
     GuidInternal: 
-    m_lastTime: -8586158699046410384
+    m_lastTime: -8586130072996981226
     List: []
   ExpandedItems:
   - /Reminiscence
