@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   negativeX: {x: 1, y: 0, z: 0}
   positiveX: {x: -1, y: 0, z: 0}
-  negativeY: {x: 0, y: -1, z: 0}
-  positiveY: {x: 0, y: 1, z: 0}
+  negativeY: {x: 1, y: 1, z: 0}
+  positiveY: {x: -1, y: -1, z: 0}
   negativeZ: {x: 0, y: 0, z: 0}
   positiveZ: {x: 0, y: 0, z: 0}
