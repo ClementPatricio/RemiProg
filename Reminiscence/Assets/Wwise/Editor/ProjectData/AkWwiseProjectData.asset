@@ -363,8 +363,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Reminiscence
-  - /Reminiscence/Events
-  - /Reminiscence/Events/Default Work Unit
-  - /Reminiscence/Events/Default Work Unit/Log_Switch
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
