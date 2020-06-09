@@ -20,6 +20,7 @@ public class HotSpot : MonoBehaviour
     private bool once = true;
     public float duration = 2f;
     public AK.Wwise.Event logEvent;
+    public AnimationCurve musicCurve;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +36,7 @@ public class HotSpot : MonoBehaviour
         
         hotness = this.HotOrCold();
 
-        AkSoundEngine.SetRTPCValue("Music_RTPC", hotness, null);
+        AkSoundEngine.SetRTPCValue("Music_RTPC", musicCurve.Evaluate(hotness / 100.0f) * 100, null);
         this.IkToPlaceHotSpot();
         if(hotness > unlockAtHotness)
         {
