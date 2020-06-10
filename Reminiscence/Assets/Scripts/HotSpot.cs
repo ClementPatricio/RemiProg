@@ -37,6 +37,7 @@ public class HotSpot : MonoBehaviour
         hotness = this.HotOrCold();
 
         AkSoundEngine.SetRTPCValue("Music_RTPC", musicCurve.Evaluate(hotness / 100.0f) * 100, null);
+        
         this.IkToPlaceHotSpot();
         if(hotness > unlockAtHotness)
         {
