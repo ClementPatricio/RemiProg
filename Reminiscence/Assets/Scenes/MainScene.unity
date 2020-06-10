@@ -218,6 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameStateMachine: {fileID: 126187735}
+  ikMotor: {fileID: 0}
 --- !u!4 &126187737
 Transform:
   m_ObjectHideFlags: 0
