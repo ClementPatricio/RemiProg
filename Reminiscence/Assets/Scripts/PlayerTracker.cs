@@ -38,6 +38,11 @@ public class PlayerTracker : MonoBehaviour
     }
     #endregion
 
+    void Start()
+    {
+        this.robotPoint = GameManager.instance.ikMotor.pointToReach.gameObject;
+    }
+
     // Update is called once per frame
     void Update()
     {

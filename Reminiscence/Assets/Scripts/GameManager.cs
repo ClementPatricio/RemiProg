@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public Animator gameStateMachine;
+    public IK ikMotor;
 
     private AK.Wwise.Event logEvent;
 

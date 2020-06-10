@@ -22,8 +22,9 @@ public class SampleUserPolling_ReadWrite : MonoBehaviour
     void Start()
     {
         serialController = GameObject.Find("SerialController").GetComponent<SerialController>();
-
+        this.iKRobot = GameManager.instance.ikMotor;
         Debug.Log("Press A or Z to execute some actions");
+        DontDestroyOnLoad(this.gameObject);
     }
 
     // Executed each frame
@@ -104,10 +105,16 @@ public class SampleUserPolling_ReadWrite : MonoBehaviour
 
         // Check if the message is plain data or a connect/disconnect event.
         if (ReferenceEquals(message, SerialController.SERIAL_DEVICE_CONNECTED))
+        {
             Debug.Log("Connection established");
+        }
         else if (ReferenceEquals(message, SerialController.SERIAL_DEVICE_DISCONNECTED))
-            Debug.Log("Connection attempt failed or disconnection detected");
+        {
+            //Debug.Log("Connection attempt failed or disconnection detected");
+        }
         else
+        {
             Debug.Log("Message arrived: " + message);
+        }
     }
 }

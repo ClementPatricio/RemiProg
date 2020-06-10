@@ -26,6 +26,7 @@ public class HotSpot : MonoBehaviour
     {
         hotness = 0;
         //this.zone = this.GetComponent<SphereCollider>();
+        this.ikMotor = GameManager.instance.ikMotor;
         this.stepAngle =360f / ikMotor.stepPerRevolution ;
     }
 
