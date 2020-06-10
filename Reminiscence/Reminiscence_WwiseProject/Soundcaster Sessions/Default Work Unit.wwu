@@ -30,7 +30,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Log_02" ID="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}"/>
+						<CurrentSwitchRef Name="Log_04" ID="{74D890EC-71A6-4821-9FA7-81699ED505EA}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
