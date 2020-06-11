@@ -2303,6 +2303,39 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 09fd9593065cf7847961881147f74cae,
       type: 2}
+  musicCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2.2709808
+      outSlope: 2.2709808
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.24456173
+      value: 0.555395
+      inSlope: 0.68469846
+      outSlope: 0.68469846
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.17266569
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.5885391
+      outSlope: 0.5885391
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!135 &1763822415
 SphereCollider:
   m_ObjectHideFlags: 0

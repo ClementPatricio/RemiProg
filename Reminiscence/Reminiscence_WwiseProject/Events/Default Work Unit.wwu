@@ -28,6 +28,13 @@
 					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{CFCE7DCC-DE83-4E98-8395-5F399A78405F}" ShortID="291973952">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Chords" ID="{00D0F482-5035-40F0-A4BC-0731AD7837C7}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
@@ -35,6 +42,13 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{75786733-B996-40DC-8EED-F1BD80AE817E}" ShortID="66370598">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Bass_Play" ID="{CDDBB4AC-BC88-4D43-BA51-2646DDDFEF2B}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
@@ -42,9 +56,23 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{18FFE94E-1FA2-4FE8-859D-FF6A57D55E1C}" ShortID="198034720">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Pluck" ID="{6B04B5A0-433A-4F49-A6FD-9E64EAF1BD72}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{085CCD71-54D0-4542-B9B9-6995D97A02F2}" ShortID="320181106">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_02" ID="{97847497-7520-4664-A031-D2BB6398BF03}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -52,13 +80,6 @@
 				</Event>
 				<Event Name="LogAudio_Unlocked" ID="{6952E76C-7A25-4815-AC96-9BF8469781FE}">
 					<ChildrenList>
-						<Action Name="" ID="{4F1C8D74-2F5F-4006-A4CA-88EE4E86F0D4}" ShortID="909548866">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="3"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList/>
-						</Action>
 						<Action Name="" ID="{A7789541-AE61-4FC1-BF5C-C9DBB377F145}" ShortID="461891728">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -83,6 +104,16 @@
 									</PropertyList>
 									<ReferenceList/>
 								</Action>
+								<Action Name="" ID="{E35565D9-DD34-4374-A6C0-7BF2C3B605D5}" ShortID="786648105">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LogAudio_Unlocked" ID="{6952E76C-7A25-4815-AC96-9BF8469781FE}" WorkUnitID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{F9404754-2ED9-4970-893C-FD5CFFA1F08E}" ShortID="795956787">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="23"/>
@@ -94,6 +125,9 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{A4F87843-55D8-4C7D-A1C4-39DEAA377710}" ShortID="472813846">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Log_Switch" ID="{A9F013D8-78B7-4430-AF92-4536040E1E3C}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
@@ -103,7 +137,7 @@
 								<Action Name="" ID="{566FC4E5-D417-4F48-ADF4-A0B937D0F579}" ShortID="88296161">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="Delay" Type="Real64" Value="37"/>
+										<Property Name="Delay" Type="Real64" Value="40"/>
 										<Property Name="Scope" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>

@@ -2297,12 +2297,45 @@ MonoBehaviour:
   zone: {fileID: 1763822415}
   unlockAtHotness: 65
   ikMotor: {fileID: 2129695902}
-  duration: 4
+  duration: 3
   logEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 5bd1fbf460b75b64187a4de5d546e79d,
       type: 2}
+  musicCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.20470184
+      value: 0.51412505
+      inSlope: 0.5917696
+      outSlope: 0.5917696
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.18222831
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.3149321
+      outSlope: 0.3149321
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.27976397
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!135 &1763822415
 SphereCollider:
   m_ObjectHideFlags: 0
