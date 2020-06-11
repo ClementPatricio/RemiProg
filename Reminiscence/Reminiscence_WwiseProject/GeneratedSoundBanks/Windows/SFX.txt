@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	322021059	LogAudio_Unlocked			\Default Work Unit\LogAudio_Unlocked	
 	3628499089	Log_01			\Default Work Unit\Log_Switch\Log_01	
 	3628499090	Log_02			\Default Work Unit\Log_Switch\Log_02	
 	3628499091	Log_03			\Default Work Unit\Log_Switch\Log_03	
@@ -56,6 +57,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	860074005	amb_train_pass-by_01	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\amb_train_pass-by_01_B9A6BE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Amb_Apartment\amb_pass-by\amb_train_pass-by_01		369521
 	876872288	amb_interior_01	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\amb_interior_01_9A66A847.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Amb_Apartment\amb_interior_01		686266
 	943239995	amb_sfx_04	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\amb_sfx_04_B9A6BE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Amb_Apartment\amb_sfx\amb_sfx_04		10235
+	955369414	log_unlocked	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\log_unlocked_F4C79A29.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music_Seq\log_unlocked		64889
 	975076812	log_ui_out	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\log_ui_out_E55E1CC8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Log_02_Voice_UI\Log02_Seq\log_ui_out		10947
 	984585590	amb_vehicle_pass-by_03	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\amb_vehicle_pass-by_03_B9A6BE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Amb_Apartment\amb_pass-by\amb_vehicle_pass-by_03		91476
 	1012477340	log02_voice	C:\Users\test\Desktop\ENJMIN\ProjetM1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\log02_voice_B9A6BE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Log_02_Voice_UI\Log02_Seq\log02_voice		210239
