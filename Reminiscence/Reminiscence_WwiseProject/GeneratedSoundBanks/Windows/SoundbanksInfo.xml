@@ -16,7 +16,7 @@
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3628499089" Name="Log_01" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_01" DurationType="Mixed" DurationMin="37.401241" DurationMax="Infinite">
+				<Event Id="3628499089" Name="Log_01" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_01" DurationType="Mixed" DurationMin="40.401241" DurationMax="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="34260169" Language="SFX">
 							<ShortName>log_ui.wav</ShortName>
@@ -1408,6 +1408,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="322021059" Name="LogAudio_Unlocked" ObjectPath="\Events\Default Work Unit\LogAudio_Unlocked" DurationType="OneShot" DurationMin="3.300000" DurationMax="3.300000">
+					<IncludedMemoryFiles>
+						<File Id="955369414" Language="SFX">
+							<ShortName>log_unlocked.wav</ShortName>
+							<Path>SFX\log_unlocked_F4C79A29.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<SwitchGroups>
 				<SwitchGroup Id="3564331944" Name="Log_Switches" ObjectPath="\Switches\Default Work Unit\Log_Switches">
@@ -1436,29 +1444,45 @@
 			<IncludedEvents>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="131616581" Language="SFX">
-							<ShortName>chord03.wav</ShortName>
-							<Path>SFX\chord03_C58ED28F.wem</Path>
+						<File Id="161718824" Language="SFX">
+							<ShortName>lvl02_bassC_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_bassC_100bpm_4_4_C58ED28F.wem</Path>
 						</File>
-						<File Id="251003148" Language="SFX">
-							<ShortName>pluck01.wav</ShortName>
-							<Path>SFX\pluck01_C58ED28F.wem</Path>
+						<File Id="188907501" Language="SFX">
+							<ShortName>lvl02_bassB_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_bassB_100bpm_4_4_C58ED28F.wem</Path>
 						</File>
-						<File Id="266569991" Language="SFX">
-							<ShortName>bass_60bpm44.wav</ShortName>
-							<Path>SFX\bass_60bpm44_C58ED28F.wem</Path>
+						<File Id="578724832" Language="SFX">
+							<ShortName>lvl02_moogB_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_moogB_100bpm_4_4_C58ED28F.wem</Path>
 						</File>
-						<File Id="323167565" Language="SFX">
-							<ShortName>chord04.wav</ShortName>
-							<Path>SFX\chord04_C58ED28F.wem</Path>
+						<File Id="633451067" Language="SFX">
+							<ShortName>lvl02_bassA_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_bassA_100bpm_4_4_C58ED28F.wem</Path>
 						</File>
-						<File Id="435809258" Language="SFX">
-							<ShortName>chord02.wav</ShortName>
-							<Path>SFX\chord02_C58ED28F.wem</Path>
+						<File Id="811895481" Language="SFX">
+							<ShortName>lvl02_moogC_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_moogC_100bpm_4_4_C58ED28F.wem</Path>
 						</File>
-						<File Id="742329624" Language="SFX">
-							<ShortName>chord01.wav</ShortName>
-							<Path>SFX\chord01_C58ED28F.wem</Path>
+						<File Id="834943057" Language="SFX">
+							<ShortName>lvl02_chordA_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_chordA_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="930696805" Language="SFX">
+							<ShortName>lvl02_chordB_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_chordB_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="945756960" Language="SFX">
+							<ShortName>lvl02_chordC_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_chordC_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="992744126" Language="SFX">
+							<ShortName>lvl02_moogA_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_moogA_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="1053180823" Language="SFX">
+							<ShortName>lvl02_lead_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_lead_100bpm_4_4_C58ED28F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
