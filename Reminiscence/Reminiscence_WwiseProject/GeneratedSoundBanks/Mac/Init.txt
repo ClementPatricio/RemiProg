@@ -1,8 +1,10 @@
-Switch Group	ID	Name			Wwise Object Path	Notes
-	3991942870	Music			\Default Work Unit\Music	
+State Group	ID	Name			Wwise Object Path	Notes
+	1690668539	Music_States			\Default Work Unit\Music_States	
 
-Switch	ID	Name	Switch Group			Notes
-	2724869341	music_switch	Music			
+State	ID	Name	State Group			Notes
+	748895195	None	Music_States			
+	1973439780	Music_01	Music_States			
+	1973439783	Music_02	Music_States			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

@@ -10,6 +10,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Music_Switch_General" ID="{24CF6F72-D9DE-457B-9BF3-AB527CAB9D05}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Music_02" ID="{97847497-7520-4664-A031-D2BB6398BF03}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -32,7 +36,9 @@
 							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Music_01" ID="{A6398EFD-6325-44FB-AF07-0EC1AF86444C}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Log_01" ID="{0E439FF5-E9D3-41DB-8715-600266EA38AD}"/>
 					</CurrentSwitchList>
