@@ -168,6 +168,7 @@ MonoBehaviour:
   trakedJointPrefab: {fileID: 8022592287508151731, guid: abab0a4bc1c74374ea40dced3e8cc0ce,
     type: 3}
   bodyManager: {fileID: 1698423885}
+  body: {fileID: 0}
 --- !u!1001 &118058613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -506,7 +507,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57138
+  m_Name: pb_Mesh17268
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -776,7 +777,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh57210
+  m_Name: pb_Mesh17380
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1460,6 +1461,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9c40d4566b822d74dbfd9c2e722d5866, type: 2}
+    - target: {fileID: 6306971017694268109, guid: 13227a8d1fa3f3d498851e5dbf28560f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13227a8d1fa3f3d498851e5dbf28560f, type: 3}
 --- !u!1 &610799216
