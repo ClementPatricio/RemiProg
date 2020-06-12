@@ -80,7 +80,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d7ac243b7a61674ea01f23c9dab8cb23
     GuidInternal: 
-    m_lastTime: -8586104014679659277
+    m_lastTime: -8586097182904788331
     List:
     - name: Log_01
       guid: 94b30674fa692142b20808f77b442828
@@ -363,5 +363,8 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Reminiscence
+  - /Reminiscence/SoundBanks
+  - /Reminiscence/SoundBanks/Default Work Unit
+  - /Reminiscence/SoundBanks/Default Work Unit/All
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
