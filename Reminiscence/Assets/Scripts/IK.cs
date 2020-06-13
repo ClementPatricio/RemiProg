@@ -20,6 +20,8 @@ public class IK : MonoBehaviour
 
     private Vector3 pointToRotateAround;
 
+    private Vector3 pointOffset;
+
     float lenghtArm, lenghtForeArm;
     float angle, trueAngle;
     float q2angle, q1angle;
@@ -32,6 +34,9 @@ public class IK : MonoBehaviour
         lenghtArm = Vector3.Distance(this.pivots[0].transform.position, this.pivots[1].transform.position);
         lenghtForeArm = Vector3.Distance(this.pivots[1].transform.position, this.end.position);
         stepAngle = 360f / stepPerRevolution;
+        GameManager.instance.ikMotor = this;
+        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(this.pointToReach.gameObject);
     }
 
 
@@ -45,16 +50,19 @@ public class IK : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(this.end.position, this.pointToReach.position) > 0.02f && Vector3.Distance(this.pivots[0].transform.position, this.pointToReach.position) < lenghtArm+lenghtForeArm )
-        {
+        
             actualStep = AngleToStepCount(-angle);
             resetRotations();
             applyRotationsIK(resolveIK());
             moveStep = AngleToStepCount(-angle) - actualStep;
             //Debug.Log(moveStep);
 
-        }
 
+    }
+
+    public Vector3 getAnglesForMotorAsVec3()
+    {
+        return new Vector3(-this.angle, this.q1angle, this.q2angle);
     }
 
     public Vector3 resolveIK()
@@ -76,11 +84,18 @@ public class IK : MonoBehaviour
         {
             angle += stepAngle - (Mathf.Repeat(angle, stepAngle));
         }
-        Debug.Log("angle de la base : " + angle);
         
 
 
-        Vector3 pointOffset = pointToReach.position - this.pivots[0].transform.position;
+        pointOffset = pointToReach.position - this.pivots[0].transform.position;
+
+        if(Vector3.Distance(this.pivots[0].transform.position, pointOffset) > (lenghtArm + lenghtForeArm)*0.95f)
+        {
+
+            Vector3 normalized = (pointOffset - this.pivots[0].transform.position).normalized;
+
+            pointOffset = this.pivots[0].transform.position + (normalized * 0.95f * (lenghtArm + lenghtForeArm));
+        }
         
         //lenghtArm = 0.9f;
         //lenghtForeArm = 0.9f;
@@ -100,7 +115,6 @@ public class IK : MonoBehaviour
         //adapting q2 to stepMotor
         q2angle = q2 * Mathf.Rad2Deg;
        
-        Debug.Log("angle de l'avant bras : " + q2angle);
         if (Mathf.Repeat(q2angle, stepAngle) <= stepAngle / 2f)
         {
             q2angle -= Mathf.Repeat(q2angle, stepAngle);
@@ -110,13 +124,11 @@ public class IK : MonoBehaviour
             q2angle += stepAngle - (Mathf.Repeat(q2angle, stepAngle));
         }
         
-        Debug.Log("angle de l'avant bras : " + q2angle);
 
 
         //adapting q1 to stepMotor
         q1angle = q1 * Mathf.Rad2Deg;
         
-        Debug.Log("angle du bras : " + q1angle);
         if (Mathf.Repeat(q1angle, stepAngle) <= stepAngle / 2f)
         {
             q1angle -= Mathf.Repeat(q1angle, stepAngle);
@@ -126,7 +138,6 @@ public class IK : MonoBehaviour
             q1angle += stepAngle - (Mathf.Repeat(q1angle, stepAngle));
         }
         
-        Debug.Log("angle du bras : " + q1angle);
 
         this.pointToReach.RotateAround(pointToRotateAround, Vector3.up, -trueAngle);
 

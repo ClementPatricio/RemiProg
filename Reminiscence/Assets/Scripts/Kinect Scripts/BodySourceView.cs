@@ -11,6 +11,7 @@ public class BodySourceView : MonoBehaviour
 
 
     public BodySourceManager bodyManager;
+    public GameObject body;
 
     private Dictionary<ulong, GameObject> bodies = new Dictionary<ulong, GameObject>();
 
@@ -24,7 +25,14 @@ public class BodySourceView : MonoBehaviour
     };
     
     
-    
+    void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(this.bodyManager.gameObject);
+        
+    }
+
+
     void Update () 
     {
         #region Get Kinect data
@@ -92,8 +100,8 @@ public class BodySourceView : MonoBehaviour
 
     private GameObject CreateBodyObject(ulong id)
     {
-        GameObject body = new GameObject("Body:" + id);
-        PlayerTracker.instance.player = body;
+        this.body = new GameObject("Body:" + id);
+        PlayerTracker.instance.player = this.body;
 
         foreach (Kinect.JointType jt in joints)
         {
@@ -108,6 +116,7 @@ public class BodySourceView : MonoBehaviour
     
     private void UpdateBodyObject(Kinect.Body body, GameObject bodyObject)
     {
+        PlayerTracker.instance.player = this.body;
         foreach (Kinect.JointType jt in joints)
         {
             Kinect.Joint sourceJoint = body.Joints[jt];
@@ -118,7 +127,7 @@ public class BodySourceView : MonoBehaviour
             PlayerTracker.instance.newPos[jt] = targetPosition;
 
             jointObj.position = targetPosition;
-            
+            DontDestroyOnLoad(bodyObject);
            
         }
     }

@@ -10,18 +10,24 @@ public class HotSpot : MonoBehaviour
     public float hotness;
     public Transform player;
     private bool inZone;
-    private SphereCollider zone;
+    public SphereCollider zone;
+    public float unlockAtHotness = 90;
+
 
     public IK ikMotor;
 
     float stepAngle;
     private bool once = true;
+    public float duration = 2f;
+    public AK.Wwise.Event logEvent;
+    public AnimationCurve musicCurve;
 
     // Start is called before the first frame update
     void Start()
     {
         hotness = 0;
-        this.zone = this.GetComponent<SphereCollider>();
+        //this.zone = this.GetComponent<SphereCollider>();
+        this.ikMotor = GameManager.instance.ikMotor;
         this.stepAngle =360f / ikMotor.stepPerRevolution ;
     }
 
@@ -31,13 +37,18 @@ public class HotSpot : MonoBehaviour
         
         hotness = this.HotOrCold();
 
-        AkSoundEngine.SetRTPCValue("Music_RTPC", hotness, null);
+        AkSoundEngine.SetRTPCValue("Music_RTPC", musicCurve.Evaluate(hotness / 100.0f) * 100, null);
+        
         this.IkToPlaceHotSpot();
-        if(hotness > 90 && once)
+        if(hotness > unlockAtHotness)
         {
-            AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
-            once = false;
+            StartCoroutine("Unlock");
             //Arduino.sendMessageToArduino("bli");
+            
+        }
+        else
+        {
+            StopCoroutine("Unlock");
         }
 
     }
@@ -79,4 +90,33 @@ public class HotSpot : MonoBehaviour
         //this.transform.position = ikMotor.end.position;
         //ikMotor.resetRotations();
     }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.DrawSphere(transform.position, zone.radius*(1-(unlockAtHotness/100)));
+    }
+
+    IEnumerator Unlock()
+    {
+        float i = 0;
+        for(; ; )
+        {
+            i += Time.deltaTime;
+            
+            if (i > duration && once)
+            {
+                //AkSoundEngine.PostEvent("LogAudio_Unlocked", this.gameObject);
+                GameManager.instance.setLog(this.logEvent);
+                
+                
+                once = false;
+                GameManager.instance.FinishLevel();
+            }
+            
+            yield return null;
+        }
+        
+    }
+
+    
 }

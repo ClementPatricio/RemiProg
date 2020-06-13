@@ -5,11 +5,16 @@
 			<ChildrenList>
 				<Folder Name="All" ID="{B94008BC-0FD7-4470-8C10-A461D3297653}" ShortID="508494821">
 					<ChildrenList>
-						<SoundBank Name="All" ID="{FB2262D0-8B6A-4FC9-9DC6-FBDD4C450A44}">
+						<SoundBank Name="SFX" ID="{FB2262D0-8B6A-4FC9-9DC6-FBDD4C450A44}">
 							<ObjectInclusionList>
-								<ObjectRef Name="Play_Amb_Apartment" ID="{179FD5D3-668E-4259-A655-CE0A633DAAE1}" WorkUnitID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Log_Switch" ID="{FC9C75DA-9FF7-4784-B1DB-80EF8D0BF260}" WorkUnitID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Music" ID="{F9ED71E2-EB02-406B-896B-AEB26DE3F2FB}">
+							<ObjectInclusionList>
 								<ObjectRef Name="Play_Music" ID="{0CFAA4D6-39BB-47A3-9260-80F3DC3F58E5}" WorkUnitID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}" Origin="Manual" Filter="7"/>
-								<ObjectRef Name="LogAudio_Unlocked" ID="{6952E76C-7A25-4815-AC96-9BF8469781FE}" WorkUnitID="{3B24ACD7-617A-4E67-A01F-23C9DAB8CB23}" Origin="Manual" Filter="7"/>
 							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>

@@ -56,5 +56,5 @@ void loop() {
   if(servoRight.read() != posRight){
     servoRight.write(posRight);
   }
-  delay(16);        // delay in between reads for stability
+  delay(5);        // delay in between reads for stability
 }
