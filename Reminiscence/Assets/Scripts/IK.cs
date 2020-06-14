@@ -35,6 +35,7 @@ public class IK : MonoBehaviour
         lenghtForeArm = Vector3.Distance(this.pivots[1].transform.position, this.end.position);
         stepAngle = 360f / stepPerRevolution;
         GameManager.instance.ikMotor = this;
+        GameManager.instance.PTRStartPos = this.pointToReach;
         DontDestroyOnLoad(this.gameObject);
         DontDestroyOnLoad(this.pointToReach.gameObject);
     }

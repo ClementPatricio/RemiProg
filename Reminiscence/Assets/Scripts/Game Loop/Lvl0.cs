@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class Lvl1 : StateMachineBehaviour
+public class Lvl0 : StateMachineBehaviour
 {
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        SceneManager.LoadScene("Lvl 1", LoadSceneMode.Single);
+        //SceneManager.LoadScene("Lvl 0", LoadSceneMode.Single);
         GameManager.instance.ikMotor.pointToReach.transform.position = GameManager.instance.PTRStartPos.position;
         GameManager.instance.ikMotor.pointToReach.transform.Translate(new Vector3(GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x,
                                                                                   GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).y * GameManager.instance.sensitivity.y,

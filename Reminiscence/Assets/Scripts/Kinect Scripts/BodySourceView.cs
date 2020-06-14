@@ -53,7 +53,7 @@ public class BodySourceView : MonoBehaviour
             if (body == null)
             {
                 continue;
-              }
+            }
                 
             if(body.IsTracked)
             {
@@ -125,7 +125,6 @@ public class BodySourceView : MonoBehaviour
             Transform jointObj = bodyObject.transform.Find(jt.ToString());
             PlayerTracker.instance.oldPos[jt] = jointObj.position;
             PlayerTracker.instance.newPos[jt] = targetPosition;
-
             jointObj.position = targetPosition;
             DontDestroyOnLoad(bodyObject);
            

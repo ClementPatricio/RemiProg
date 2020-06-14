@@ -41,6 +41,9 @@ public class PlayerTracker : MonoBehaviour
     void Start()
     {
         this.robotPoint = GameManager.instance.ikMotor.pointToReach.gameObject;
+        GameManager.instance.player = this.player;
+        GameManager.instance.newMatrix = this.transposer;
+        GameManager.instance.sensitivity = this.sensitivity;
     }
 
     // Update is called once per frame

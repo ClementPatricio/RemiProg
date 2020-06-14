@@ -12,10 +12,19 @@ public class GameManager : MonoBehaviour
 
     private AK.Wwise.Event logEvent;
 
+    public Transform playerStartPos;
+    public Transform PTRStartPos;
+    public GameObject player;
+    public MatrixTransposer newMatrix;
+    public Vector3 sensitivity;
+    public Vector3 chosenTranslate;
+
     void Awake()
     {
         GameManager.instance = this;
         DontDestroyOnLoad(this.gameObject);
+
+        
     }
 
 
@@ -28,7 +37,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (player != null && playerStartPos != null)
+        {
+            this.chosenTranslate = player.transform.position - playerStartPos.position;
+        }
     }
 
     public void FinishLevel()
