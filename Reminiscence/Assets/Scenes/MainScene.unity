@@ -221,7 +221,7 @@ MonoBehaviour:
   gameStateMachine: {fileID: 126187735}
   ikMotor: {fileID: 0}
   playerStartPos: {fileID: 0}
-  PTRStartPos: {fileID: 0}
+  PTRStartPos: {x: 0, y: 0, z: 0}
   player: {fileID: 0}
   newMatrix: {fileID: 0}
   sensitivity: {x: 0, y: 0, z: 0}
@@ -1565,7 +1565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hotness: 0
   player: {fileID: 1299545305}
-  distanceMax: 2
+  distanceMax: 20
   zone: {fileID: 1362375059}
   gizmo: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
   speedToLock: 2

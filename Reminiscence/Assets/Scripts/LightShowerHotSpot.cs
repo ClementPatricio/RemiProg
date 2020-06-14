@@ -43,7 +43,7 @@ public class LightShowerHotSpot : MonoBehaviour
         {
             return hotPercentage;
         }
-        hotPercentage = (zone.radius - Vector3.Distance(player.position, this.transform.position)) / zone.radius * 100;
+        hotPercentage = (distanceMax - Vector3.Distance(player.position, this.transform.position)) / distanceMax * 100;
 
         return hotPercentage;
     }
