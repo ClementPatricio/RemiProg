@@ -3,39 +3,6 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{BDA9EFFA-1030-4A0C-BA99-8ED9BB97557D}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="Music" ID="{2F866FF5-83F9-44C6-8010-28EAFB66AE3F}">
-					<PropertyList>
-						<Property Name="UseGameParameter" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Switch Name="music_switch" ID="{7F2D0ECF-D2D5-41ED-B6C9-8E560E9EA931}"/>
-					</ChildrenList>
-					<SwitchOnRTPC>
-						<GameParameterRef Name="Music_RTPC" ID="{42F450AE-C104-4824-BEAD-D469B20638BC}"/>
-						<Curve Name="" ID="{176841AC-F1B9-45BC-B53F-FBE888F2AF11}">
-							<PropertyList>
-								<Property Name="Flags" Type="int32" Value="65537"/>
-							</PropertyList>
-							<PointList>
-								<Point>
-									<XPos>0</XPos>
-									<YPos>0</YPos>
-									<Flags>5</Flags>
-								</Point>
-								<Point>
-									<XPos>99</XPos>
-									<YPos>1</YPos>
-									<Flags>0</Flags>
-								</Point>
-								<Point>
-									<XPos>100</XPos>
-									<YPos>1</YPos>
-									<Flags>37</Flags>
-								</Point>
-							</PointList>
-						</Curve>
-					</SwitchOnRTPC>
-				</SwitchGroup>
 				<SwitchGroup Name="Log_Switches" ID="{697F42CB-9B80-46D1-B292-709BADB34E8E}">
 					<ChildrenList>
 						<Switch Name="Log_04" ID="{74D890EC-71A6-4821-9FA7-81699ED505EA}"/>

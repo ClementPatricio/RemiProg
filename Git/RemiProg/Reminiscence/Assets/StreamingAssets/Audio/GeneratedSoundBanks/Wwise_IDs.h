@@ -25,6 +25,22 @@ namespace AK
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace MUSIC_STATES
+        {
+            static const AkUniqueID GROUP = 1690668539U;
+
+            namespace STATE
+            {
+                static const AkUniqueID MUSIC_01 = 1973439780U;
+                static const AkUniqueID MUSIC_02 = 1973439783U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MUSIC_STATES
+
+    } // namespace STATES
+
     namespace SWITCHES
     {
         namespace LOG_SWITCHES
@@ -43,16 +59,6 @@ namespace AK
                 static const AkUniqueID LOG_08 = 3628499096U;
             } // namespace SWITCH
         } // namespace LOG_SWITCHES
-
-        namespace MUSIC
-        {
-            static const AkUniqueID GROUP = 3991942870U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID MUSIC_SWITCH = 2724869341U;
-            } // namespace SWITCH
-        } // namespace MUSIC
 
     } // namespace SWITCHES
 
