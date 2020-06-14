@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     private AK.Wwise.Event logEvent;
 
     public Transform playerStartPos;
-    public Transform PTRStartPos;
+    public Vector3 PTRStartPos;
     public GameObject player;
     public MatrixTransposer newMatrix;
     public Vector3 sensitivity;
@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.StartLevel();
+        //this.StartLevel();
     }
 
     // Update is called once per frame

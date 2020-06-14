@@ -11,7 +11,7 @@ public class Lobby : StateMachineBehaviour
         SceneManager.LoadScene("Lobby", LoadSceneMode.Single);
 
         GameManager.instance.getLog().Post(GameManager.instance.gameObject, (uint)AkCallbackType.AK_EndOfEvent, CallbackFunction);
-        GameManager.instance.ikMotor.pointToReach.transform.position = GameManager.instance.PTRStartPos.position;
+        GameManager.instance.ikMotor.pointToReach.transform.position = GameManager.instance.PTRStartPos;
         GameManager.instance.ikMotor.pointToReach.transform.Translate(new Vector3(GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x,
                                                                                   GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).y * GameManager.instance.sensitivity.y,
                                                                                   GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).z * GameManager.instance.sensitivity.z));

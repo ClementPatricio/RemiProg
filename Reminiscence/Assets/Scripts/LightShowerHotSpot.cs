@@ -86,7 +86,10 @@ public class LightShowerHotSpot : MonoBehaviour
 
 
                 once = false;
+                GameManager.instance.setLog(this.logEvent);
+
                 GameManager.instance.FinishLevel();
+                StopCoroutine("Unlock");
 
             }
             else
