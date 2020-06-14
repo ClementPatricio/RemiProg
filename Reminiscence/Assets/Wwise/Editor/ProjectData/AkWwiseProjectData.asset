@@ -17,14 +17,14 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6b7c818acd547849aa1e9b2915ea9380
     GuidInternal: 
-    m_lastTime: -8586130072996931358
+    m_lastTime: -8586115387701330287
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 445e5fe88f603d4ba4194af78e30377d
     GuidInternal: 
-    m_lastTime: -8586130072997868846
+    m_lastTime: -8586115387701659405
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -40,7 +40,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 7a9540a3e9424d43b8524094d212df6c
     GuidInternal: 
-    m_lastTime: -8586104014677619541
+    m_lastTime: -8586095524716553778
     List:
     - name: All
       guid: bc0840b9d70f70448c10a461d3297653
@@ -80,8 +80,20 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: d7ac243b7a61674ea01f23c9dab8cb23
     GuidInternal: 
-    m_lastTime: -8586097182904788331
+    m_lastTime: -8586095524717950039
     List:
+    - name: Intro_Unlocked
+      guid: d64e08a57190cc43a12eb99bb1cb4ecb
+      id: 993873251
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Intro_Unlocked
+        ObjectType: 3
+      Path: Default Work Unit\Intro_Unlocked
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Log_01
       guid: 94b30674fa692142b20808f77b442828
       id: 3628499089
@@ -232,6 +244,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Intro_Music
+      guid: 2d613f52d198924bbb44b6d721dd92c7
+      id: 1009565364
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Intro_Music
+        ObjectType: 3
+      Path: Default Work Unit\Play_Intro_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Music
       guid: d6a4fa0cbb39a347926080f3dc3f58e5
       id: 2932040671
@@ -249,7 +273,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: bd3819d726460b459a3c6570c388a01b
     GuidInternal: 
-    m_lastTime: -8586128637246672721
+    m_lastTime: -8586115387701928679
     List:
     - name: Music_RTPC
       guid: ae50f44204c12448beadd469b20638bc
@@ -265,14 +289,45 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 76419726060bab4385c970a2911eca06
     GuidInternal: 
-    m_lastTime: -8586130072997100910
-    List: []
+    m_lastTime: -8586095524716444076
+    List:
+    - name: Music_States
+      guid: acf109367cded842aa0ccce4f219df2e
+      id: 1690668539
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_States
+        ObjectType: 9
+      Path: Default Work Unit\Music_States
+      values:
+      - name: Music_01
+        guid: fd8e39a62563fb44af070ec1af86444c
+        id: 1973439780
+        PathAndIcons:
+        - ElementName: Music_01
+          ObjectType: 8
+      - name: Music_02
+        guid: 7be649289b035342baf6021f90b854e2
+        id: 1973439783
+        PathAndIcons:
+        - ElementName: Music_02
+          ObjectType: 8
+      - name: None
+        guid: 95a505922f45ee499411fe0adea57bd0
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: faefa9bd30100c4aba998ed9bb97557d
     GuidInternal: 
-    m_lastTime: -8586104329429783591
+    m_lastTime: -8586095524716384234
     List:
     - name: Log_Switches
       guid: cb427f69809bd146b292709badb34e8e
@@ -335,36 +390,14 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
-    - name: Music
-      guid: f56f862ff983c644801028eafb66ae3f
-      id: 3991942870
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Music
-        ObjectType: 11
-      Path: Default Work Unit\Music
-      values:
-      - name: music_switch
-        guid: cf0e2d7fd5d2ed41b6c98e560e9ea931
-        id: 2724869341
-        PathAndIcons:
-        - ElementName: music_switch
-          ObjectType: 10
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: 42f6e32dcf54ad4eb7b59b516ee573d4
     GuidInternal: 
-    m_lastTime: -8586130072996981226
+    m_lastTime: -8586115387701340249
     List: []
   ExpandedItems:
   - /Reminiscence
-  - /Reminiscence/SoundBanks
-  - /Reminiscence/SoundBanks/Default Work Unit
-  - /Reminiscence/SoundBanks/Default Work Unit/All
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
