@@ -371,6 +371,11 @@
 										<Sound Name="amb_bed_calm" ID="{54638147-E668-4166-9CC6-89D837A9E74F}" ShortID="951627812">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -394,9 +399,22 @@
 														<MediaID ID="719917006"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="amb_calm" ID="{77C665BA-A1D9-4744-BEB1-7B888AF35802}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6063.158"/>
+														<Property Name="LoopBegin" Type="Real64" Value="3.88356164383562"/>
+														<Property Name="LoopEnd" Type="Real64" Value="30.0205479452055"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb_calm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="206306520"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_bed_calm" ID="{4DCFB7D7-5C48-4521-826E-92D42BD97FBB}" Platform="Linked"/>
+												<ActiveSource Name="amb_calm" ID="{77C665BA-A1D9-4744-BEB1-7B888AF35802}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="amb_bed_calm02" ID="{B27E5591-06CF-4240-97CD-82600E5161D2}" ShortID="553350332">
@@ -425,12 +443,32 @@
 														<MediaID ID="706972663"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="amb_mid" ID="{AF339354-3EA9-429A-85D5-B7E17A127A8D}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="7157.895"/>
+														<Property Name="LoopBegin" Type="Real64" Value="6.17123287671233"/>
+														<Property Name="LoopEnd" Type="Real64" Value="28.2945205479452"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb_mid.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="543301205"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_bed_calm02" ID="{2BA2F611-168D-46AF-9C73-F80017BC56F8}" Platform="Linked"/>
+												<ActiveSource Name="amb_mid" ID="{AF339354-3EA9-429A-85D5-B7E17A127A8D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="amb_bed_easy" ID="{0229D007-78C8-4B46-9F59-A86B5F3067BA}" ShortID="786916417">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
@@ -453,17 +491,35 @@
 														<MediaID ID="163215841"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="amb_busy" ID="{5FCBC02A-B604-4940-B04E-030AB1B6F4DC}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="6631.579"/>
+														<Property Name="LoopBegin" Type="Real64" Value="4.56164383561644"/>
+														<Property Name="LoopEnd" Type="Real64" Value="30.1438356164384"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb_busy.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="541318612"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_bed_easy" ID="{515483DA-FB6D-486E-B0A6-47EDB6409C73}" Platform="Linked"/>
+												<ActiveSource Name="amb_busy" ID="{5FCBC02A-B604-4940-B04E-030AB1B6F4DC}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="amb_bed_busy" ID="{D1E7F576-61A1-4A41-93E6-A0AD2E9DA8C0}" ShortID="671787193">
 											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="Lowpass" Type="int16">
 													<ValueList>
-														<Value>30</Value>
+														<Value>35</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -489,9 +545,22 @@
 														<MediaID ID="645070201"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="amb_bed" ID="{CA973C9E-158B-484C-B916-F5596A890A32}">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="7105.263"/>
+														<Property Name="LoopBegin" Type="Real64" Value="4.99315068493151"/>
+														<Property Name="LoopEnd" Type="Real64" Value="30.2671232876712"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>amb_bed.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="342467317"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="amb_bed_busy" ID="{EBD36411-EF3E-48A9-A5D8-3329690D4121}" Platform="Linked"/>
+												<ActiveSource Name="amb_bed" ID="{CA973C9E-158B-484C-B916-F5596A890A32}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2060,6 +2129,86 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="log_unlocked" ID="{9152E1FC-AC6D-46AF-821B-56E0EA9F63C8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="Intro_Rumble" ID="{9EC528EF-EE63-4D29-8DE2-020C8A7EA781}" ShortID="804271243">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{379BA288-98BB-4EB0-9E28-69B12E3A1446}" ShortID="986001848">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Music_RTPC" ID="{42F450AE-C104-4824-BEAD-D469B20638BC}" WorkUnitID="{D71938BD-4626-450B-9A3C-6570C388A01B}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{901F0322-67A7-4106-B446-C0233A7E62C1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>SCurve</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="intro_rumble" ID="{2F415667-9BBD-4FA7-847B-7BC315B244AD}" ShortID="277542466">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="intro_rumble" ID="{BF83B4A5-7932-4FA7-A088-6CF3C5CC4443}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="2070.295"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.92444281365514"/>
+										<Property Name="LoopEnd" Type="Real64" Value="11.6291330025161"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="13.0587190926599"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>intro_rumble.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="46301005"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="intro_rumble" ID="{BF83B4A5-7932-4FA7-A088-6CF3C5CC4443}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
