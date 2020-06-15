@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID LOG_08 = 3628499096U;
         static const AkUniqueID LOGAUDIO_UNLOCKED = 322021059U;
         static const AkUniqueID PLAY_AMB_APARTMENT = 3591343105U;
+        static const AkUniqueID PLAY_END = 2472290785U;
         static const AkUniqueID PLAY_INTRO_MUSIC = 1009565364U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
     } // namespace EVENTS

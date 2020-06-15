@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	322021059	LogAudio_Unlocked			\Default Work Unit\LogAudio_Unlocked	
 	993873251	Intro_Unlocked			\Default Work Unit\Intro_Unlocked	
+	2472290785	Play_End			\Default Work Unit\Play_End	
 	3591343105	Play_Amb_Apartment			\Default Work Unit\Play_Amb_Apartment	
 	3628499089	Log_01			\Default Work Unit\Log_Switch\Log_01	
 	3628499090	Log_02			\Default Work Unit\Log_Switch\Log_02	
@@ -45,6 +46,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	270080934	log04_voice_ui_pt2	D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\log04_voice_ui_pt2_B9A6BE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Log_04\Log04_Seq\log04_voice_ui_pt2		198244
 	273475053	log05_voice_ui_part01	D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\log05_voice_ui_part01_B9A6BE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Log_05\Log05_seq\log05_voice_ui_part01		705125
 	342467317	amb_bed_busy	D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\amb_bed_D3099B53.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Amb_Apartment\random_Amb\amb_bed_busy		225063
+	403337388	end_robot_shutdown	D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\end_robot_shutdown_B9A6BE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outro\end_robot_shutdown		81212
 	414205926	amb_interior_01	D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\amb_interior_01_8394EF43.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Log_08\Log_08_seq\log08_pt1\amb_interior_01		286339
 	431973196	amb_train_pass-by_02	D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\amb_train_pass-by_02_B9A6BE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Amb_Apartment\amb_pass-by\amb_train_pass-by_02		360402
 	492314047	log06_voice_ui_tia_pt2	D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\SFX\log06_voice_ui_tia_pt2_B9A6BE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Log_Switch\Log_06\Log_06_Seq\log06pt2\log06_voice_ui_tia_pt2		115020
