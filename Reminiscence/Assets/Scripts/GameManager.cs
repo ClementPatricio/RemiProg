@@ -12,9 +12,11 @@ public class GameManager : MonoBehaviour
 
     private AK.Wwise.Event logEvent;
 
-    public Vector3 playerStartPos;
+    public Vector3 playerStartPos ;
     public Vector3 PTRStartPos;
     public GameObject player;
+    [HideInInspector]
+    public Vector3 playerPos;
     public MatrixTransposer newMatrix;
     public Vector3 sensitivity;
     public Vector3 chosenTranslate;
@@ -23,8 +25,8 @@ public class GameManager : MonoBehaviour
     {
         GameManager.instance = this;
         DontDestroyOnLoad(this.gameObject);
-        
-        
+        playerStartPos = new Vector3(0, 0, 17);
+
     }
 
 
@@ -40,7 +42,8 @@ public class GameManager : MonoBehaviour
     {
         if (player != null && playerStartPos != null)
         {
-            this.chosenTranslate = player.transform.position - playerStartPos;
+            playerPos = player.transform.position;
+            this.chosenTranslate = playerPos - playerStartPos;
         }
     }
 
@@ -67,9 +70,13 @@ public class GameManager : MonoBehaviour
     public void setNewMatrix(MatrixTransposer mat)
     {
         GameManager.instance.newMatrix = mat;
-
+        Debug.Log(GameManager.instance.newMatrix.parameterMatrix);
+        Debug.Log("player position : " + playerPos);
+        Debug.Log(chosenTranslate);
+        Debug.Log("player sp : " + playerStartPos);
         GameManager.instance.ikMotor.pointToReach.transform.Translate(new Vector3(GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x,
                                                                                   GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).y * GameManager.instance.sensitivity.y,
                                                                                   GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).z * GameManager.instance.sensitivity.z));
+
     }
 }

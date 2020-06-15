@@ -41,8 +41,7 @@ public class PlayerTracker : MonoBehaviour
     void Start()
     {
         this.robotPoint = GameManager.instance.ikMotor.pointToReach.gameObject;
-        Debug.Log("PT (Start): " + this.transposer.parameterMatrix);
-        GameManager.instance.player = this.gameObject;
+        //Debug.Log("PT (Start): " + this.transposer.parameterMatrix);
         GameManager.instance.setNewMatrix(this.transposer);
         GameManager.instance.sensitivity = this.sensitivity;
     }
@@ -50,8 +49,9 @@ public class PlayerTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        GameManager.instance.player = this.gameObject;
         //float chosenY = Mathf.NegativeInfinity;
-        if(player == null)
+        if (player == null)
         {
             firstTime = true;
             oldPos = new Dictionary<Kinect.JointType, Vector3>();

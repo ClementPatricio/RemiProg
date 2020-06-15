@@ -12,10 +12,10 @@ public class Lobby : StateMachineBehaviour
 
         GameManager.instance.getLog().Post(GameManager.instance.gameObject, (uint)AkCallbackType.AK_EndOfEvent, CallbackFunction);
         GameManager.instance.ikMotor.pointToReach.transform.position = GameManager.instance.PTRStartPos;
-        /*Debug.Log(GameManager.instance.newMatrix.parameterMatrix);
 
         Debug.Log(GameManager.instance.chosenTranslate);
-        Debug.Log(new Vector3(GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x,
+
+        /*Debug.Log(new Vector3(GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x,
                               GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).y * GameManager.instance.sensitivity.y,
                               GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).z * GameManager.instance.sensitivity.z));*/
 
