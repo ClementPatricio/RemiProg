@@ -614,6 +614,19 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{DFAE0907-0D72-42BA-9747-50D127EF19C1}" ShortID="697257186">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro_Rumble" ID="{9EC528EF-EE63-4D29-8DE2-020C8A7EA781}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Intro_Music" ID="{523F612D-98D1-4B92-BB44-B6D721DD92C7}">
@@ -635,6 +648,27 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music_RTPC" ID="{42F450AE-C104-4824-BEAD-D469B20638BC}" WorkUnitID="{D71938BD-4626-450B-9A3C-6570C388A01B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3D8F87E0-4F24-4082-8E5A-F5EFCC2DAC6B}" ShortID="53634055">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro_Rumble" ID="{9EC528EF-EE63-4D29-8DE2-020C8A7EA781}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_End" ID="{4EA8A971-C240-4376-B125-F1F5B5251183}">
+					<ChildrenList>
+						<Action Name="" ID="{01FC74AD-9E8D-4A00-84F1-4150524E4B54}" ShortID="913155390">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outro" ID="{094656D1-8250-4511-A25F-930426D15865}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

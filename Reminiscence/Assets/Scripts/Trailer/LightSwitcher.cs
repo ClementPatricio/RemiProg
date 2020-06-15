@@ -52,7 +52,7 @@ public class LightSwitcher : MonoBehaviour
 
             if (_timeStartedCountingDelay > delayToActivate)
             {
-                AkSoundEngine.PostEvent("Intro_unlocked", Camera.main.gameObject);
+                AkSoundEngine.PostEvent("Intro_Unlocked", Camera.main.gameObject);
                 ToSwitchOff.gameObject.SetActive(false);
                 toActivate.gameObject.SetActive(true);
                 gameObject.SetActive(false);
