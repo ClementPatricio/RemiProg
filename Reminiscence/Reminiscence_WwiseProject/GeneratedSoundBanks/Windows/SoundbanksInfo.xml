@@ -1623,6 +1623,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2472290785" Name="Play_End" ObjectPath="\Events\Default Work Unit\Play_End" DurationType="OneShot" DurationMin="5.500000" DurationMax="5.500000">
+					<IncludedMemoryFiles>
+						<File Id="403337388" Language="SFX">
+							<ShortName>end_robot_shutdown.wav</ShortName>
+							<Path>SFX\end_robot_shutdown_B9A6BE81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<SwitchGroups>
 				<SwitchGroup Id="3564331944" Name="Log_Switches" ObjectPath="\Switches\Default Work Unit\Log_Switches">
