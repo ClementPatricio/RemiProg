@@ -1653,7 +1653,7 @@
 					<IncludedMemoryFiles>
 						<File Id="46301005" Language="SFX">
 							<ShortName>intro_rumble.wav</ShortName>
-							<Path>SFX\intro_rumble_C768279F.wem</Path>
+							<Path>SFX\intro_rumble_C823B301.wem</Path>
 						</File>
 						<File Id="469868531" Language="SFX">
 							<ShortName>intro_lead.wav</ShortName>

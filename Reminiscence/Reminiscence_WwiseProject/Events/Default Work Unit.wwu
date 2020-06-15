@@ -650,6 +650,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_End" ID="{4EA8A971-C240-4376-B125-F1F5B5251183}">
+					<ChildrenList>
+						<Action Name="" ID="{01FC74AD-9E8D-4A00-84F1-4150524E4B54}" ShortID="913155390">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outro" ID="{094656D1-8250-4511-A25F-930426D15865}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -2213,6 +2213,47 @@
 						</Sound>
 					</ChildrenList>
 				</BlendContainer>
+				<BlendContainer Name="Outro" ID="{094656D1-8250-4511-A25F-930426D15865}" ShortID="1062412137">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="end_robot_shutdown" ID="{B02064B8-0BD9-42B2-A984-72293AE4F71F}" ShortID="688852067">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DA5CA92A-A2E5-449E-A988-711BD9C9CFCD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E85F5E44-608F-4B3D-A419-4AF78E30377D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="end_robot_shutdown" ID="{9D252E02-D1F3-420E-A6E4-2E58986A48E4}">
+									<Language>SFX</Language>
+									<AudioFile>end_robot_shutdown.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="403337388"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="end_robot_shutdown" ID="{9D252E02-D1F3-420E-A6E4-2E58986A48E4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
