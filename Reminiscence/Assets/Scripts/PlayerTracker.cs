@@ -41,8 +41,9 @@ public class PlayerTracker : MonoBehaviour
     void Start()
     {
         this.robotPoint = GameManager.instance.ikMotor.pointToReach.gameObject;
-        GameManager.instance.player = this.player;
-        GameManager.instance.newMatrix = this.transposer;
+        Debug.Log("PT (Start): " + this.transposer.parameterMatrix);
+        GameManager.instance.player = this.gameObject;
+        GameManager.instance.setNewMatrix(this.transposer);
         GameManager.instance.sensitivity = this.sensitivity;
     }
 

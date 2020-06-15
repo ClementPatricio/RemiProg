@@ -23,7 +23,7 @@ public class LightShowerHotSpot : MonoBehaviour
     {
         hotness = 0;
         duration = durationMax;
-        GameManager.instance.playerStartPos = this.transform;
+        GameManager.instance.playerStartPos = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
     }
 
     // Update is called once per frame

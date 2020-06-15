@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
 
     private AK.Wwise.Event logEvent;
 
-    public Transform playerStartPos;
+    public Vector3 playerStartPos;
     public Vector3 PTRStartPos;
     public GameObject player;
     public MatrixTransposer newMatrix;
@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     {
         GameManager.instance = this;
         DontDestroyOnLoad(this.gameObject);
-
+        
         
     }
 
@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         //this.StartLevel();
+
     }
 
     // Update is called once per frame
@@ -39,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         if (player != null && playerStartPos != null)
         {
-            this.chosenTranslate = player.transform.position - playerStartPos.position;
+            this.chosenTranslate = player.transform.position - playerStartPos;
         }
     }
 
@@ -61,5 +62,14 @@ public class GameManager : MonoBehaviour
     public AK.Wwise.Event getLog()
     {
         return this.logEvent;
+    }
+
+    public void setNewMatrix(MatrixTransposer mat)
+    {
+        GameManager.instance.newMatrix = mat;
+
+        GameManager.instance.ikMotor.pointToReach.transform.Translate(new Vector3(GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x,
+                                                                                  GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).y * GameManager.instance.sensitivity.y,
+                                                                                  GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).z * GameManager.instance.sensitivity.z));
     }
 }
