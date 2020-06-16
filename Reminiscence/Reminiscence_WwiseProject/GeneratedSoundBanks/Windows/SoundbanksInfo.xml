@@ -59,6 +59,10 @@
 							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
 							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
 						</File>
+						<File Id="213700860" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_66EA266E.wem</Path>
+						</File>
 						<File Id="270080934" Language="SFX">
 							<ShortName>log04_voice_ui_pt2.wav</ShortName>
 							<Path>SFX\log04_voice_ui_pt2_B9A6BE81.wem</Path>
@@ -66,6 +70,10 @@
 						<File Id="273475053" Language="SFX">
 							<ShortName>log05_voice_ui_part01.wav</ShortName>
 							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="306918079" Language="SFX">
+							<ShortName>pub_tina_ui_resized.wav</ShortName>
+							<Path>SFX\pub_tina_ui_resized_B9A6BE81.wem</Path>
 						</File>
 						<File Id="342467317" Language="SFX">
 							<ShortName>amb_bed.wav</ShortName>
@@ -89,7 +97,7 @@
 						</File>
 						<File Id="541318612" Language="SFX">
 							<ShortName>amb_busy.wav</ShortName>
-							<Path>SFX\amb_busy_B9A6BE81.wem</Path>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
 						</File>
 						<File Id="543301205" Language="SFX">
 							<ShortName>amb_mid.wav</ShortName>
@@ -139,10 +147,6 @@
 							<ShortName>amb_train_pass-by_01.wav</ShortName>
 							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
 						</File>
-						<File Id="876872288" Language="SFX">
-							<ShortName>amb_interior_01.wav</ShortName>
-							<Path>SFX\amb_interior_01_447C261C.wem</Path>
-						</File>
 						<File Id="943239995" Language="SFX">
 							<ShortName>amb_sfx_04.wav</ShortName>
 							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
@@ -179,7 +183,6 @@
 								<File Id="431973196"/>
 								<File Id="654114073"/>
 								<File Id="97148101"/>
-								<File Id="876872288"/>
 								<File Id="206306520"/>
 								<File Id="543301205"/>
 								<File Id="541318612"/>
@@ -195,10 +198,12 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
 							<Media>
-								<File Id="768964786"/>
 								<File Id="113064323"/>
 								<File Id="975076812"/>
+								<File Id="768964786"/>
+								<File Id="306918079"/>
 								<File Id="1012477340"/>
+								<File Id="213700860"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
@@ -298,6 +303,10 @@
 							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
 							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
 						</File>
+						<File Id="213700860" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_66EA266E.wem</Path>
+						</File>
 						<File Id="270080934" Language="SFX">
 							<ShortName>log04_voice_ui_pt2.wav</ShortName>
 							<Path>SFX\log04_voice_ui_pt2_B9A6BE81.wem</Path>
@@ -305,6 +314,10 @@
 						<File Id="273475053" Language="SFX">
 							<ShortName>log05_voice_ui_part01.wav</ShortName>
 							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="306918079" Language="SFX">
+							<ShortName>pub_tina_ui_resized.wav</ShortName>
+							<Path>SFX\pub_tina_ui_resized_B9A6BE81.wem</Path>
 						</File>
 						<File Id="342467317" Language="SFX">
 							<ShortName>amb_bed.wav</ShortName>
@@ -328,7 +341,7 @@
 						</File>
 						<File Id="541318612" Language="SFX">
 							<ShortName>amb_busy.wav</ShortName>
-							<Path>SFX\amb_busy_B9A6BE81.wem</Path>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
 						</File>
 						<File Id="543301205" Language="SFX">
 							<ShortName>amb_mid.wav</ShortName>
@@ -378,10 +391,6 @@
 							<ShortName>amb_train_pass-by_01.wav</ShortName>
 							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
 						</File>
-						<File Id="876872288" Language="SFX">
-							<ShortName>amb_interior_01.wav</ShortName>
-							<Path>SFX\amb_interior_01_447C261C.wem</Path>
-						</File>
 						<File Id="943239995" Language="SFX">
 							<ShortName>amb_sfx_04.wav</ShortName>
 							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
@@ -418,7 +427,6 @@
 								<File Id="431973196"/>
 								<File Id="654114073"/>
 								<File Id="97148101"/>
-								<File Id="876872288"/>
 								<File Id="206306520"/>
 								<File Id="543301205"/>
 								<File Id="541318612"/>
@@ -434,10 +442,12 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
 							<Media>
-								<File Id="768964786"/>
 								<File Id="113064323"/>
 								<File Id="975076812"/>
+								<File Id="768964786"/>
+								<File Id="306918079"/>
 								<File Id="1012477340"/>
+								<File Id="213700860"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
@@ -537,6 +547,10 @@
 							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
 							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
 						</File>
+						<File Id="213700860" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_66EA266E.wem</Path>
+						</File>
 						<File Id="270080934" Language="SFX">
 							<ShortName>log04_voice_ui_pt2.wav</ShortName>
 							<Path>SFX\log04_voice_ui_pt2_B9A6BE81.wem</Path>
@@ -544,6 +558,10 @@
 						<File Id="273475053" Language="SFX">
 							<ShortName>log05_voice_ui_part01.wav</ShortName>
 							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="306918079" Language="SFX">
+							<ShortName>pub_tina_ui_resized.wav</ShortName>
+							<Path>SFX\pub_tina_ui_resized_B9A6BE81.wem</Path>
 						</File>
 						<File Id="342467317" Language="SFX">
 							<ShortName>amb_bed.wav</ShortName>
@@ -567,7 +585,7 @@
 						</File>
 						<File Id="541318612" Language="SFX">
 							<ShortName>amb_busy.wav</ShortName>
-							<Path>SFX\amb_busy_B9A6BE81.wem</Path>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
 						</File>
 						<File Id="543301205" Language="SFX">
 							<ShortName>amb_mid.wav</ShortName>
@@ -617,10 +635,6 @@
 							<ShortName>amb_train_pass-by_01.wav</ShortName>
 							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
 						</File>
-						<File Id="876872288" Language="SFX">
-							<ShortName>amb_interior_01.wav</ShortName>
-							<Path>SFX\amb_interior_01_447C261C.wem</Path>
-						</File>
 						<File Id="943239995" Language="SFX">
 							<ShortName>amb_sfx_04.wav</ShortName>
 							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
@@ -657,7 +671,6 @@
 								<File Id="431973196"/>
 								<File Id="654114073"/>
 								<File Id="97148101"/>
-								<File Id="876872288"/>
 								<File Id="206306520"/>
 								<File Id="543301205"/>
 								<File Id="541318612"/>
@@ -673,10 +686,12 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
 							<Media>
-								<File Id="768964786"/>
 								<File Id="113064323"/>
 								<File Id="975076812"/>
+								<File Id="768964786"/>
+								<File Id="306918079"/>
 								<File Id="1012477340"/>
+								<File Id="213700860"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
@@ -776,6 +791,10 @@
 							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
 							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
 						</File>
+						<File Id="213700860" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_66EA266E.wem</Path>
+						</File>
 						<File Id="270080934" Language="SFX">
 							<ShortName>log04_voice_ui_pt2.wav</ShortName>
 							<Path>SFX\log04_voice_ui_pt2_B9A6BE81.wem</Path>
@@ -783,6 +802,10 @@
 						<File Id="273475053" Language="SFX">
 							<ShortName>log05_voice_ui_part01.wav</ShortName>
 							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="306918079" Language="SFX">
+							<ShortName>pub_tina_ui_resized.wav</ShortName>
+							<Path>SFX\pub_tina_ui_resized_B9A6BE81.wem</Path>
 						</File>
 						<File Id="342467317" Language="SFX">
 							<ShortName>amb_bed.wav</ShortName>
@@ -806,7 +829,7 @@
 						</File>
 						<File Id="541318612" Language="SFX">
 							<ShortName>amb_busy.wav</ShortName>
-							<Path>SFX\amb_busy_B9A6BE81.wem</Path>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
 						</File>
 						<File Id="543301205" Language="SFX">
 							<ShortName>amb_mid.wav</ShortName>
@@ -856,10 +879,6 @@
 							<ShortName>amb_train_pass-by_01.wav</ShortName>
 							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
 						</File>
-						<File Id="876872288" Language="SFX">
-							<ShortName>amb_interior_01.wav</ShortName>
-							<Path>SFX\amb_interior_01_447C261C.wem</Path>
-						</File>
 						<File Id="943239995" Language="SFX">
 							<ShortName>amb_sfx_04.wav</ShortName>
 							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
@@ -896,7 +915,6 @@
 								<File Id="431973196"/>
 								<File Id="654114073"/>
 								<File Id="97148101"/>
-								<File Id="876872288"/>
 								<File Id="206306520"/>
 								<File Id="543301205"/>
 								<File Id="541318612"/>
@@ -912,10 +930,12 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
 							<Media>
-								<File Id="768964786"/>
 								<File Id="113064323"/>
 								<File Id="975076812"/>
+								<File Id="768964786"/>
+								<File Id="306918079"/>
 								<File Id="1012477340"/>
+								<File Id="213700860"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
@@ -1013,7 +1033,7 @@
 						</File>
 						<File Id="541318612" Language="SFX">
 							<ShortName>amb_busy.wav</ShortName>
-							<Path>SFX\amb_busy_B9A6BE81.wem</Path>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
 						</File>
 						<File Id="543301205" Language="SFX">
 							<ShortName>amb_mid.wav</ShortName>
@@ -1026,10 +1046,6 @@
 						<File Id="860074005" Language="SFX">
 							<ShortName>amb_train_pass-by_01.wav</ShortName>
 							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
-						</File>
-						<File Id="876872288" Language="SFX">
-							<ShortName>amb_interior_01.wav</ShortName>
-							<Path>SFX\amb_interior_01_447C261C.wem</Path>
 						</File>
 						<File Id="943239995" Language="SFX">
 							<ShortName>amb_sfx_04.wav</ShortName>
@@ -1087,6 +1103,10 @@
 							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
 							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
 						</File>
+						<File Id="213700860" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_66EA266E.wem</Path>
+						</File>
 						<File Id="270080934" Language="SFX">
 							<ShortName>log04_voice_ui_pt2.wav</ShortName>
 							<Path>SFX\log04_voice_ui_pt2_B9A6BE81.wem</Path>
@@ -1094,6 +1114,10 @@
 						<File Id="273475053" Language="SFX">
 							<ShortName>log05_voice_ui_part01.wav</ShortName>
 							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="306918079" Language="SFX">
+							<ShortName>pub_tina_ui_resized.wav</ShortName>
+							<Path>SFX\pub_tina_ui_resized_B9A6BE81.wem</Path>
 						</File>
 						<File Id="342467317" Language="SFX">
 							<ShortName>amb_bed.wav</ShortName>
@@ -1117,7 +1141,7 @@
 						</File>
 						<File Id="541318612" Language="SFX">
 							<ShortName>amb_busy.wav</ShortName>
-							<Path>SFX\amb_busy_B9A6BE81.wem</Path>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
 						</File>
 						<File Id="543301205" Language="SFX">
 							<ShortName>amb_mid.wav</ShortName>
@@ -1167,10 +1191,6 @@
 							<ShortName>amb_train_pass-by_01.wav</ShortName>
 							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
 						</File>
-						<File Id="876872288" Language="SFX">
-							<ShortName>amb_interior_01.wav</ShortName>
-							<Path>SFX\amb_interior_01_447C261C.wem</Path>
-						</File>
 						<File Id="943239995" Language="SFX">
 							<ShortName>amb_sfx_04.wav</ShortName>
 							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
@@ -1207,7 +1227,6 @@
 								<File Id="431973196"/>
 								<File Id="654114073"/>
 								<File Id="97148101"/>
-								<File Id="876872288"/>
 								<File Id="206306520"/>
 								<File Id="543301205"/>
 								<File Id="541318612"/>
@@ -1223,10 +1242,12 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
 							<Media>
-								<File Id="768964786"/>
 								<File Id="113064323"/>
 								<File Id="975076812"/>
+								<File Id="768964786"/>
+								<File Id="306918079"/>
 								<File Id="1012477340"/>
+								<File Id="213700860"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
@@ -1326,6 +1347,10 @@
 							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
 							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
 						</File>
+						<File Id="213700860" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_66EA266E.wem</Path>
+						</File>
 						<File Id="270080934" Language="SFX">
 							<ShortName>log04_voice_ui_pt2.wav</ShortName>
 							<Path>SFX\log04_voice_ui_pt2_B9A6BE81.wem</Path>
@@ -1333,6 +1358,10 @@
 						<File Id="273475053" Language="SFX">
 							<ShortName>log05_voice_ui_part01.wav</ShortName>
 							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="306918079" Language="SFX">
+							<ShortName>pub_tina_ui_resized.wav</ShortName>
+							<Path>SFX\pub_tina_ui_resized_B9A6BE81.wem</Path>
 						</File>
 						<File Id="342467317" Language="SFX">
 							<ShortName>amb_bed.wav</ShortName>
@@ -1356,7 +1385,7 @@
 						</File>
 						<File Id="541318612" Language="SFX">
 							<ShortName>amb_busy.wav</ShortName>
-							<Path>SFX\amb_busy_B9A6BE81.wem</Path>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
 						</File>
 						<File Id="543301205" Language="SFX">
 							<ShortName>amb_mid.wav</ShortName>
@@ -1406,10 +1435,6 @@
 							<ShortName>amb_train_pass-by_01.wav</ShortName>
 							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
 						</File>
-						<File Id="876872288" Language="SFX">
-							<ShortName>amb_interior_01.wav</ShortName>
-							<Path>SFX\amb_interior_01_447C261C.wem</Path>
-						</File>
 						<File Id="943239995" Language="SFX">
 							<ShortName>amb_sfx_04.wav</ShortName>
 							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
@@ -1446,7 +1471,6 @@
 								<File Id="431973196"/>
 								<File Id="654114073"/>
 								<File Id="97148101"/>
-								<File Id="876872288"/>
 								<File Id="206306520"/>
 								<File Id="543301205"/>
 								<File Id="541318612"/>
@@ -1462,10 +1486,12 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
 							<Media>
-								<File Id="768964786"/>
 								<File Id="113064323"/>
 								<File Id="975076812"/>
+								<File Id="768964786"/>
+								<File Id="306918079"/>
 								<File Id="1012477340"/>
+								<File Id="213700860"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
@@ -1595,7 +1621,7 @@
 						</File>
 						<File Id="541318612" Language="SFX">
 							<ShortName>amb_busy.wav</ShortName>
-							<Path>SFX\amb_busy_B9A6BE81.wem</Path>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
 						</File>
 						<File Id="543301205" Language="SFX">
 							<ShortName>amb_mid.wav</ShortName>
@@ -1608,10 +1634,6 @@
 						<File Id="860074005" Language="SFX">
 							<ShortName>amb_train_pass-by_01.wav</ShortName>
 							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
-						</File>
-						<File Id="876872288" Language="SFX">
-							<ShortName>amb_interior_01.wav</ShortName>
-							<Path>SFX\amb_interior_01_447C261C.wem</Path>
 						</File>
 						<File Id="943239995" Language="SFX">
 							<ShortName>amb_sfx_04.wav</ShortName>

@@ -44,7 +44,7 @@
 						<CurrentStateRef Name="Music_01" ID="{A6398EFD-6325-44FB-AF07-0EC1AF86444C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Log_01" ID="{0E439FF5-E9D3-41DB-8715-600266EA38AD}"/>
+						<CurrentSwitchRef Name="Log_02" ID="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
