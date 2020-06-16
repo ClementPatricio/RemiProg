@@ -312,6 +312,7 @@ MonoBehaviour:
   playerStartPos: {x: 0, y: 0, z: 0}
   PTRStartPos: {x: 0, y: 0, z: 0}
   player: {fileID: 0}
+  playerPos: {x: 0, y: 0, z: 0}
   newMatrix: {fileID: 0}
   sensitivity: {x: 0, y: 0, z: 0}
   chosenTranslate: {x: 0, y: 0, z: 0}
@@ -513,7 +514,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh48298
+  m_Name: pb_Mesh29020
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -783,7 +784,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh48410
+  m_Name: pb_Mesh29132
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4339,7 +4340,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022769839}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4387,7 +4388,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022769839}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18, y: 0.41, z: -0.26}
+  m_LocalPosition: {x: 2.5, y: -0, z: -0.26}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
