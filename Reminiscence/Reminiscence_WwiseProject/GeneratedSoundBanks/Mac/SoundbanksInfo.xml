@@ -993,12 +993,8 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3628499093" Name="Log_05" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_05" DurationType="Infinite">
+				<Event Id="3628499093" Name="Log_05" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_05" DurationType="OneShot" DurationMin="86.800003" DurationMax="86.800003">
 					<IncludedMemoryFiles>
-						<File Id="97148101" Language="SFX">
-							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
-							<Path>SFX\amb_vehicle_pass-by_02_B9A6BE81.wem</Path>
-						</File>
 						<File Id="113064323" Language="SFX">
 							<ShortName>log_ui.wav</ShortName>
 							<Path>SFX\log_ui_CBC8C607.wem</Path>
@@ -1007,57 +1003,13 @@
 							<ShortName>log05_voice_ui_part02.wav</ShortName>
 							<Path>SFX\log05_voice_ui_part02_B9A6BE81.wem</Path>
 						</File>
-						<File Id="206306520" Language="SFX">
-							<ShortName>amb_calm.wav</ShortName>
-							<Path>SFX\amb_calm_DE0F3736.wem</Path>
-						</File>
-						<File Id="207183486" Language="SFX">
-							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
-							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
-						</File>
 						<File Id="273475053" Language="SFX">
 							<ShortName>log05_voice_ui_part01.wav</ShortName>
 							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
 						</File>
-						<File Id="342467317" Language="SFX">
-							<ShortName>amb_bed.wav</ShortName>
-							<Path>SFX\amb_bed_D3099B53.wem</Path>
-						</File>
-						<File Id="431973196" Language="SFX">
-							<ShortName>amb_train_pass-by_02.wav</ShortName>
-							<Path>SFX\amb_train_pass-by_02_B9A6BE81.wem</Path>
-						</File>
-						<File Id="537478078" Language="SFX">
-							<ShortName>amb_sfx_02.wav</ShortName>
-							<Path>SFX\amb_sfx_02_B9A6BE81.wem</Path>
-						</File>
-						<File Id="541318612" Language="SFX">
-							<ShortName>amb_busy.wav</ShortName>
-							<Path>SFX\amb_busy_3500BD9D.wem</Path>
-						</File>
-						<File Id="543301205" Language="SFX">
-							<ShortName>amb_mid.wav</ShortName>
-							<Path>SFX\amb_mid_D4419924.wem</Path>
-						</File>
-						<File Id="654114073" Language="SFX">
-							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
-							<Path>SFX\amb_vehicle_pass-by_01_B9A6BE81.wem</Path>
-						</File>
-						<File Id="860074005" Language="SFX">
-							<ShortName>amb_train_pass-by_01.wav</ShortName>
-							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
-						</File>
-						<File Id="943239995" Language="SFX">
-							<ShortName>amb_sfx_04.wav</ShortName>
-							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
-						</File>
 						<File Id="975076812" Language="SFX">
 							<ShortName>log_ui_out.wav</ShortName>
 							<Path>SFX\log_ui_out_E55E1CC8.wem</Path>
-						</File>
-						<File Id="984585590" Language="SFX">
-							<ShortName>amb_vehicle_pass-by_03.wav</ShortName>
-							<Path>SFX\amb_vehicle_pass-by_03_B9A6BE81.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -1701,6 +1653,14 @@
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="10166865" Language="SFX">
+							<ShortName>bass_02.wav</ShortName>
+							<Path>SFX\bass_02_C58ED28F.wem</Path>
+						</File>
+						<File Id="95706620" Language="SFX">
+							<ShortName>bass_03.wav</ShortName>
+							<Path>SFX\bass_03_C58ED28F.wem</Path>
+						</File>
 						<File Id="131616581" Language="SFX">
 							<ShortName>chord03.wav</ShortName>
 							<Path>SFX\chord03_C58ED28F.wem</Path>
@@ -1713,6 +1673,10 @@
 							<ShortName>lvl02_bassB_100bpm_4_4.wav</ShortName>
 							<Path>SFX\lvl02_bassB_100bpm_4_4_C58ED28F.wem</Path>
 						</File>
+						<File Id="199200077" Language="SFX">
+							<ShortName>pad.wav</ShortName>
+							<Path>SFX\pad_C58ED28F.wem</Path>
+						</File>
 						<File Id="251003148" Language="SFX">
 							<ShortName>pluck01.wav</ShortName>
 							<Path>SFX\pluck01_C58ED28F.wem</Path>
@@ -1724,6 +1688,18 @@
 						<File Id="323167565" Language="SFX">
 							<ShortName>chord04.wav</ShortName>
 							<Path>SFX\chord04_C58ED28F.wem</Path>
+						</File>
+						<File Id="362725487" Language="SFX">
+							<ShortName>perc.wav</ShortName>
+							<Path>SFX\perc_C58ED28F.wem</Path>
+						</File>
+						<File Id="392361441" Language="SFX">
+							<ShortName>hihat.wav</ShortName>
+							<Path>SFX\hihat_C58ED28F.wem</Path>
+						</File>
+						<File Id="429060775" Language="SFX">
+							<ShortName>bass_01.wav</ShortName>
+							<Path>SFX\bass_01_C58ED28F.wem</Path>
 						</File>
 						<File Id="435809258" Language="SFX">
 							<ShortName>chord02.wav</ShortName>
@@ -1766,11 +1742,48 @@
 							<Path>SFX\lvl02_lead_100bpm_4_4_C58ED28F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2849E67B-039B-4253-BAF6-021F90B854E2}">
+							<Media>
+								<File Id="992744126"/>
+								<File Id="578724832"/>
+								<File Id="811895481"/>
+								<File Id="945756960"/>
+								<File Id="930696805"/>
+								<File Id="834943057"/>
+								<File Id="161718824"/>
+								<File Id="188907501"/>
+								<File Id="633451067"/>
+								<File Id="1053180823"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2A9AE8B6-4424-4C42-9845-2EF46462FA05}">
+							<Media>
+								<File Id="95706620"/>
+								<File Id="429060775"/>
+								<File Id="10166865"/>
+								<File Id="392361441"/>
+								<File Id="199200077"/>
+								<File Id="199200077"/>
+								<File Id="362725487"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="267517120" Name="Music_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Music_RTPC"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1690668539" Name="Music_States" ObjectPath="\States\Default Work Unit\Music_States">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_States\None"/>
+						<State Id="1973439780" Name="Music_01" ObjectPath="\States\Default Work Unit\Music_States\Music_01"/>
+						<State Id="1973439783" Name="Music_02" ObjectPath="\States\Default Work Unit\Music_States\Music_02"/>
+						<State Id="1973439782" Name="Music_03" ObjectPath="\States\Default Work Unit\Music_States\Music_03"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -8,6 +8,7 @@
 						<State Name="None" ID="{9205A595-452F-49EE-9411-FE0ADEA57BD0}"/>
 						<State Name="Music_01" ID="{A6398EFD-6325-44FB-AF07-0EC1AF86444C}"/>
 						<State Name="Music_02" ID="{2849E67B-039B-4253-BAF6-021F90B854E2}"/>
+						<State Name="Music_03" ID="{2A9AE8B6-4424-4C42-9845-2EF46462FA05}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
