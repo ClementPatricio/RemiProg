@@ -628,16 +628,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{34E76E00-C5BD-4FBB-A003-DFFCF4CDE2ED}" ShortID="139168393">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="38"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_RTPC" ID="{42F450AE-C104-4824-BEAD-D469B20638BC}" WorkUnitID="{D71938BD-4626-450B-9A3C-6570C388A01B}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{3D8F87E0-4F24-4082-8E5A-F5EFCC2DAC6B}" ShortID="53634055">
 							<PropertyList>
 								<Property Name="FadeTime" Type="Real64" Value="3"/>

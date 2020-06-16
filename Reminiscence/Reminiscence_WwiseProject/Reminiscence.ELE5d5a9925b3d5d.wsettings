@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{4A650FCB-476A-4123-9D60-3FFA19449BA9}">
 			<PropertyList>
+				<Property Name="Event Action List\{0CFAA4D6-39BB-47A3-9260-80F3DC3F58E5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{179FD5D3-668E-4259-A655-CE0A633DAAE1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{37B0957D-84DB-4BB0-9148-917A1BB3D864}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4C7F1BE3-AFF7-4C0C-94B9-9DCA4D8E4534}\x64_Expand States" Type="string" Value=""/>
@@ -31,7 +32,7 @@
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="4nHt+QLra0CJa66ybePy+9BiIvtqi8lPncb73UxFCkQ="/>

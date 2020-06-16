@@ -41,10 +41,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Music_01" ID="{A6398EFD-6325-44FB-AF07-0EC1AF86444C}"/>
+						<CurrentStateRef Name="None" ID="{9205A595-452F-49EE-9411-FE0ADEA57BD0}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Log_02" ID="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}"/>
+						<CurrentSwitchRef Name="Log_01" ID="{0E439FF5-E9D3-41DB-8715-600266EA38AD}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
