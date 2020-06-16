@@ -223,6 +223,7 @@ MonoBehaviour:
   playerStartPos: {x: 0, y: 0, z: 0}
   PTRStartPos: {x: 0, y: 0, z: 17}
   player: {fileID: 0}
+  playerPos: {x: 0, y: 0, z: 0}
   newMatrix: {fileID: 0}
   sensitivity: {x: 0, y: 0, z: 0}
   chosenTranslate: {x: 0, y: 0, z: 0}
@@ -860,7 +861,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490799798}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8754c4ba7097c384296ca4db7c70219d, type: 3}
   m_Name: 
@@ -873,7 +874,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 36d71c3985bc2d34eaf62344b0793660,
+    WwiseObjectReference: {fileID: 11400000, guid: 559bd039b873bab44b8de5f6e9aa7658,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -2437,7 +2438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763822413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.191, y: 0.397, z: 0.052}
+  m_LocalPosition: {x: -3.14, y: 0.397, z: 0.052}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2936,6 +2937,32 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1299545305}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[0].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[1].inSlope
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[1].outSlope
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: logEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1013c637db373144fb7080ccd2410641,
+        type: 2}
     - target: {fileID: 3520181852086187668, guid: 4d0e8034cd86f7b419f0c0723834ab15,
         type: 3}
       propertyPath: m_LocalPosition.x
