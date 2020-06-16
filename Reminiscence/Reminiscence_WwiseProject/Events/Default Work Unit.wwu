@@ -614,6 +614,19 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{222BD23B-8205-43E2-9EF4-096185A00039}" ShortID="663548807">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro_Rumble" ID="{9EC528EF-EE63-4D29-8DE2-020C8A7EA781}" WorkUnitID="{8C1A7346-015E-42F3-BB46-AFE03D021960}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Intro_Music" ID="{523F612D-98D1-4B92-BB44-B6D721DD92C7}">
