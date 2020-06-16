@@ -69,10 +69,9 @@ public class GameManager : MonoBehaviour
     public void setNewMatrix(MatrixTransposer mat)
     {
         GameManager.instance.newMatrix = mat;
-        Debug.Log(GameManager.instance.newMatrix.parameterMatrix);
-        Debug.Log("player position : " + playerPos);
-        Debug.Log(chosenTranslate);
-        Debug.Log("player sp : " + playerStartPos);
+        //Debug.Log(GameManager.instance.newMatrix.parameterMatrix);
+        //Debug.Log(chosenTranslate);
+        Debug.Log("sensi " + GameManager.instance.sensitivity);
         GameManager.instance.ikMotor.pointToReach.transform.Translate(new Vector3(GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x,
                                                                                   GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).y * GameManager.instance.sensitivity.y,
                                                                                   GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).z * GameManager.instance.sensitivity.z));
