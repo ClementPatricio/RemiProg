@@ -84,7 +84,7 @@ public class LightShowerHotSpot : MonoBehaviour
             {
                 //GameManager.instance.setLog(this.logEvent);
 
-
+                GameManager.instance.playerStartPos = new Vector3(player.position.x, player.position.y, player.position.z);
                 once = false;
                 GameManager.instance.setLog(this.logEvent);
 
