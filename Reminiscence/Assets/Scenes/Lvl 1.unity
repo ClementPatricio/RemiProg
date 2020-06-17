@@ -876,15 +876,15 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 2.9431267
-      outSlope: 2.9431267
+      inSlope: 2.050463
+      outSlope: 2.050463
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.18630275
-      value: 0.5483126
+      time: 0.22380123
+      value: 0.4588961
       inSlope: 0.5755848
       outSlope: 0.5755848
       tangentMode: 0
@@ -894,8 +894,8 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0.55510503
-      outSlope: 0.55510503
+      inSlope: 0.6971203
+      outSlope: 0.6971203
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -914,7 +914,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.78
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1763822416
 Transform:
@@ -924,7 +924,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763822413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.96, y: 1.33, z: -0.26}
+  m_LocalPosition: {x: -0.75, y: 1.23, z: -0.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

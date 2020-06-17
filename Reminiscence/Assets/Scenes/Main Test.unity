@@ -514,7 +514,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh72040
+  m_Name: pb_Mesh54296
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -677,7 +677,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh72152
+  m_Name: pb_Mesh54380
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1887,23 +1887,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
         type: 3}
+      propertyPath: musicCurve.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1299545305}
     - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
         type: 3}
       propertyPath: musicCurve.m_Curve.Array.data[1].inSlope
-      value: 1.0117648
+      value: 1.0049584
       objectReference: {fileID: 0}
     - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
         type: 3}
       propertyPath: musicCurve.m_Curve.Array.data[1].outSlope
-      value: 1.0117648
+      value: 1.0049584
       objectReference: {fileID: 0}
     - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
         type: 3}
       propertyPath: musicCurve.m_Curve.Array.data[1].inWeight
-      value: 0.100000024
+      value: 0.33333334
       objectReference: {fileID: 0}
     - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
         type: 3}
@@ -1926,6 +1931,61 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1013c637db373144fb7080ccd2410641,
         type: 2}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[1].time
+      value: 0.9312757
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[1].value
+      value: 0.77006453
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[2].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[2].inSlope
+      value: 1.0117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[2].outSlope
+      value: 1.0117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: musicCurve.m_Curve.Array.data[2].inWeight
+      value: 0.100000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187666, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: durationMax
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187667, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520181852086187667, guid: 4d0e8034cd86f7b419f0c0723834ab15,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3520181852086187668, guid: 4d0e8034cd86f7b419f0c0723834ab15,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2524,7 +2584,7 @@ GameObject:
   - component: {fileID: 1404324224}
   - component: {fileID: 1404324223}
   m_Layer: 0
-  m_Name: 1_0034fb65-3b58-468b-8b92-135e19652238_large
+  m_Name: Fond vert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

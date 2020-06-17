@@ -770,7 +770,7 @@ MonoBehaviour:
   hotness: 0
   player: {fileID: 0}
   zone: {fileID: 1763822415}
-  unlockAtHotness: 50
+  unlockAtHotness: 45
   ikMotor: {fileID: 0}
   duration: 3
   logEvent:
@@ -784,15 +784,15 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 2.4137404
-      outSlope: 2.4137404
+      inSlope: 1.7215687
+      outSlope: 1.7215687
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.22295192
-      value: 0.53814805
+      time: 0.27295497
+      value: 0.46991074
       inSlope: 0.752272
       outSlope: 0.752272
       tangentMode: 0
@@ -802,11 +802,11 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0.59436727
-      outSlope: 0.59436727
-      tangentMode: 34
+      inSlope: 0.596975
+      outSlope: 0.596975
+      tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
+      inWeight: 0.20058359
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -822,7 +822,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.79
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1763822416
 Transform:
