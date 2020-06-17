@@ -96,4 +96,9 @@ public class PlayerTracker : MonoBehaviour
             this.robotPoint.transform.Translate(new Vector3(transposer.TranslatePosition(chosenTranslate).x * sensitivity.x, transposer.TranslatePosition(chosenTranslate).y * sensitivity.y, transposer.TranslatePosition(chosenTranslate).z * sensitivity.z));
         }
     }
+
+    void setChosenTranslate(Vector3 tr)
+    {
+
+    }
 }
