@@ -39,6 +39,7 @@ namespace AK
             {
                 static const AkUniqueID MUSIC_01 = 1973439780U;
                 static const AkUniqueID MUSIC_02 = 1973439783U;
+                static const AkUniqueID MUSIC_03 = 1973439782U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace MUSIC_STATES

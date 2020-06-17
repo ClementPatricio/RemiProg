@@ -4,6 +4,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	748895195	None	Music_States			
 	1973439780	Music_01	Music_States			
+	1973439782	Music_03	Music_States			
 	1973439783	Music_02	Music_States			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes

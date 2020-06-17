@@ -48,10 +48,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{085CCD71-54D0-4542-B9B9-6995D97A02F2}" ShortID="320181106">
+						<Action Name="" ID="{978AC82C-D0CF-463A-BD93-A26DAF3A166F}" ShortID="450329155">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Music_02" ID="{97847497-7520-4664-A031-D2BB6398BF03}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
+									<ObjectRef Name="Music_Switch_General" ID="{24CF6F72-D9DE-457B-9BF3-AB527CAB9D05}" WorkUnitID="{AB85AA9B-46B1-4DF0-BE9B-598D79C78994}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -360,6 +363,11 @@
 								<Action Name="" ID="{2627C94D-6E60-4879-B10C-461BF136A759}" ShortID="159953173">
 									<PropertyList>
 										<Property Name="Delay" Type="Real64" Value="52.7"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -512,13 +520,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{8C269A8D-FF4C-4F3F-972D-E1810EB381ED}" ShortID="662938853">
+								<Action Name="" ID="{37347B6A-C0B8-4648-8D03-EE864CA52F24}" ShortID="246909106">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="22"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_02" ID="{2849E67B-039B-4253-BAF6-021F90B854E2}" WorkUnitID="{26974176-0B06-43AB-85C9-70A2911ECA06}"/>
+											<ObjectRef Name="Music_03" ID="{2A9AE8B6-4424-4C42-9845-2EF46462FA05}" WorkUnitID="{26974176-0B06-43AB-85C9-70A2911ECA06}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -561,13 +569,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{5E21B5DD-70CE-4EB0-9462-9564981B7E20}" ShortID="339036639">
+								<Action Name="" ID="{FE7CDFD7-CD5B-4C5F-BEA9-146DF7AEA1A6}" ShortID="108037126">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="22"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_02" ID="{2849E67B-039B-4253-BAF6-021F90B854E2}" WorkUnitID="{26974176-0B06-43AB-85C9-70A2911ECA06}"/>
+											<ObjectRef Name="Music_03" ID="{2A9AE8B6-4424-4C42-9845-2EF46462FA05}" WorkUnitID="{26974176-0B06-43AB-85C9-70A2911ECA06}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
