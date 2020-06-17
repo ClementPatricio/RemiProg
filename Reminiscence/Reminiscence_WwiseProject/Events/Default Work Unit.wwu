@@ -446,7 +446,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_02" ID="{2849E67B-039B-4253-BAF6-021F90B854E2}" WorkUnitID="{26974176-0B06-43AB-85C9-70A2911ECA06}"/>
+											<ObjectRef Name="Music_03" ID="{2A9AE8B6-4424-4C42-9845-2EF46462FA05}" WorkUnitID="{26974176-0B06-43AB-85C9-70A2911ECA06}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

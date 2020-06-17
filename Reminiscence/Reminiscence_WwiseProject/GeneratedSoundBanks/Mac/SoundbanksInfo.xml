@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Admin\Desktop\ENJMIN\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Admin\Desktop\ENJMIN\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Admin\Desktop\ENJMIN\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Admin\Desktop\ENJMIN\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
