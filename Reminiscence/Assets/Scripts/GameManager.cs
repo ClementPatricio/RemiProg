@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -44,6 +43,10 @@ public class GameManager : MonoBehaviour
             playerPos = player.transform.position;
             this.chosenTranslate = playerPos - playerStartPos;
         }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            this.FinishLevel();
+        }
     }
 
     public void FinishLevel()
@@ -69,15 +72,9 @@ public class GameManager : MonoBehaviour
     public void setNewMatrix(MatrixTransposer mat)
     {
         GameManager.instance.newMatrix = mat;
-        //Debug.Log(GameManager.instance.newMatrix.parameterMatrix);
-        Debug.Log("sensi " + GameManager.instance.sensitivity);
         GameManager.instance.ikMotor.pointToReach.transform.Translate(new Vector3(GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x,
                                                                                   GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).y * GameManager.instance.sensitivity.y,
                                                                                   GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).z * GameManager.instance.sensitivity.z));
-        Debug.Log("transposer on GM : " + this.newMatrix.ToString() +" with : " +this.newMatrix.parameterMatrix);
-        Debug.Log("second jump player tr = " + chosenTranslate);
-        Debug.Log("second jump.x = " + (GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x));
-        Debug.Log("second jump.y = " + (GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).y * GameManager.instance.sensitivity.y));
-        Debug.Log("second jump.z = " + (GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).z * GameManager.instance.sensitivity.z));
+        
     }
 }
