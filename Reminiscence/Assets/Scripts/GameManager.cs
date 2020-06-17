@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     public MatrixTransposer newMatrix;
     public Vector3 sensitivity;
     public Vector3 chosenTranslate;
+    [HideInInspector]
+    public Vector3 playerLastKnownPos;
 
     void Awake()
     {

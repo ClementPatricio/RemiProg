@@ -28,6 +28,8 @@ public class PlayerTracker : MonoBehaviour
 
     public Vector3 sensitivity;
 
+    private bool lost = false;
+
     #region Singleton
     public static PlayerTracker instance;
 
@@ -57,8 +59,10 @@ public class PlayerTracker : MonoBehaviour
             oldPos = new Dictionary<Kinect.JointType, Vector3>();
             newPos = new Dictionary<Kinect.JointType, Vector3>();
             joints = new Dictionary<Kinect.JointType, GameObject>();
+            lost = true;
             return;
         }
+        
 
         /*
         chosenTranslate.x = newPos[Kinect.JointType.SpineMid].x - this.transform.position.x;
@@ -76,17 +80,35 @@ public class PlayerTracker : MonoBehaviour
 
         chosenTranslate.y = chosenY - this.transform.position.y;
         */
+        if (!lost) { 
+            distBetwweenHands = (newPos[Kinect.JointType.HandLeft] - newPos[Kinect.JointType.HandRight]).magnitude;
 
-        distBetwweenHands = (newPos[Kinect.JointType.HandLeft] - newPos[Kinect.JointType.HandRight]).magnitude;
+            posBetweenHands = Vector3.Lerp(newPos[Kinect.JointType.HandLeft], newPos[Kinect.JointType.HandRight], 0.5f);
+            chosenPos = Vector3.Lerp(newPos[Kinect.JointType.SpineMid], posBetweenHands, 0.5f);
 
-        posBetweenHands = Vector3.Lerp(newPos[Kinect.JointType.HandLeft], newPos[Kinect.JointType.HandRight], 0.5f);
-        chosenPos = Vector3.Lerp(newPos[Kinect.JointType.SpineMid], posBetweenHands, 0.5f);
+            //Debug.Log("Distance Between Hands : " + distBetwweenHands);
 
-        //Debug.Log("Distance Between Hands : " + distBetwweenHands);
+            chosenTranslate = chosenPos - this.transform.position;
 
-        chosenTranslate = chosenPos - this.transform.position;
+            this.transform.Translate(chosenTranslate);
+            GameManager.instance.playerLastKnownPos = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
+        }
+        else
+        {
+            distBetwweenHands = (newPos[Kinect.JointType.HandLeft] - newPos[Kinect.JointType.HandRight]).magnitude;
 
-        this.transform.Translate(chosenTranslate);
+            posBetweenHands = Vector3.Lerp(newPos[Kinect.JointType.HandLeft], newPos[Kinect.JointType.HandRight], 0.5f);
+            chosenPos = Vector3.Lerp(newPos[Kinect.JointType.SpineMid], posBetweenHands, 0.5f);
+
+            //Debug.Log("Distance Between Hands : " + distBetwweenHands);
+
+            chosenTranslate = chosenPos - GameManager.instance.playerLastKnownPos;
+
+            this.transform.Translate(chosenTranslate);
+        }
+        Debug.Log("chosen pos = " +chosenPos);
+        Debug.Log("last known pos = " + GameManager.instance.playerLastKnownPos);
+        Debug.Log("chosen tr = " + chosenTranslate);
         if (firstTime)
         {
             firstTime = false;
@@ -95,10 +117,11 @@ public class PlayerTracker : MonoBehaviour
         {
             this.robotPoint.transform.Translate(new Vector3(transposer.TranslatePosition(chosenTranslate).x * sensitivity.x, transposer.TranslatePosition(chosenTranslate).y * sensitivity.y, transposer.TranslatePosition(chosenTranslate).z * sensitivity.z));
         }
+        lost = false;
     }
 
     void setChosenTranslate(Vector3 tr)
     {
-
+        this.chosenTranslate = tr;
     }
 }
