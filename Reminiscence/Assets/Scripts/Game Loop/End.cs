@@ -12,7 +12,7 @@ public class End : StateMachineBehaviour
     {
         SceneManager.LoadScene("End", LoadSceneMode.Single);
         GameManager.instance.ikMotor.pointToReach.transform.position = GameManager.instance.PTRStartPos;
-        endSound.Post(null);
+        endSound.Post(GameManager.instance.gameObject);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

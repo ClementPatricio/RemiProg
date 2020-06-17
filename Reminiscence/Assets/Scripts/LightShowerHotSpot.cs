@@ -87,7 +87,7 @@ public class LightShowerHotSpot : MonoBehaviour
                 GameManager.instance.playerStartPos = new Vector3(player.position.x, player.position.y, player.position.z);
                 once = false;
                 GameManager.instance.setLog(this.logEvent);
-                this.logEvent.Post(null);
+                this.logEvent.Post(GameManager.instance.gameObject);
 
                 GameManager.instance.FinishLevel();
                 StopCoroutine("Unlock");
