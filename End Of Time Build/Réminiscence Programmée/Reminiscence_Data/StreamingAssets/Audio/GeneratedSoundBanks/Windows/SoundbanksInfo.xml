@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Admin\Desktop\ENJMIN\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Admin\Desktop\ENJMIN\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Admin\Desktop\ENJMIN\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Admin\Desktop\ENJMIN\Projet_M1\Reminiscence\Git\RemiProg\Reminiscence\Reminiscence_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\All\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="993873251" Name="Intro_Unlocked" ObjectPath="\Events\Default Work Unit\Intro_Unlocked" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3628499089" Name="Log_01" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_01" DurationType="Mixed" DurationMin="40.401241" DurationMax="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="34260169" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_C619F102.wem</Path>
+						</File>
+						<File Id="55010264" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_F38EC64A.wem</Path>
+						</File>
+						<File Id="90801950" Language="SFX">
+							<ShortName>log07_voice_ui_pt2.wav</ShortName>
+							<Path>SFX\log07_voice_ui_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="97148101" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="113064323" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_CBC8C607.wem</Path>
+						</File>
+						<File Id="128338408" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_076A3075.wem</Path>
+						</File>
+						<File Id="150931299" Language="SFX">
+							<ShortName>log05_voice_ui_part02.wav</ShortName>
+							<Path>SFX\log05_voice_ui_part02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="161771297" Language="SFX">
+							<ShortName>log07_voice_ui_pt1.wav</ShortName>
+							<Path>SFX\log07_voice_ui_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="206306520" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_DE0F3736.wem</Path>
+						</File>
+						<File Id="207183486" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="213700860" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_66EA266E.wem</Path>
+						</File>
+						<File Id="270080934" Language="SFX">
+							<ShortName>log04_voice_ui_pt2.wav</ShortName>
+							<Path>SFX\log04_voice_ui_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="273475053" Language="SFX">
+							<ShortName>log05_voice_ui_part01.wav</ShortName>
+							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="306918079" Language="SFX">
+							<ShortName>pub_tina_ui_resized.wav</ShortName>
+							<Path>SFX\pub_tina_ui_resized_B9A6BE81.wem</Path>
+						</File>
+						<File Id="342467317" Language="SFX">
+							<ShortName>amb_bed.wav</ShortName>
+							<Path>SFX\amb_bed_D3099B53.wem</Path>
+						</File>
+						<File Id="414205926" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_8394EF43.wem</Path>
+						</File>
+						<File Id="431973196" Language="SFX">
+							<ShortName>amb_train_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="492314047" Language="SFX">
+							<ShortName>log06_voice_ui_tia_pt2.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="537478078" Language="SFX">
+							<ShortName>amb_sfx_02.wav</ShortName>
+							<Path>SFX\amb_sfx_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="541318612" Language="SFX">
+							<ShortName>amb_busy.wav</ShortName>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
+						</File>
+						<File Id="543301205" Language="SFX">
+							<ShortName>amb_mid.wav</ShortName>
+							<Path>SFX\amb_mid_D4419924.wem</Path>
+						</File>
+						<File Id="621704609" Language="SFX">
+							<ShortName>log01_voice_ui.wav</ShortName>
+							<Path>SFX\log01_voice_ui_68193A7A.wem</Path>
+						</File>
+						<File Id="641694160" Language="SFX">
+							<ShortName>log08_voice_glitch_pt3.wav</ShortName>
+							<Path>SFX\log08_voice_glitch_pt3_B9A6BE81.wem</Path>
+						</File>
+						<File Id="643001328" Language="SFX">
+							<ShortName>log08_voice_glitch_pt4.wav</ShortName>
+							<Path>SFX\log08_voice_glitch_pt4_B9A6BE81.wem</Path>
+						</File>
+						<File Id="654114073" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="665573381" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_2FFACA6F.wem</Path>
+						</File>
+						<File Id="666824312" Language="SFX">
+							<ShortName>log04_voice_ui_pt1.wav</ShortName>
+							<Path>SFX\log04_voice_ui_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="715497350" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_402DF779.wem</Path>
+						</File>
+						<File Id="768964786" Language="SFX">
+							<ShortName>log02_voice_ui_bricolage.wav</ShortName>
+							<Path>SFX\log02_voice_ui_bricolage_6700093E.wem</Path>
+						</File>
+						<File Id="770530108" Language="SFX">
+							<ShortName>log08_voice_pt1.wav</ShortName>
+							<Path>SFX\log08_voice_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="810954624" Language="SFX">
+							<ShortName>log03_voice_ui_tia.wav</ShortName>
+							<Path>SFX\log03_voice_ui_tia_B9A6BE81.wem</Path>
+						</File>
+						<File Id="860074005" Language="SFX">
+							<ShortName>amb_train_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="943239995" Language="SFX">
+							<ShortName>amb_sfx_04.wav</ShortName>
+							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="973615521" Language="SFX">
+							<ShortName>log08_voice_pt2.wav</ShortName>
+							<Path>SFX\log08_voice_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="975076812" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_E55E1CC8.wem</Path>
+						</File>
+						<File Id="984585590" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_03.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_03_B9A6BE81.wem</Path>
+						</File>
+						<File Id="1012477340" Language="SFX">
+							<ShortName>log02_voice.wav</ShortName>
+							<Path>SFX\log02_voice_B9A6BE81.wem</Path>
+						</File>
+						<File Id="1026188867" Language="SFX">
+							<ShortName>log06_voice_ui_tia_pt1.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_pt1_B9A6BE81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8B109F1A-9AAF-4DBC-9ABB-D12ABA9F3D9F}">
+							<Media>
+								<File Id="943239995"/>
+								<File Id="537478078"/>
+								<File Id="984585590"/>
+								<File Id="207183486"/>
+								<File Id="860074005"/>
+								<File Id="431973196"/>
+								<File Id="654114073"/>
+								<File Id="97148101"/>
+								<File Id="206306520"/>
+								<File Id="543301205"/>
+								<File Id="541318612"/>
+								<File Id="342467317"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0E439FF5-E9D3-41DB-8715-600266EA38AD}">
+							<Media>
+								<File Id="665573381"/>
+								<File Id="621704609"/>
+								<File Id="34260169"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
+							<Media>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="768964786"/>
+								<File Id="306918079"/>
+								<File Id="1012477340"/>
+								<File Id="213700860"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
+							<Media>
+								<File Id="810954624"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{74D890EC-71A6-4821-9FA7-81699ED505EA}">
+							<Media>
+								<File Id="270080934"/>
+								<File Id="666824312"/>
+								<File Id="975076812"/>
+								<File Id="113064323"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8B109F1A-9AAF-4DBC-9ABB-D12ABA9F3D9F}">
+							<Media>
+								<File Id="150931299"/>
+								<File Id="273475053"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4CA3756F-5264-4CEB-AE2A-0FF1D58E62AC}">
+							<Media>
+								<File Id="1026188867"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="492314047"/>
+								<File Id="715497350"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{679E30CA-C575-4DAA-91AF-4D3D9B0C3A9F}">
+							<Media>
+								<File Id="161771297"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="90801950"/>
+								<File Id="128338408"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{41469DC2-BBE7-44A7-9EF6-7979E92D6F10}">
+							<Media>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="641694160"/>
+								<File Id="643001328"/>
+								<File Id="973615521"/>
+								<File Id="55010264"/>
+								<File Id="770530108"/>
+								<File Id="414205926"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3628499090" Name="Log_02" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_02" DurationType="Mixed" DurationMin="37.401241" DurationMax="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="34260169" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_C619F102.wem</Path>
+						</File>
+						<File Id="55010264" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_F38EC64A.wem</Path>
+						</File>
+						<File Id="90801950" Language="SFX">
+							<ShortName>log07_voice_ui_pt2.wav</ShortName>
+							<Path>SFX\log07_voice_ui_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="97148101" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="113064323" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_CBC8C607.wem</Path>
+						</File>
+						<File Id="128338408" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_076A3075.wem</Path>
+						</File>
+						<File Id="150931299" Language="SFX">
+							<ShortName>log05_voice_ui_part02.wav</ShortName>
+							<Path>SFX\log05_voice_ui_part02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="161771297" Language="SFX">
+							<ShortName>log07_voice_ui_pt1.wav</ShortName>
+							<Path>SFX\log07_voice_ui_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="206306520" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_DE0F3736.wem</Path>
+						</File>
+						<File Id="207183486" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="213700860" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_66EA266E.wem</Path>
+						</File>
+						<File Id="270080934" Language="SFX">
+							<ShortName>log04_voice_ui_pt2.wav</ShortName>
+							<Path>SFX\log04_voice_ui_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="273475053" Language="SFX">
+							<ShortName>log05_voice_ui_part01.wav</ShortName>
+							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="306918079" Language="SFX">
+							<ShortName>pub_tina_ui_resized.wav</ShortName>
+							<Path>SFX\pub_tina_ui_resized_B9A6BE81.wem</Path>
+						</File>
+						<File Id="342467317" Language="SFX">
+							<ShortName>amb_bed.wav</ShortName>
+							<Path>SFX\amb_bed_D3099B53.wem</Path>
+						</File>
+						<File Id="414205926" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_8394EF43.wem</Path>
+						</File>
+						<File Id="431973196" Language="SFX">
+							<ShortName>amb_train_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="492314047" Language="SFX">
+							<ShortName>log06_voice_ui_tia_pt2.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="537478078" Language="SFX">
+							<ShortName>amb_sfx_02.wav</ShortName>
+							<Path>SFX\amb_sfx_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="541318612" Language="SFX">
+							<ShortName>amb_busy.wav</ShortName>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
+						</File>
+						<File Id="543301205" Language="SFX">
+							<ShortName>amb_mid.wav</ShortName>
+							<Path>SFX\amb_mid_D4419924.wem</Path>
+						</File>
+						<File Id="621704609" Language="SFX">
+							<ShortName>log01_voice_ui.wav</ShortName>
+							<Path>SFX\log01_voice_ui_68193A7A.wem</Path>
+						</File>
+						<File Id="641694160" Language="SFX">
+							<ShortName>log08_voice_glitch_pt3.wav</ShortName>
+							<Path>SFX\log08_voice_glitch_pt3_B9A6BE81.wem</Path>
+						</File>
+						<File Id="643001328" Language="SFX">
+							<ShortName>log08_voice_glitch_pt4.wav</ShortName>
+							<Path>SFX\log08_voice_glitch_pt4_B9A6BE81.wem</Path>
+						</File>
+						<File Id="654114073" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="665573381" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_2FFACA6F.wem</Path>
+						</File>
+						<File Id="666824312" Language="SFX">
+							<ShortName>log04_voice_ui_pt1.wav</ShortName>
+							<Path>SFX\log04_voice_ui_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="715497350" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_402DF779.wem</Path>
+						</File>
+						<File Id="768964786" Language="SFX">
+							<ShortName>log02_voice_ui_bricolage.wav</ShortName>
+							<Path>SFX\log02_voice_ui_bricolage_6700093E.wem</Path>
+						</File>
+						<File Id="770530108" Language="SFX">
+							<ShortName>log08_voice_pt1.wav</ShortName>
+							<Path>SFX\log08_voice_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="810954624" Language="SFX">
+							<ShortName>log03_voice_ui_tia.wav</ShortName>
+							<Path>SFX\log03_voice_ui_tia_B9A6BE81.wem</Path>
+						</File>
+						<File Id="860074005" Language="SFX">
+							<ShortName>amb_train_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="943239995" Language="SFX">
+							<ShortName>amb_sfx_04.wav</ShortName>
+							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="973615521" Language="SFX">
+							<ShortName>log08_voice_pt2.wav</ShortName>
+							<Path>SFX\log08_voice_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="975076812" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_E55E1CC8.wem</Path>
+						</File>
+						<File Id="984585590" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_03.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_03_B9A6BE81.wem</Path>
+						</File>
+						<File Id="1012477340" Language="SFX">
+							<ShortName>log02_voice.wav</ShortName>
+							<Path>SFX\log02_voice_B9A6BE81.wem</Path>
+						</File>
+						<File Id="1026188867" Language="SFX">
+							<ShortName>log06_voice_ui_tia_pt1.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_pt1_B9A6BE81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8B109F1A-9AAF-4DBC-9ABB-D12ABA9F3D9F}">
+							<Media>
+								<File Id="943239995"/>
+								<File Id="537478078"/>
+								<File Id="984585590"/>
+								<File Id="207183486"/>
+								<File Id="860074005"/>
+								<File Id="431973196"/>
+								<File Id="654114073"/>
+								<File Id="97148101"/>
+								<File Id="206306520"/>
+								<File Id="543301205"/>
+								<File Id="541318612"/>
+								<File Id="342467317"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0E439FF5-E9D3-41DB-8715-600266EA38AD}">
+							<Media>
+								<File Id="665573381"/>
+								<File Id="621704609"/>
+								<File Id="34260169"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
+							<Media>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="768964786"/>
+								<File Id="306918079"/>
+								<File Id="1012477340"/>
+								<File Id="213700860"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
+							<Media>
+								<File Id="810954624"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{74D890EC-71A6-4821-9FA7-81699ED505EA}">
+							<Media>
+								<File Id="270080934"/>
+								<File Id="666824312"/>
+								<File Id="975076812"/>
+								<File Id="113064323"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8B109F1A-9AAF-4DBC-9ABB-D12ABA9F3D9F}">
+							<Media>
+								<File Id="150931299"/>
+								<File Id="273475053"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4CA3756F-5264-4CEB-AE2A-0FF1D58E62AC}">
+							<Media>
+								<File Id="1026188867"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="492314047"/>
+								<File Id="715497350"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{679E30CA-C575-4DAA-91AF-4D3D9B0C3A9F}">
+							<Media>
+								<File Id="161771297"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="90801950"/>
+								<File Id="128338408"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{41469DC2-BBE7-44A7-9EF6-7979E92D6F10}">
+							<Media>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="641694160"/>
+								<File Id="643001328"/>
+								<File Id="973615521"/>
+								<File Id="55010264"/>
+								<File Id="770530108"/>
+								<File Id="414205926"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3628499091" Name="Log_03" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_03" DurationType="Mixed" DurationMin="37.401241" DurationMax="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="34260169" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_C619F102.wem</Path>
+						</File>
+						<File Id="55010264" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_F38EC64A.wem</Path>
+						</File>
+						<File Id="90801950" Language="SFX">
+							<ShortName>log07_voice_ui_pt2.wav</ShortName>
+							<Path>SFX\log07_voice_ui_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="97148101" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="113064323" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_CBC8C607.wem</Path>
+						</File>
+						<File Id="128338408" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_076A3075.wem</Path>
+						</File>
+						<File Id="150931299" Language="SFX">
+							<ShortName>log05_voice_ui_part02.wav</ShortName>
+							<Path>SFX\log05_voice_ui_part02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="161771297" Language="SFX">
+							<ShortName>log07_voice_ui_pt1.wav</ShortName>
+							<Path>SFX\log07_voice_ui_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="206306520" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_DE0F3736.wem</Path>
+						</File>
+						<File Id="207183486" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="213700860" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_66EA266E.wem</Path>
+						</File>
+						<File Id="270080934" Language="SFX">
+							<ShortName>log04_voice_ui_pt2.wav</ShortName>
+							<Path>SFX\log04_voice_ui_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="273475053" Language="SFX">
+							<ShortName>log05_voice_ui_part01.wav</ShortName>
+							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="306918079" Language="SFX">
+							<ShortName>pub_tina_ui_resized.wav</ShortName>
+							<Path>SFX\pub_tina_ui_resized_B9A6BE81.wem</Path>
+						</File>
+						<File Id="342467317" Language="SFX">
+							<ShortName>amb_bed.wav</ShortName>
+							<Path>SFX\amb_bed_D3099B53.wem</Path>
+						</File>
+						<File Id="414205926" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_8394EF43.wem</Path>
+						</File>
+						<File Id="431973196" Language="SFX">
+							<ShortName>amb_train_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="492314047" Language="SFX">
+							<ShortName>log06_voice_ui_tia_pt2.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="537478078" Language="SFX">
+							<ShortName>amb_sfx_02.wav</ShortName>
+							<Path>SFX\amb_sfx_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="541318612" Language="SFX">
+							<ShortName>amb_busy.wav</ShortName>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
+						</File>
+						<File Id="543301205" Language="SFX">
+							<ShortName>amb_mid.wav</ShortName>
+							<Path>SFX\amb_mid_D4419924.wem</Path>
+						</File>
+						<File Id="621704609" Language="SFX">
+							<ShortName>log01_voice_ui.wav</ShortName>
+							<Path>SFX\log01_voice_ui_68193A7A.wem</Path>
+						</File>
+						<File Id="641694160" Language="SFX">
+							<ShortName>log08_voice_glitch_pt3.wav</ShortName>
+							<Path>SFX\log08_voice_glitch_pt3_B9A6BE81.wem</Path>
+						</File>
+						<File Id="643001328" Language="SFX">
+							<ShortName>log08_voice_glitch_pt4.wav</ShortName>
+							<Path>SFX\log08_voice_glitch_pt4_B9A6BE81.wem</Path>
+						</File>
+						<File Id="654114073" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="665573381" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_2FFACA6F.wem</Path>
+						</File>
+						<File Id="666824312" Language="SFX">
+							<ShortName>log04_voice_ui_pt1.wav</ShortName>
+							<Path>SFX\log04_voice_ui_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="715497350" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_402DF779.wem</Path>
+						</File>
+						<File Id="768964786" Language="SFX">
+							<ShortName>log02_voice_ui_bricolage.wav</ShortName>
+							<Path>SFX\log02_voice_ui_bricolage_6700093E.wem</Path>
+						</File>
+						<File Id="770530108" Language="SFX">
+							<ShortName>log08_voice_pt1.wav</ShortName>
+							<Path>SFX\log08_voice_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="810954624" Language="SFX">
+							<ShortName>log03_voice_ui_tia.wav</ShortName>
+							<Path>SFX\log03_voice_ui_tia_B9A6BE81.wem</Path>
+						</File>
+						<File Id="860074005" Language="SFX">
+							<ShortName>amb_train_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="943239995" Language="SFX">
+							<ShortName>amb_sfx_04.wav</ShortName>
+							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="973615521" Language="SFX">
+							<ShortName>log08_voice_pt2.wav</ShortName>
+							<Path>SFX\log08_voice_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="975076812" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_E55E1CC8.wem</Path>
+						</File>
+						<File Id="984585590" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_03.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_03_B9A6BE81.wem</Path>
+						</File>
+						<File Id="1012477340" Language="SFX">
+							<ShortName>log02_voice.wav</ShortName>
+							<Path>SFX\log02_voice_B9A6BE81.wem</Path>
+						</File>
+						<File Id="1026188867" Language="SFX">
+							<ShortName>log06_voice_ui_tia_pt1.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_pt1_B9A6BE81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8B109F1A-9AAF-4DBC-9ABB-D12ABA9F3D9F}">
+							<Media>
+								<File Id="943239995"/>
+								<File Id="537478078"/>
+								<File Id="984585590"/>
+								<File Id="207183486"/>
+								<File Id="860074005"/>
+								<File Id="431973196"/>
+								<File Id="654114073"/>
+								<File Id="97148101"/>
+								<File Id="206306520"/>
+								<File Id="543301205"/>
+								<File Id="541318612"/>
+								<File Id="342467317"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0E439FF5-E9D3-41DB-8715-600266EA38AD}">
+							<Media>
+								<File Id="665573381"/>
+								<File Id="621704609"/>
+								<File Id="34260169"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
+							<Media>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="768964786"/>
+								<File Id="306918079"/>
+								<File Id="1012477340"/>
+								<File Id="213700860"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
+							<Media>
+								<File Id="810954624"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{74D890EC-71A6-4821-9FA7-81699ED505EA}">
+							<Media>
+								<File Id="270080934"/>
+								<File Id="666824312"/>
+								<File Id="975076812"/>
+								<File Id="113064323"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8B109F1A-9AAF-4DBC-9ABB-D12ABA9F3D9F}">
+							<Media>
+								<File Id="150931299"/>
+								<File Id="273475053"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4CA3756F-5264-4CEB-AE2A-0FF1D58E62AC}">
+							<Media>
+								<File Id="1026188867"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="492314047"/>
+								<File Id="715497350"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{679E30CA-C575-4DAA-91AF-4D3D9B0C3A9F}">
+							<Media>
+								<File Id="161771297"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="90801950"/>
+								<File Id="128338408"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{41469DC2-BBE7-44A7-9EF6-7979E92D6F10}">
+							<Media>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="641694160"/>
+								<File Id="643001328"/>
+								<File Id="973615521"/>
+								<File Id="55010264"/>
+								<File Id="770530108"/>
+								<File Id="414205926"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3628499092" Name="Log_04" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_04" DurationType="Mixed" DurationMin="37.401241" DurationMax="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="34260169" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_C619F102.wem</Path>
+						</File>
+						<File Id="55010264" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_F38EC64A.wem</Path>
+						</File>
+						<File Id="90801950" Language="SFX">
+							<ShortName>log07_voice_ui_pt2.wav</ShortName>
+							<Path>SFX\log07_voice_ui_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="97148101" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="113064323" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_CBC8C607.wem</Path>
+						</File>
+						<File Id="128338408" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_076A3075.wem</Path>
+						</File>
+						<File Id="150931299" Language="SFX">
+							<ShortName>log05_voice_ui_part02.wav</ShortName>
+							<Path>SFX\log05_voice_ui_part02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="161771297" Language="SFX">
+							<ShortName>log07_voice_ui_pt1.wav</ShortName>
+							<Path>SFX\log07_voice_ui_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="206306520" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_DE0F3736.wem</Path>
+						</File>
+						<File Id="207183486" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="213700860" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_66EA266E.wem</Path>
+						</File>
+						<File Id="270080934" Language="SFX">
+							<ShortName>log04_voice_ui_pt2.wav</ShortName>
+							<Path>SFX\log04_voice_ui_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="273475053" Language="SFX">
+							<ShortName>log05_voice_ui_part01.wav</ShortName>
+							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="306918079" Language="SFX">
+							<ShortName>pub_tina_ui_resized.wav</ShortName>
+							<Path>SFX\pub_tina_ui_resized_B9A6BE81.wem</Path>
+						</File>
+						<File Id="342467317" Language="SFX">
+							<ShortName>amb_bed.wav</ShortName>
+							<Path>SFX\amb_bed_D3099B53.wem</Path>
+						</File>
+						<File Id="414205926" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_8394EF43.wem</Path>
+						</File>
+						<File Id="431973196" Language="SFX">
+							<ShortName>amb_train_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="492314047" Language="SFX">
+							<ShortName>log06_voice_ui_tia_pt2.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="537478078" Language="SFX">
+							<ShortName>amb_sfx_02.wav</ShortName>
+							<Path>SFX\amb_sfx_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="541318612" Language="SFX">
+							<ShortName>amb_busy.wav</ShortName>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
+						</File>
+						<File Id="543301205" Language="SFX">
+							<ShortName>amb_mid.wav</ShortName>
+							<Path>SFX\amb_mid_D4419924.wem</Path>
+						</File>
+						<File Id="621704609" Language="SFX">
+							<ShortName>log01_voice_ui.wav</ShortName>
+							<Path>SFX\log01_voice_ui_68193A7A.wem</Path>
+						</File>
+						<File Id="641694160" Language="SFX">
+							<ShortName>log08_voice_glitch_pt3.wav</ShortName>
+							<Path>SFX\log08_voice_glitch_pt3_B9A6BE81.wem</Path>
+						</File>
+						<File Id="643001328" Language="SFX">
+							<ShortName>log08_voice_glitch_pt4.wav</ShortName>
+							<Path>SFX\log08_voice_glitch_pt4_B9A6BE81.wem</Path>
+						</File>
+						<File Id="654114073" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="665573381" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_2FFACA6F.wem</Path>
+						</File>
+						<File Id="666824312" Language="SFX">
+							<ShortName>log04_voice_ui_pt1.wav</ShortName>
+							<Path>SFX\log04_voice_ui_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="715497350" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_402DF779.wem</Path>
+						</File>
+						<File Id="768964786" Language="SFX">
+							<ShortName>log02_voice_ui_bricolage.wav</ShortName>
+							<Path>SFX\log02_voice_ui_bricolage_6700093E.wem</Path>
+						</File>
+						<File Id="770530108" Language="SFX">
+							<ShortName>log08_voice_pt1.wav</ShortName>
+							<Path>SFX\log08_voice_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="810954624" Language="SFX">
+							<ShortName>log03_voice_ui_tia.wav</ShortName>
+							<Path>SFX\log03_voice_ui_tia_B9A6BE81.wem</Path>
+						</File>
+						<File Id="860074005" Language="SFX">
+							<ShortName>amb_train_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="943239995" Language="SFX">
+							<ShortName>amb_sfx_04.wav</ShortName>
+							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="973615521" Language="SFX">
+							<ShortName>log08_voice_pt2.wav</ShortName>
+							<Path>SFX\log08_voice_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="975076812" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_E55E1CC8.wem</Path>
+						</File>
+						<File Id="984585590" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_03.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_03_B9A6BE81.wem</Path>
+						</File>
+						<File Id="1012477340" Language="SFX">
+							<ShortName>log02_voice.wav</ShortName>
+							<Path>SFX\log02_voice_B9A6BE81.wem</Path>
+						</File>
+						<File Id="1026188867" Language="SFX">
+							<ShortName>log06_voice_ui_tia_pt1.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_pt1_B9A6BE81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{8B109F1A-9AAF-4DBC-9ABB-D12ABA9F3D9F}">
+							<Media>
+								<File Id="943239995"/>
+								<File Id="537478078"/>
+								<File Id="984585590"/>
+								<File Id="207183486"/>
+								<File Id="860074005"/>
+								<File Id="431973196"/>
+								<File Id="654114073"/>
+								<File Id="97148101"/>
+								<File Id="206306520"/>
+								<File Id="543301205"/>
+								<File Id="541318612"/>
+								<File Id="342467317"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0E439FF5-E9D3-41DB-8715-600266EA38AD}">
+							<Media>
+								<File Id="665573381"/>
+								<File Id="621704609"/>
+								<File Id="34260169"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9D976098-9CA1-4552-8AB8-DDAEEB68FF8F}">
+							<Media>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="768964786"/>
+								<File Id="306918079"/>
+								<File Id="1012477340"/>
+								<File Id="213700860"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{90DB4E51-439C-492B-A63D-956748DBFD89}">
+							<Media>
+								<File Id="810954624"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{74D890EC-71A6-4821-9FA7-81699ED505EA}">
+							<Media>
+								<File Id="270080934"/>
+								<File Id="666824312"/>
+								<File Id="975076812"/>
+								<File Id="113064323"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8B109F1A-9AAF-4DBC-9ABB-D12ABA9F3D9F}">
+							<Media>
+								<File Id="150931299"/>
+								<File Id="273475053"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4CA3756F-5264-4CEB-AE2A-0FF1D58E62AC}">
+							<Media>
+								<File Id="1026188867"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="492314047"/>
+								<File Id="715497350"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{679E30CA-C575-4DAA-91AF-4D3D9B0C3A9F}">
+							<Media>
+								<File Id="161771297"/>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="90801950"/>
+								<File Id="128338408"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{41469DC2-BBE7-44A7-9EF6-7979E92D6F10}">
+							<Media>
+								<File Id="113064323"/>
+								<File Id="975076812"/>
+								<File Id="641694160"/>
+								<File Id="643001328"/>
+								<File Id="973615521"/>
+								<File Id="55010264"/>
+								<File Id="770530108"/>
+								<File Id="414205926"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3628499093" Name="Log_05" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_05" DurationType="OneShot" DurationMin="86.800003" DurationMax="86.800003">
+					<IncludedMemoryFiles>
+						<File Id="113064323" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_CBC8C607.wem</Path>
+						</File>
+						<File Id="150931299" Language="SFX">
+							<ShortName>log05_voice_ui_part02.wav</ShortName>
+							<Path>SFX\log05_voice_ui_part02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="273475053" Language="SFX">
+							<ShortName>log05_voice_ui_part01.wav</ShortName>
+							<Path>SFX\log05_voice_ui_part01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="975076812" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_E55E1CC8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3628499094" Name="Log_06" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_06" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="97148101" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="113064323" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_CBC8C607.wem</Path>
+						</File>
+						<File Id="206306520" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_DE0F3736.wem</Path>
+						</File>
+						<File Id="207183486" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="342467317" Language="SFX">
+							<ShortName>amb_bed.wav</ShortName>
+							<Path>SFX\amb_bed_D3099B53.wem</Path>
+						</File>
+						<File Id="431973196" Language="SFX">
+							<ShortName>amb_train_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="492314047" Language="SFX">
+							<ShortName>log06_voice_ui_tia_pt2.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="537478078" Language="SFX">
+							<ShortName>amb_sfx_02.wav</ShortName>
+							<Path>SFX\amb_sfx_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="541318612" Language="SFX">
+							<ShortName>amb_busy.wav</ShortName>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
+						</File>
+						<File Id="543301205" Language="SFX">
+							<ShortName>amb_mid.wav</ShortName>
+							<Path>SFX\amb_mid_D4419924.wem</Path>
+						</File>
+						<File Id="654114073" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="715497350" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_402DF779.wem</Path>
+						</File>
+						<File Id="860074005" Language="SFX">
+							<ShortName>amb_train_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="943239995" Language="SFX">
+							<ShortName>amb_sfx_04.wav</ShortName>
+							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="975076812" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_E55E1CC8.wem</Path>
+						</File>
+						<File Id="984585590" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_03.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_03_B9A6BE81.wem</Path>
+						</File>
+						<File Id="1026188867" Language="SFX">
+							<ShortName>log06_voice_ui_tia_pt1.wav</ShortName>
+							<Path>SFX\log06_voice_ui_tia_pt1_B9A6BE81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3628499095" Name="Log_07" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_07" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="90801950" Language="SFX">
+							<ShortName>log07_voice_ui_pt2.wav</ShortName>
+							<Path>SFX\log07_voice_ui_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="97148101" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="113064323" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_CBC8C607.wem</Path>
+						</File>
+						<File Id="128338408" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_076A3075.wem</Path>
+						</File>
+						<File Id="161771297" Language="SFX">
+							<ShortName>log07_voice_ui_pt1.wav</ShortName>
+							<Path>SFX\log07_voice_ui_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="206306520" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_DE0F3736.wem</Path>
+						</File>
+						<File Id="207183486" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="342467317" Language="SFX">
+							<ShortName>amb_bed.wav</ShortName>
+							<Path>SFX\amb_bed_D3099B53.wem</Path>
+						</File>
+						<File Id="431973196" Language="SFX">
+							<ShortName>amb_train_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="537478078" Language="SFX">
+							<ShortName>amb_sfx_02.wav</ShortName>
+							<Path>SFX\amb_sfx_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="541318612" Language="SFX">
+							<ShortName>amb_busy.wav</ShortName>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
+						</File>
+						<File Id="543301205" Language="SFX">
+							<ShortName>amb_mid.wav</ShortName>
+							<Path>SFX\amb_mid_D4419924.wem</Path>
+						</File>
+						<File Id="654114073" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="860074005" Language="SFX">
+							<ShortName>amb_train_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="943239995" Language="SFX">
+							<ShortName>amb_sfx_04.wav</ShortName>
+							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="975076812" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_E55E1CC8.wem</Path>
+						</File>
+						<File Id="984585590" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_03.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_03_B9A6BE81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3628499096" Name="Log_08" ObjectPath="\Events\Default Work Unit\Log_Switch\Log_08" DurationType="OneShot" DurationMin="85.600006" DurationMax="85.600006">
+					<IncludedMemoryFiles>
+						<File Id="55010264" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_F38EC64A.wem</Path>
+						</File>
+						<File Id="113064323" Language="SFX">
+							<ShortName>log_ui.wav</ShortName>
+							<Path>SFX\log_ui_CBC8C607.wem</Path>
+						</File>
+						<File Id="414205926" Language="SFX">
+							<ShortName>amb_interior_01.wav</ShortName>
+							<Path>SFX\amb_interior_01_8394EF43.wem</Path>
+						</File>
+						<File Id="641694160" Language="SFX">
+							<ShortName>log08_voice_glitch_pt3.wav</ShortName>
+							<Path>SFX\log08_voice_glitch_pt3_B9A6BE81.wem</Path>
+						</File>
+						<File Id="643001328" Language="SFX">
+							<ShortName>log08_voice_glitch_pt4.wav</ShortName>
+							<Path>SFX\log08_voice_glitch_pt4_B9A6BE81.wem</Path>
+						</File>
+						<File Id="770530108" Language="SFX">
+							<ShortName>log08_voice_pt1.wav</ShortName>
+							<Path>SFX\log08_voice_pt1_B9A6BE81.wem</Path>
+						</File>
+						<File Id="973615521" Language="SFX">
+							<ShortName>log08_voice_pt2.wav</ShortName>
+							<Path>SFX\log08_voice_pt2_B9A6BE81.wem</Path>
+						</File>
+						<File Id="975076812" Language="SFX">
+							<ShortName>log_ui_out.wav</ShortName>
+							<Path>SFX\log_ui_out_E55E1CC8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="322021059" Name="LogAudio_Unlocked" ObjectPath="\Events\Default Work Unit\LogAudio_Unlocked" DurationType="OneShot" DurationMin="3.300000" DurationMax="3.300000">
+					<IncludedMemoryFiles>
+						<File Id="955369414" Language="SFX">
+							<ShortName>log_unlocked.wav</ShortName>
+							<Path>SFX\log_unlocked_F4C79A29.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3591343105" Name="Play_Amb_Apartment" ObjectPath="\Events\Default Work Unit\Play_Amb_Apartment" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="97148101" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="206306520" Language="SFX">
+							<ShortName>amb_calm.wav</ShortName>
+							<Path>SFX\amb_calm_DE0F3736.wem</Path>
+						</File>
+						<File Id="207183486" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_04.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="342467317" Language="SFX">
+							<ShortName>amb_bed.wav</ShortName>
+							<Path>SFX\amb_bed_D3099B53.wem</Path>
+						</File>
+						<File Id="431973196" Language="SFX">
+							<ShortName>amb_train_pass-by_02.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="537478078" Language="SFX">
+							<ShortName>amb_sfx_02.wav</ShortName>
+							<Path>SFX\amb_sfx_02_B9A6BE81.wem</Path>
+						</File>
+						<File Id="541318612" Language="SFX">
+							<ShortName>amb_busy.wav</ShortName>
+							<Path>SFX\amb_busy_3500BD9D.wem</Path>
+						</File>
+						<File Id="543301205" Language="SFX">
+							<ShortName>amb_mid.wav</ShortName>
+							<Path>SFX\amb_mid_D4419924.wem</Path>
+						</File>
+						<File Id="654114073" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="860074005" Language="SFX">
+							<ShortName>amb_train_pass-by_01.wav</ShortName>
+							<Path>SFX\amb_train_pass-by_01_B9A6BE81.wem</Path>
+						</File>
+						<File Id="943239995" Language="SFX">
+							<ShortName>amb_sfx_04.wav</ShortName>
+							<Path>SFX\amb_sfx_04_B9A6BE81.wem</Path>
+						</File>
+						<File Id="984585590" Language="SFX">
+							<ShortName>amb_vehicle_pass-by_03.wav</ShortName>
+							<Path>SFX\amb_vehicle_pass-by_03_B9A6BE81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2472290785" Name="Play_End" ObjectPath="\Events\Default Work Unit\Play_End" DurationType="OneShot" DurationMin="5.500000" DurationMax="5.500000">
+					<IncludedMemoryFiles>
+						<File Id="403337388" Language="SFX">
+							<ShortName>end_robot_shutdown.wav</ShortName>
+							<Path>SFX\end_robot_shutdown_B9A6BE81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="3564331944" Name="Log_Switches" ObjectPath="\Switches\Default Work Unit\Log_Switches">
+					<Switches>
+						<Switch Id="3628499092" Name="Log_04" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_04"/>
+						<Switch Id="3628499093" Name="Log_05" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_05"/>
+						<Switch Id="3628499094" Name="Log_06" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_06"/>
+						<Switch Id="3628499095" Name="Log_07" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_07"/>
+						<Switch Id="3628499096" Name="Log_08" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_08"/>
+						<Switch Id="3628499089" Name="Log_01" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_01"/>
+						<Switch Id="3628499090" Name="Log_02" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_02"/>
+						<Switch Id="3628499091" Name="Log_03" ObjectPath="\Switches\Default Work Unit\Log_Switches\Log_03"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\All\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1009565364" Name="Play_Intro_Music" ObjectPath="\Events\Default Work Unit\Play_Intro_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="46301005" Language="SFX">
+							<ShortName>intro_rumble.wav</ShortName>
+							<Path>SFX\intro_rumble_C823B301.wem</Path>
+						</File>
+						<File Id="469868531" Language="SFX">
+							<ShortName>intro_lead.wav</ShortName>
+							<Path>SFX\intro_lead_C58ED28F.wem</Path>
+						</File>
+						<File Id="679968655" Language="SFX">
+							<ShortName>intro_lead2.wav</ShortName>
+							<Path>SFX\intro_lead2_C58ED28F.wem</Path>
+						</File>
+						<File Id="702972802" Language="SFX">
+							<ShortName>intro_pad.wav</ShortName>
+							<Path>SFX\intro_pad_C58ED28F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="10166865" Language="SFX">
+							<ShortName>bass_02.wav</ShortName>
+							<Path>SFX\bass_02_C58ED28F.wem</Path>
+						</File>
+						<File Id="95706620" Language="SFX">
+							<ShortName>bass_03.wav</ShortName>
+							<Path>SFX\bass_03_C58ED28F.wem</Path>
+						</File>
+						<File Id="131616581" Language="SFX">
+							<ShortName>chord03.wav</ShortName>
+							<Path>SFX\chord03_C58ED28F.wem</Path>
+						</File>
+						<File Id="161718824" Language="SFX">
+							<ShortName>lvl02_bassC_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_bassC_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="188907501" Language="SFX">
+							<ShortName>lvl02_bassB_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_bassB_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="199200077" Language="SFX">
+							<ShortName>pad.wav</ShortName>
+							<Path>SFX\pad_C58ED28F.wem</Path>
+						</File>
+						<File Id="251003148" Language="SFX">
+							<ShortName>pluck01.wav</ShortName>
+							<Path>SFX\pluck01_C58ED28F.wem</Path>
+						</File>
+						<File Id="266569991" Language="SFX">
+							<ShortName>bass_60bpm44.wav</ShortName>
+							<Path>SFX\bass_60bpm44_C58ED28F.wem</Path>
+						</File>
+						<File Id="323167565" Language="SFX">
+							<ShortName>chord04.wav</ShortName>
+							<Path>SFX\chord04_C58ED28F.wem</Path>
+						</File>
+						<File Id="362725487" Language="SFX">
+							<ShortName>perc.wav</ShortName>
+							<Path>SFX\perc_C58ED28F.wem</Path>
+						</File>
+						<File Id="392361441" Language="SFX">
+							<ShortName>hihat.wav</ShortName>
+							<Path>SFX\hihat_C58ED28F.wem</Path>
+						</File>
+						<File Id="429060775" Language="SFX">
+							<ShortName>bass_01.wav</ShortName>
+							<Path>SFX\bass_01_C58ED28F.wem</Path>
+						</File>
+						<File Id="435809258" Language="SFX">
+							<ShortName>chord02.wav</ShortName>
+							<Path>SFX\chord02_C58ED28F.wem</Path>
+						</File>
+						<File Id="578724832" Language="SFX">
+							<ShortName>lvl02_moogB_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_moogB_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="633451067" Language="SFX">
+							<ShortName>lvl02_bassA_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_bassA_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="742329624" Language="SFX">
+							<ShortName>chord01.wav</ShortName>
+							<Path>SFX\chord01_C58ED28F.wem</Path>
+						</File>
+						<File Id="811895481" Language="SFX">
+							<ShortName>lvl02_moogC_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_moogC_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="834943057" Language="SFX">
+							<ShortName>lvl02_chordA_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_chordA_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="930696805" Language="SFX">
+							<ShortName>lvl02_chordB_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_chordB_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="945756960" Language="SFX">
+							<ShortName>lvl02_chordC_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_chordC_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="992744126" Language="SFX">
+							<ShortName>lvl02_moogA_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_moogA_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+						<File Id="1053180823" Language="SFX">
+							<ShortName>lvl02_lead_100bpm_4_4.wav</ShortName>
+							<Path>SFX\lvl02_lead_100bpm_4_4_C58ED28F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2849E67B-039B-4253-BAF6-021F90B854E2}">
+							<Media>
+								<File Id="992744126"/>
+								<File Id="578724832"/>
+								<File Id="811895481"/>
+								<File Id="945756960"/>
+								<File Id="930696805"/>
+								<File Id="834943057"/>
+								<File Id="161718824"/>
+								<File Id="188907501"/>
+								<File Id="633451067"/>
+								<File Id="1053180823"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2A9AE8B6-4424-4C42-9845-2EF46462FA05}">
+							<Media>
+								<File Id="95706620"/>
+								<File Id="429060775"/>
+								<File Id="10166865"/>
+								<File Id="392361441"/>
+								<File Id="199200077"/>
+								<File Id="199200077"/>
+								<File Id="362725487"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="267517120" Name="Music_RTPC" ObjectPath="\Game Parameters\Default Work Unit\Music_RTPC"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1690668539" Name="Music_States" ObjectPath="\States\Default Work Unit\Music_States">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_States\None"/>
+						<State Id="1973439780" Name="Music_01" ObjectPath="\States\Default Work Unit\Music_States\Music_01"/>
+						<State Id="1973439783" Name="Music_02" ObjectPath="\States\Default Work Unit\Music_States\Music_02"/>
+						<State Id="1973439782" Name="Music_03" ObjectPath="\States\Default Work Unit\Music_States\Music_03"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
