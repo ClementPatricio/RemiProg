@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
             playerPos = player.transform.position;
             this.chosenTranslate = playerPos - playerStartPos;
         }
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             this.FinishLevel();
         }
