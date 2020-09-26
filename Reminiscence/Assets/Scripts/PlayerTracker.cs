@@ -22,6 +22,7 @@ public class PlayerTracker : MonoBehaviour
 
     private float distBetwweenHands;
 
+	//[HideInInspector]
     public GameObject robotPoint;
     public MatrixTransposer transposer;
     bool firstTime = true;
@@ -29,6 +30,8 @@ public class PlayerTracker : MonoBehaviour
     public Vector3 sensitivity;
 
     private bool lost = false;
+
+	//private Vector3 transposedPoint;;
 
     #region Singleton
     public static PlayerTracker instance;
@@ -42,7 +45,7 @@ public class PlayerTracker : MonoBehaviour
 
     void Start()
     {
-        this.robotPoint = GameManager.instance.ikMotor.pointToReach.gameObject;
+        //this.robotPoint = GameManager.instance.ikMotor.pointToReach.gameObject;
         GameManager.instance.sensitivity = new Vector3(this.sensitivity.x, this.sensitivity.y, this.sensitivity.z);
         GameManager.instance.setNewMatrix(this.transposer);
         

@@ -34,13 +34,28 @@ public class ReadWriteToArduino : MonoBehaviour
 
 	void Update()
     {
+		if (!stream.IsOpen) return;
 		var vec = ikrobot.getAnglesForMotorAsVec3();
 
 		message = ConvertAngle((int)Mathf.Abs(vec.y));
 		message += ConvertAngle((int)Mathf.Abs(vec.z));
+		message += ConvertAngle((int)Mathf.Abs(vec.x));
 
-		
-		if(Time.time > lastSend + delayBetweenMessage){
+
+		//offset direction will be -1 in arduino
+		if(Input.GetKey(KeyCode.LeftArrow)){
+			message += "0";//-> -1
+		}else if(Input.GetKey(KeyCode.RightArrow)){
+			message += "2";//-> 1
+		}
+		else{
+			message += "1";//->0
+		}
+
+		Debug.Log(message);
+
+
+		if (Time.time > lastSend + delayBetweenMessage){
 			SendMessage();
 			lastSend = Time.time;
 		}
