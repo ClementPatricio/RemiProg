@@ -1,13 +1,16 @@
 #include <Servo.h>
 
-int pinServo60 = 2;
-int pinServo20 = 5;
+int pinServo60 = 9;
+int pinServoInv60 = 5;
+int pinServo20 = 6;
 
 Servo servo60;
+Servo servoInv60;
 Servo servo20;
 
 bool lightOn = false;
 int pos60 = 90;
+int posInv60 = 90;
 int pos20 = 90;
 
 String message;
@@ -31,8 +34,10 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
   
   servo60.attach(pinServo60);
+  servoInv60.attach(pinServoInv60);
   servo20.attach(pinServo20);
   servo60.write(pos60);
+  servoInv60.write(posInv60);
   servo20.write(pos20);
 
 
@@ -49,14 +54,16 @@ void setup() {
 void loop() {
   if(messageComplete){
     pos60 = message.substring(1,4).toInt();
-    pos20 = message.substring(5,8).toInt();
+    pos20 = message.substring(5,8).toInt() - 90;
     targetStepAngle = message.substring(9,12).toInt();
     stepperOffsetDir = message.substring(12,13).toInt() - 1;
     messageComplete = false;
     message = "";
+    posInv60 = abs(pos60 -180);
   }
   servo60.write(pos60);
   servo20.write(pos20);
+  servoInv60.write(posInv60);
   //delay(5);        // delay in between reads for stability
  
   UpdateStepper();

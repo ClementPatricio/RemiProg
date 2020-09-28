@@ -50,7 +50,7 @@ public class LightShowerHotSpot : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Point"))
         {
             StopCoroutine("Lock");
             StartCoroutine("Unlock");
@@ -60,7 +60,7 @@ public class LightShowerHotSpot : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Point"))
         {
             StopCoroutine("Unlock");
             StartCoroutine("Lock");

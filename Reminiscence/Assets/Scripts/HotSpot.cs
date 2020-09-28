@@ -76,7 +76,7 @@ public class HotSpot : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+       if (other.gameObject.CompareTag("Player"))
         {
             this.inZone = false;
             player = null;

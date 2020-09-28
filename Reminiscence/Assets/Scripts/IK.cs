@@ -29,24 +29,19 @@ public class IK : MonoBehaviour
     int moveStep = 0;
 
 
-    void Awake()
+    void Start()
     {
         lenghtArm = Vector3.Distance(this.pivots[0].transform.position, this.pivots[1].transform.position);
         lenghtForeArm = Vector3.Distance(this.pivots[1].transform.position, this.end.position);
         stepAngle = 360f / stepPerRevolution;
         GameManager.instance.ikMotor = this;
         GameManager.instance.PTRStartPos = new Vector3(this.pointToReach.position.x, this.pointToReach.position.y, this.pointToReach.position.z);
-        DontDestroyOnLoad(this.gameObject);
-        DontDestroyOnLoad(this.pointToReach.gameObject);
+       // DontDestroyOnLoad(this.gameObject);
+       // DontDestroyOnLoad(this.pointToReach.gameObject);
     }
 
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()

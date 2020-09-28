@@ -8,8 +8,12 @@ public class ReadWriteToArduino : MonoBehaviour
 {
 	public IK ikrobot;
 	public string port = "COM7";
+	public string port2 = "COM4";
+	public string port3 = "COM6";
 	public int baudRate = 9600;
 	private SerialPort stream;
+	private SerialPort stream2;
+	private SerialPort stream3;
 	public float delayBetweenMessage = 500;
 
 	private float lastSend = 0;
@@ -24,17 +28,28 @@ public class ReadWriteToArduino : MonoBehaviour
 		stream = new SerialPort(port, baudRate);
 		stream.ReadTimeout = 100;
 		stream.Open();
+
+		stream2 = new SerialPort(port2, baudRate);
+		stream2.ReadTimeout = 100;
+		stream2.Open();
+
+		stream3 = new SerialPort(port3, baudRate);
+		stream3.ReadTimeout = 100;
+		stream3.Open();
+
 		message = "t090";
 	}
 
 	private void OnDisable()
 	{
-		stream.Close();
+		if(stream.IsOpen)stream.Close();
+		if (stream2.IsOpen) stream2.Close();
+		if (stream3.IsOpen) stream3.Close();
 	}
 
 	void Update()
     {
-		if (!stream.IsOpen) return;
+		//if (!stream.IsOpen || !stream2.IsOpen || !stream3.IsOpen) return;
 		var vec = ikrobot.getAnglesForMotorAsVec3();
 
 		message = ConvertAngle((int)Mathf.Abs(vec.y));
@@ -52,7 +67,7 @@ public class ReadWriteToArduino : MonoBehaviour
 			message += "1";//->0
 		}
 
-		Debug.Log(message);
+		//Debug.Log(message);
 
 
 		if (Time.time > lastSend + delayBetweenMessage){
@@ -78,8 +93,22 @@ public class ReadWriteToArduino : MonoBehaviour
 
 	public void WriteToArduino(string message)
 	{
-		stream.WriteLine(message);
-		stream.BaseStream.Flush();
+		if (stream != null && stream.IsOpen){
+			stream.WriteLine(message);
+			stream.BaseStream.Flush();
+		}
+
+		if (stream2 != null && stream2.IsOpen)
+		{
+			stream2.WriteLine(message);
+			stream2.BaseStream.Flush();
+		}
+
+		if (stream3 != null && stream3.IsOpen)
+		{
+			stream3.WriteLine(message);
+			stream3.BaseStream.Flush();
+		}
 	}
 
 	

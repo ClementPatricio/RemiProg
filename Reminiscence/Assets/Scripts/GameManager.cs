@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+
+	public int currentLevel = 0;
+	public bool isLobby = false;
 
     public Animator gameStateMachine;
     public IK ikMotor;
@@ -24,6 +28,10 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+		if(GameManager.instance != null && instance != this){
+			Destroy(this.gameObject);
+			return;
+		}
         GameManager.instance = this;
         DontDestroyOnLoad(this.gameObject);
         playerStartPos = new Vector3(0, 0, 17);
@@ -53,12 +61,19 @@ public class GameManager : MonoBehaviour
 
     public void FinishLevel()
     {
-        this.gameStateMachine.SetTrigger("Lvl Finished");
+		//this.gameStateMachine.SetTrigger("Lvl Finished");
+		if (isLobby)
+		{
+			GoToNextLevel();
+			isLobby = false;
+		}else{
+			GoToLobby();
+		}
     }
 
     public void StartLevel()
     {
-        this.gameStateMachine.SetTrigger("Lvl Starting");
+        //this.gameStateMachine.SetTrigger("Lvl Starting");
     }
 
 
@@ -74,9 +89,31 @@ public class GameManager : MonoBehaviour
     public void setNewMatrix(MatrixTransposer mat)
     {
         GameManager.instance.newMatrix = mat;
-        GameManager.instance.ikMotor.pointToReach.transform.Translate(new Vector3(GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x,
-                                                                                  GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).y * GameManager.instance.sensitivity.y,
-                                                                                  GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).z * GameManager.instance.sensitivity.z));
-        
+		GameManager.instance.ikMotor.pointToReach.transform.Translate(new Vector3(GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).x * GameManager.instance.sensitivity.x,
+																				  GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).y * GameManager.instance.sensitivity.y,
+																				  GameManager.instance.newMatrix.TranslatePosition(GameManager.instance.chosenTranslate).z * GameManager.instance.sensitivity.z));
     }
+
+	public void GoToLobby(){
+		isLobby = true;
+		SceneManager.LoadScene(1);
+		GameManager.instance.getLog().Post(GameManager.instance.gameObject, (uint)AkCallbackType.AK_EndOfEvent, CallbackFunction);
+	}
+
+	public void GoToNextLevel(){
+		currentLevel++;
+		SceneManager.LoadScene(currentLevel + 1);
+		GameManager.instance.ikMotor.pointToReach.transform.position = GameManager.instance.PTRStartPos;
+	}
+
+	public void LoadScene(int id){
+		SceneManager.LoadScene(id);
+	}
+
+	public void CallbackFunction(object in_cookie, AkCallbackType in_type, object in_info)
+	{
+		isLobby = false;
+		GoToNextLevel();
+		
+	}
 }

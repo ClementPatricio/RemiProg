@@ -126,6 +126,7 @@ public class BodySourceView : MonoBehaviour
             PlayerTracker.instance.oldPos[jt] = jointObj.position;
             PlayerTracker.instance.newPos[jt] = targetPosition;
             jointObj.position = targetPosition;
+			Debug.DrawLine(Vector3.zero, jointObj.position);
             DontDestroyOnLoad(bodyObject);
            
         }
