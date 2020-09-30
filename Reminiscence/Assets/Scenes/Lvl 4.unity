@@ -1455,7 +1455,7 @@ MonoBehaviour:
   hotness: 0
   player: {fileID: 0}
   zone: {fileID: 1763822415}
-  unlockAtHotness: 50
+  unlockAtHotness: 25
   ikMotor: {fileID: 0}
   duration: 3
   logEvent:
@@ -1517,7 +1517,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763822413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.65, y: 0.3, z: -0.58}
+  m_LocalPosition: {x: -1.46, y: 0.13, z: -1.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -75,20 +75,20 @@ void loop() {
 
 void UpdateStepper(){
   stepHasMove = false;
-  int dir = GetDirection(stepperAngle,targetStepAngle);
+  //int dir = GetDirection(stepperAngle,targetStepAngle);
   
-  if(targetStepAngle < stepperAngle - 3.60){
+  if(targetStepAngle < stepperAngle - 1.80){
     if(lastDir != -1) delay(500);
      MoveOneStep(-1);
-     stepperAngle -= 1.80;
+     stepperAngle -= 0.90;
      lastDir = -1;
      stepHasMove = true;
   }
 
-  if(targetStepAngle > stepperAngle + 3.60){
+  if(targetStepAngle > stepperAngle + 1.80){
      if(lastDir != 1) delay(500);
     MoveOneStep(1);
-    stepperAngle += 1.80;
+    stepperAngle += 0.90;
     lastDir = 1;
     stepHasMove = true;
   }

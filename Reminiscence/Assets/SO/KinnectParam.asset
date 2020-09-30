@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: KinnectParam
   m_EditorClassIdentifier: 
   kinnectScalePosition: 10
-  kinnectOffset: {x: 0, y: 0, z: -4}
+  kinnectOffset: {x: 0, y: 2, z: -6}
   overrideKinnect: 0

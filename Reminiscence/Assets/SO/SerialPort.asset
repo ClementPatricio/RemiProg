@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7693ea20c418148b2d2c4c18e60bd7, type: 3}
   m_Name: SerialPort
   m_EditorClassIdentifier: 
-  port: COM7
-  port2: COM4
+  port: COM4
+  port2: COM9
   port3: COM6
   baudRate: 1000000
