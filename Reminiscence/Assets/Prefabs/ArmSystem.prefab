@@ -1333,11 +1333,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ikrobot: {fileID: 1173941962197875352}
-  port: COM9
-  port2: COM4
-  port3: COM6
-  baudRate: 1000000
   delayBetweenMessage: 0.1
+  serialPortSO: {fileID: 11400000, guid: 2f80c90cd48ead240ae1cbd34be92d25, type: 2}
 --- !u!1 &1173941962661052628
 GameObject:
   m_ObjectHideFlags: 0

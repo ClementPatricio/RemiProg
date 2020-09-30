@@ -7,14 +7,15 @@ using System.Runtime.InteropServices.WindowsRuntime;
 public class ReadWriteToArduino : MonoBehaviour
 {
 	public IK ikrobot;
-	public string port = "COM7";
+	/*public string port = "COM7";
 	public string port2 = "COM4";
 	public string port3 = "COM6";
-	public int baudRate = 9600;
+	public int baudRate = 1000000;*/
 	private SerialPort stream;
 	private SerialPort stream2;
 	private SerialPort stream3;
 	public float delayBetweenMessage = 500;
+	public SerialPortSO serialPortSO;
 
 	private float lastSend = 0;
 
@@ -25,19 +26,19 @@ public class ReadWriteToArduino : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
-		stream = new SerialPort(port, baudRate);
+		stream = new SerialPort(serialPortSO.port, serialPortSO.baudRate);
 		stream.ReadTimeout = 100;
 		stream.Open();
 
-		stream2 = new SerialPort(port2, baudRate);
+		stream2 = new SerialPort(serialPortSO.port2, serialPortSO.baudRate);
 		stream2.ReadTimeout = 100;
 		stream2.Open();
 
-		stream3 = new SerialPort(port3, baudRate);
+		stream3 = new SerialPort(serialPortSO.port3, serialPortSO.baudRate);
 		stream3.ReadTimeout = 100;
 		stream3.Open();
 
-		message = "t090";
+		//message = "t090";
 	}
 
 	private void OnDisable()

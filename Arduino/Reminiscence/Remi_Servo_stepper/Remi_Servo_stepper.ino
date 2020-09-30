@@ -54,13 +54,16 @@ void setup() {
 void loop() {
   if(messageComplete){
     pos60 = message.substring(1,4).toInt();
-    pos20 = message.substring(5,8).toInt() - 90;
+    pos20 = message.substring(5,8).toInt();
     targetStepAngle = message.substring(9,12).toInt();
     stepperOffsetDir = message.substring(12,13).toInt() - 1;
     messageComplete = false;
     message = "";
-    posInv60 = abs(pos60 -180);
+    
   }
+  if(pos60 < 30) pos60 = 30;
+
+  posInv60 = abs(pos60 -180);
   servo60.write(pos60);
   servo20.write(pos20);
   servoInv60.write(posInv60);
